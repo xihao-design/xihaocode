@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "."
+  },
+  "include": ["**/*", ".vitepress/types/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "vueCompilerOptions": {
+    "globalTypesPath": ".vitepress/types/vue-global.d.ts"
+  }
+}
