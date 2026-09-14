@@ -4,7 +4,7 @@
 
 
 ## 全中文分类，精选素材
-资源合集：https://pan.quark.cn/s/13e9615d451c
+资源合集：[免费获取](https://pan.quark.cn/s/13e9615d451c)
 
 - [800+首顶级可商用音效BGM素材合集！](https://pan.quark.cn/s/1faa22a68a32)
 - [小红书商业运营全攻略，运营干货 ，新手速看](https://pan.quark.cn/s/58691318e75d)

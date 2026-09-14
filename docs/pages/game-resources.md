@@ -3,7 +3,7 @@
 涵盖网络游戏、单机游戏、游戏账号交易资源，持续整理中
 
 ## 安卓单机游戏合集
-资源合集：https://pan.quark.cn/s/f1e2dc7c52d3
+资源合集：[免费获取](https://pan.quark.cn/s/f1e2dc7c52d3)
 
 - [阿拉德罗天外传](https://pan.quark.cn/s/59f27d8dc5a7)
 - [欢乐钓鱼大师](https://pan.quark.cn/s/7c9b7246fd44)
@@ -16,7 +16,7 @@
 
 
 ## 安卓单机优化版
-资源合集：https://pan.quark.cn/s/ab468dde1a82
+资源合集：[免费获取](https://pan.quark.cn/s/ab468dde1a82)
 
 - [狂野飙车8单机收藏版（直装版）](https://pan.quark.cn/s/67d14de43061)
 - [狂斩三国3](https://pan.quark.cn/s/ba92de574966)
@@ -32,7 +32,7 @@
 
 
 ## steam游戏合集
-资源合集：https://pan.quark.cn/s/0bfcc7ff38cd
+资源合集：[免费获取](https://pan.quark.cn/s/0bfcc7ff38cd)
 
 - [部落幸存者](https://pan.quark.cn/s/28a2c733ab7d)
 - [红警2尤里的复仇PC移植版 3.5.0](https://pan.quark.cn/s/742f5acc8a18)
@@ -47,7 +47,7 @@
 
 
 ## 天火同人战略游戏合集
-资源合集：https://pan.quark.cn/s/e59b7b7f6333
+资源合集：[免费获取](https://pan.quark.cn/s/e59b7b7f6333)
 
 - [霸王英雄传内购](https://pan.quark.cn/s/235cf3bad165)
 - [封神榜洪荒演义内购版](https://pan.quark.cn/s/b68cd27c132d)

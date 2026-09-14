@@ -6,7 +6,7 @@
 安装阅读器：[Readest](https://pan.quark.cn/s/013a70e47624)，将下载的书籍导入软件即可阅读
 
 ## CSDN会员免费电子书1000本
-资源合集：https://pan.quark.cn/s/14d345b89129
+资源合集：[免费获取](https://pan.quark.cn/s/14d345b89129)
 
 - [产品经理](https://pan.quark.cn/s/a193ee8b7f9a)
 - [设计制作](https://pan.quark.cn/s/6f26ea33feaa)
@@ -20,7 +20,7 @@
 - [研发管理](https://pan.quark.cn/s/b11adb34bb5c)
 
 ## 微信读书TOP200本
-资源合集：https://pan.quark.cn/s/1bb7cc63b666
+资源合集：[免费获取](https://pan.quark.cn/s/1bb7cc63b666)
 
 - [长安的荔枝](https://pan.quark.cn/s/a86b634c0924)
 - [三体全集](https://pan.quark.cn/s/a86b634c0924)
@@ -34,7 +34,7 @@
 - [百年孤独](https://pan.quark.cn/s/103319a094c6)
 
 ## 精选好书合集
-资源合集：https://pan.quark.cn/s/3545aaaca84b
+资源合集：[免费获取](https://pan.quark.cn/s/3545aaaca84b)
 
 - [简明世界史（全8册）](https://pan.quark.cn/s/322848903ec3)
 - [剑桥古代史（套装共8册）](https://pan.quark.cn/s/aa1e525ce623)
@@ -47,11 +47,11 @@
 - [心理学书籍301本](https://pan.quark.cn/s/29b6b4b24078)
 
 ## Kindle书库4w+余册TXT合集
-资源合集：https://pan.quark.cn/s/088e6cc258ac
+资源合集：[免费获取](https://pan.quark.cn/s/088e6cc258ac)
 
 - [亚马逊 Kindle ebook 6000本分类大合集](https://pan.quark.cn/s/26fffe5b6ffd)
 - [国内1](https://pan.quark.cn/s/bf7707ebeeb2)
 - [国内2](https://pan.quark.cn/s/53bda1bf21f9)
 - [欧美](https://pan.quark.cn/s/f0055d580600)
-- [日本](https://pan.quark.cn/s/41053117a08e)
+- [小日子](https://pan.quark.cn/s/41053117a08e)
 - [其他](https://pan.quark.cn/s/d79d2840dbb5)

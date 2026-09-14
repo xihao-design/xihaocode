@@ -96,7 +96,4 @@ export default defineConfig({
     ['link',{ rel: 'icon', href: '/logo.png'}],
   ],
 
-  base: '/', //网站部署的路径，默认根目录
-    // base: '/vitepress/', //网站部署到github的vitepress这个仓库里
-
 })

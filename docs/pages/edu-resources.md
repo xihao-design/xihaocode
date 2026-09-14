@@ -3,7 +3,7 @@
 教育各种资料，从幼儿园到小学、中学，各种资料、知识、影视、记录片、书籍，持续整理中
 
 ## 幼小衔接
-资源合集：https://pan.quark.cn/s/4b72736ee817
+资源合集：[免费获取](https://pan.quark.cn/s/4b72736ee817)
 
 - [国学启蒙篇](https://pan.quark.cn/s/f27a56b5f361)
 - [控笔练字篇](https://pan.quark.cn/s/4526efaf1744)
@@ -17,7 +17,7 @@
 
 
 ## 小学
-资源合集：https://pan.quark.cn/s/af55cccb894a
+资源合集：[免费获取](https://pan.quark.cn/s/af55cccb894a)
 
 - [1-6年级上下册奥数](https://pan.quark.cn/s/13a6f5b91061)
 - [高斯数学趣味动画420集（1-6年级全）](https://pan.quark.cn/s/6ca9f15af549)
@@ -25,13 +25,13 @@
 
 
 ## 初中
-资源合集：https://pan.quark.cn/s/4efa0adafb2b
+资源合集：[免费获取](https://pan.quark.cn/s/4efa0adafb2b)
 
 - [2000年以前老课本](https://pan.quark.cn/s/444065b5f0ea)
 - [初中数理化解题大招系列合集](https://pan.quark.cn/s/9006dedad919)
 
 
 ## 高中
-资源合集：https://pan.quark.cn/s/a794d6be9809
+资源合集：[免费获取](https://pan.quark.cn/s/a794d6be9809)
 
 - [《十年高考真题》全科分类汇编（2014-2024）](https://pan.quark.cn/s/8bf6d17651a9)

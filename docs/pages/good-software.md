@@ -3,7 +3,7 @@
 各种好用工具相关的资源，包括操作系统，各种插件，绿色破解版工具等等，持续更新中
 
 ## GitHub超火的开源软件-让你手机好玩10倍
-资源合集：https://pan.quark.cn/s/3e7637c89fce
+资源合集：[免费获取](https://pan.quark.cn/s/3e7637c89fce)
 
 - 开源直播App：[SimpleLive、MusicFree、Seal](https://pan.quark.cn/s/8379ed7bf074)
 - 开源动漫App：[Kazumi、miru、LaQoo](https://pan.quark.cn/s/e9c90005b2bb)
@@ -21,7 +21,7 @@
 
 
 ## 超好用的宝藏软件
-资源合集：https://pan.quark.cn/s/a9082f750413
+资源合集：[免费获取](https://pan.quark.cn/s/a9082f750413)
 
 - 发现好玩的应用和游戏：[小米应用商店【国际版】](https://pan.quark.cn/s/3769401a2e44)
 - 实用的加速工具：[瓦特工具箱【原名steam++】](https://pan.quark.cn/s/6bddfc57240b)
