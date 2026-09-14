@@ -1,9 +1,47 @@
-﻿import { defineConfig } from 'vitepress'
+// defineConfig is unavailable in this vitepress version; export the config object directly
+
+// 站点描述：同时用作默认 meta description 与 og:description 的兜底
+const SITE_DESCRIPTION =
+  "专注分享互联网资源：宝藏软件、设计创意、教育资源、AI工具、书籍资料、自媒体运营、职场资源、精选壁纸与游戏资源合集。"
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default {
+  // 中文站点必须声明 zh-CN，否则默认输出 <html lang="en-US">，影响搜索引擎语言判定
+  lang: 'zh-CN',
   title: "XihaoUC",
-  description: "A VitePress Site",
+  description: SITE_DESCRIPTION,
+
+  // 生成 sitemap.xml（根级配置，非 themeConfig）
+  sitemap: {
+    hostname: 'https://www.xihaouc.top'
+  },
+
+  // 线上（EdgeOne Pages）已支持无扩展名路由，站内链接与 sitemap 统一为 clean URL，避免 .html 与 clean 两种地址重复收录
+  cleanUrls: true,
+
+  // 注入 canonical / og 标签：www 与 apex 指向同一份内容，缺 canonical 会被判定重复收录
+  transformHead({ pageData }: { pageData: { relativePath: string; title: string; description: string } }) {
+    const hostname = 'https://www.xihaouc.top'
+    // 404 页不参与索引
+    if (pageData.relativePath === '404.md') return []
+
+    // index.md -> ''、pages/x.md -> 'pages/x'（与 cleanUrls 一致）
+    const path = pageData.relativePath
+      .replace(/(^|\/)index\.md$/, '')
+      .replace(/\.md$/, '')
+    const url = `${hostname}/${path}`
+
+    return [
+      ['link', { rel: 'canonical', href: url }],
+      ['meta', { property: 'og:type', content: 'website' }],
+      ['meta', { property: 'og:url', content: url }],
+      ['meta', { property: 'og:title', content: pageData.title }],
+      ['meta', { property: 'og:description', content: pageData.description || SITE_DESCRIPTION }],
+      ['meta', { property: 'og:image', content: `${hostname}/logo.png` }],
+      ['meta', { name: 'twitter:card', content: 'summary_large_image' }]
+    ]
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -96,4 +134,5 @@ export default defineConfig({
     ['link',{ rel: 'icon', href: '/logo.png'}],
   ],
 
-})
+
+}

@@ -1,14 +1,17 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: XihaoUC|专注分享互联网资源
+# 关闭 "| XihaoUC" 模板后缀，与线上已收录标题保持一致
+titleTemplate: false
 
 head:
   - - meta
     - name: description
-      content: hello
+      content: '专注分享互联网资源! 好资源不私藏! 包含但不限于手机App和电脑软件的软件库,设计创意,学习资料等资源~'
   - - meta
     - name: keywords
-      content: super duper SEO
+      content: '免费资源,软件资源,设计素材,学习资料,XihaoUC,xihaouc,xihao,UC,资源网站,互联网资源,宝藏软件,教育资源,AI工具,书籍资料,自媒体运营,职场资源,精选壁纸,游戏资源'
 
 hero:
   name: "XihaoUC"
