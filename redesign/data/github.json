@@ -1,0 +1,304 @@
+{
+  "_note": "联网核实结果，按知识库行号索引。来源：GitHub Search/Contents API + 各仓库 README + 仓库文件树，已逐条实打开页面确认。凡未能亲自确认的字段一律为 null。",
+  "_verified_at": "2026-09-15",
+
+  "2": {
+    "isOpenSource": true, "repoFullName": "maotoumao/MusicFree",
+    "repoUrl": "https://github.com/maotoumao/MusicFree",
+    "stars": "26868", "license": "AGPL-3.0", "platform": "Android", "pkg": null,
+    "iconUrl": "https://raw.githubusercontent.com/maotoumao/MusicFree/master/android/app/src/main/ic_launcher-playstore.png",
+    "iconFallbackUrl": null, "confidence": "medium",
+    "notes": "官方主仓库（Android 端），描述「插件化、定制化、无广告的免费音乐播放器」，TypeScript/React Native。桌面端为独立仓库 maotoumao/MusicFreeDesktop。图标未取到。"
+  },
+  "3": {
+    "isOpenSource": true, "repoFullName": "xiaoyaocz/dart_simple_live",
+    "repoUrl": "https://github.com/xiaoyaocz/dart_simple_live",
+    "stars": "16021", "license": "GPL-3.0", "platform": "Android", "pkg": null,
+    "iconUrl": "https://raw.githubusercontent.com/xiaoyaocz/dart_simple_live/master/assets/logo.png",
+    "iconFallbackUrl": null, "confidence": "medium",
+    "notes": "描述「简简单单的看直播」，Dart/Flutter 直播聚合。同名干扰项目 panghujiajia/SimpleLiveTVOS 无关。"
+  },
+  "4": {
+    "isOpenSource": true, "repoFullName": "d4rken-org/sdmaid-se",
+    "repoUrl": "https://github.com/d4rken-org/sdmaid-se",
+    "stars": "7524", "license": "GPL-3.0", "platform": "Android", "pkg": "eu.darken.sdmse",
+    "iconUrl": "https://raw.githubusercontent.com/d4rken-org/sdmaid-se/main/fastlane/metadata/android/en-US/images/icon.png",
+    "iconFallbackUrl": "https://f-droid.org/repo/eu.darken.sdmse/en/icon.png", "confidence": "high",
+    "notes": "第二代 SD Maid（老版 eu.thedarken.sdm 是闭源商业软件）。README 明确「icons、logos、mascots、marketing assets 不在 GPL 授权范围内」——代码开源，图标素材非开源，站内展示图标需保留出处。"
+  },
+  "5": {
+    "isOpenSource": true, "repoFullName": "JunkFood02/Seal",
+    "repoUrl": "https://github.com/JunkFood02/Seal",
+    "stars": "28950", "license": "GPL-3.0", "platform": "Android", "pkg": "com.junkfood.seal",
+    "iconUrl": "https://raw.githubusercontent.com/JunkFood02/Seal/main/fastlane/metadata/android/en-US/images/icon.png",
+    "iconFallbackUrl": "https://f-droid.org/repo/com.junkfood.seal/en/icon.png", "confidence": "high",
+    "notes": "描述「Video/Audio Downloader for Android, based on yt-dlp」，与条目描述一致。"
+  },
+  "6": {
+    "isOpenSource": true, "repoFullName": "cyb3rko/flashdim",
+    "repoUrl": "https://github.com/cyb3rko/flashdim",
+    "stars": "1452", "license": "Apache-2.0", "platform": "Android", "pkg": "com.cyb3rko.flashdim",
+    "iconUrl": "https://raw.githubusercontent.com/cyb3rko/flashdim/main/metadata/en-US/images/icon.png",
+    "iconFallbackUrl": null, "confidence": "high",
+    "notes": "⚠️ 知识库描述有误：FlashDim 调节的是**手电筒/闪光灯亮度**（Android 13+ 多级亮度、SOS、摩斯码、BPM 闪烁），不是屏幕显示亮度。展示文案已据此更正。"
+  },
+  "7": {
+    "isOpenSource": false, "repoFullName": null, "repoUrl": null,
+    "stars": null, "license": null, "platform": "Android", "pkg": null,
+    "iconUrl": null, "iconFallbackUrl": null, "confidence": "medium",
+    "notes": "⚠️ 判定为闭源商业软件，非开源。多轮检索（含中文关键词与 GitHub 定向检索）均未找到任何官方公开源码仓库，只有第三方下载站与「求破解」讨论——开源软件不存在破解需求。与站点「只做开源软件」的定位冲突，已排除。"
+  },
+  "8": {
+    "isOpenSource": true, "repoFullName": "miru-project/miru-app",
+    "repoUrl": "https://github.com/miru-project/miru-app",
+    "stars": "5633", "license": "AGPL-3.0", "platform": "Android / Windows", "pkg": "miru.miaomint",
+    "iconUrl": "https://f-droid.org/repo/miru.miaomint/en/icon.png",
+    "iconFallbackUrl": "https://raw.githubusercontent.com/miru-project/miru-app/dev/assets/icon/logo.png",
+    "confidence": "high",
+    "notes": "Dart/Flutter 视频+漫画+小说聚合播放器，支持扩展源插件。同名陷阱已排除：kiyotakali/Miru 是 AI 桌面宠物，miru-project/miru-alpha 是同组织重写分支（仅 49★）。"
+  },
+  "9": {
+    "isOpenSource": true, "repoFullName": "Predidit/Kazumi",
+    "repoUrl": "https://github.com/Predidit/Kazumi",
+    "stars": "29909", "license": "GPL-3.0", "platform": "跨平台", "pkg": "com.predidit.kazumi",
+    "iconUrl": "https://raw.githubusercontent.com/Predidit/Kazumi/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "iconFallbackUrl": "https://raw.githubusercontent.com/Predidit/Kazumi/main/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+    "confidence": "high",
+    "notes": "Flutter 番剧采集播放器，基于自定义规则、支持弹幕与实时超分辨率。已用 search API 复核 ★29909、size 34.8MB 属实。Mu-L/Kazumi 等均为 fork。"
+  },
+  "10": {
+    "isOpenSource": true, "repoFullName": "open-ani/animeko",
+    "repoUrl": "https://github.com/open-ani/animeko",
+    "stars": "20104", "license": "AGPL-3.0", "platform": "跨平台", "pkg": "me.him188.ani",
+    "iconUrl": "https://raw.githubusercontent.com/open-ani/animeko/main/.github/assets/logo.png",
+    "iconFallbackUrl": "https://raw.githubusercontent.com/open-ani/animeko/main/app/desktop/appResources/linux-x64/icon.png",
+    "confidence": "high",
+    "notes": "Kotlin/Compose Multiplatform 一站式追番平台，Bangumi 云收藏同步、离线缓存、BitTorrent。早期名为 Ani（open-ani/ani），改名后原仓库跳转；applicationId 仍为 me.him188.ani。"
+  },
+  "11": {
+    "isOpenSource": true, "repoFullName": "czy0729/Bangumi",
+    "repoUrl": "https://github.com/czy0729/Bangumi",
+    "stars": "5931", "license": "MIT", "platform": "Android", "pkg": "com.czy0729.bangumi",
+    "iconUrl": "https://raw.githubusercontent.com/czy0729/Bangumi/master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "iconFallbackUrl": "https://f-droid.org/repo/com.czy0729.bangumi/en/icon.png", "confidence": "medium",
+    "notes": "React Native 编写的 bgm.tv（番组计划）第三方客户端，非官网本身。Mu-L/Bangumi 等均为 fork。"
+  },
+  "12": {
+    "isOpenSource": true, "repoFullName": "laqoome/LaQoo",
+    "repoUrl": "https://github.com/laqoome/LaQoo",
+    "stars": "577", "license": "GPL-3.0", "platform": "Android", "pkg": "com.laqoome.laqoo",
+    "iconUrl": "https://raw.githubusercontent.com/laqoome/LaQoo/main/app/src/main/ic_launcher-playstore.png",
+    "iconFallbackUrl": "https://raw.githubusercontent.com/laqoome/LaQoo/main/logo.png", "confidence": "medium",
+    "notes": "Kotlin/Compose 动漫播放客户端，描述「一个简洁的播放动漫的App，支持下载，弹幕等功能」。已复核 ★577 属实。注意：知识库提到的「资源扩展」在仓库描述中未出现，展示文案未采信该点。"
+  },
+  "13": {
+    "isOpenSource": true, "repoFullName": "siyuan-note/siyuan",
+    "repoUrl": "https://github.com/siyuan-note/siyuan",
+    "stars": "46342", "license": "AGPL-3.0",
+    "platform": "Windows / macOS / Linux / Android / iOS", "pkg": "org.b3log.siyuan",
+    "iconUrl": "https://f-droid.org/repo/org.b3log.siyuan/en/icon.png",
+    "iconFallbackUrl": "https://b3log.org/images/brand/siyuan-128.png", "confidence": "high",
+    "notes": "本地优先、块级引用与双向链接、Markdown 所见即所得，与条目描述一致。"
+  },
+  "14": {
+    "isOpenSource": true, "repoFullName": "qwd/OpenWeatherPlus-Android",
+    "repoUrl": "https://github.com/qwd/OpenWeatherPlus-Android",
+    "stars": "250", "license": "Apache-2.0", "platform": "Android / iOS", "pkg": "com.heweather.owp",
+    "iconUrl": "https://raw.githubusercontent.com/qwd/OpenWeatherPlus-Android/master/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+    "iconFallbackUrl": null, "confidence": "high",
+    "notes": "和风天气官方组织 qwd 开源的客户端「天气普拉斯」，官方博客明确说明完全开源、Apache 2.0。两点须注意：①商店里的「和风天气」官方 App 与天气数据服务本身是闭源商业产品，开源的是这个客户端；②该客户端最后提交为 2020-07-10，已基本停更。原仓库 heweather/OpenWeatherPlus-Android 已重定向至 qwd。"
+  },
+  "15": {
+    "isOpenSource": true, "repoFullName": "T8RIN/ImageToolbox",
+    "repoUrl": "https://github.com/T8RIN/ImageToolbox",
+    "stars": "14615", "license": "Apache-2.0", "platform": "Android", "pkg": "ru.tech.imageresizershrinker",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/T8RIN/ImageToolbox@master/fastlane/metadata/android/en-US/images/logo/logo.png",
+    "iconFallbackUrl": "https://f-droid.org/repo/ru.tech.imageresizershrinker/en/icon.png",
+    "confidence": "high",
+    "notes": "功能含裁剪/滤镜/OCR/格式转换/批量处理/压缩，与条目描述一致。"
+  },
+  "16": {
+    "isOpenSource": "uncertain", "repoFullName": null, "repoUrl": null,
+    "stars": null, "license": null, "platform": null, "pkg": null,
+    "iconUrl": null, "iconFallbackUrl": null, "confidence": "low",
+    "notes": "⚠️ 未能指认。「Loop」是极常见名称，检索到多个同名但功能不相关的项目（macOS 窗口管理 MrKai77/Loop、Docker 里跑 Claude 的 radutopala/loop 等），无一能对应「自动化操作、任务循环执行」。已排除 Loop Habit Tracker（那是习惯打卡，本项目另有其条）。需你提供官网/包名/作者才能确认。"
+  },
+  "17": {
+    "isOpenSource": true, "repoFullName": "darkmoonight/Rain",
+    "repoUrl": "https://github.com/darkmoonight/Rain",
+    "stars": "1067", "license": "MIT", "platform": "Android", "pkg": null,
+    "iconUrl": "https://raw.githubusercontent.com/darkmoonight/Rain/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "iconFallbackUrl": "https://raw.githubusercontent.com/darkmoonight/Rain/main/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+    "confidence": "high",
+    "notes": "Dart/Flutter 天气应用，MIT，topics 含 open-meteo/openstreetmap。图标两条直链均实测返回 image/png。「空气质量查询」这一具体功能未在仓库页确认。"
+  },
+  "18": {
+    "isOpenSource": true, "repoFullName": "15dd/hikari_novel_flutter",
+    "repoUrl": "https://github.com/15dd/hikari_novel_flutter",
+    "stars": "353", "license": "MIT", "platform": "Android / Windows", "pkg": "pers.cyh128.hikari_novel",
+    "iconUrl": "https://raw.githubusercontent.com/15dd/hikari_novel_flutter/main/assets/images/logo.png",
+    "iconFallbackUrl": "https://raw.githubusercontent.com/15dd/hikari_novel_flutter/main/android/app/src/main/res/mipmap-xxxhdpi/launcher_icon.png",
+    "confidence": "low",
+    "notes": "⚠️ 名称对得上但功能对不上：该仓库是**轻小说文库（wenku8）第三方客户端**，单源，非知识库所称的「多源小说搜索」，也无本地导入说明。原版 15dd/wenku8reader（1698★）已归档，作者称因被外传而关停；新版不提供安装包、需自行编译。展示文案已改为「轻小说文库阅读器」。"
+  },
+  "19": {
+    "isOpenSource": true, "repoFullName": "Futsch1/medTimer",
+    "repoUrl": "https://github.com/Futsch1/medTimer",
+    "stars": "614", "license": "MIT", "platform": "Android", "pkg": "com.futsch1.medtimer",
+    "iconUrl": "https://raw.githubusercontent.com/Futsch1/medTimer/main/fastlane/metadata/android/en-US/images/icon.png",
+    "iconFallbackUrl": "https://f-droid.org/repo/com.futsch1.medtimer/en/icon.png", "confidence": "high",
+    "notes": "用药提醒，Kotlin/MIT，图标直链实测返回 image/png（28944 字节）。"
+  },
+  "20": {
+    "isOpenSource": true, "repoFullName": "gedoor/legado",
+    "repoUrl": "https://github.com/gedoor/legado",
+    "stars": "47072", "license": null, "platform": "Android", "pkg": null,
+    "iconUrl": null, "iconFallbackUrl": null, "confidence": "high",
+    "notes": "🚨 合规红线：仓库已被作者本人清空（仓库 size 仅 52KB，对比同类项目 Animeko 412MB）。当前 README 为法律公告原文：「本项目涉及侵权行为的违法，也为此承担了相应的法律责任，在此郑重发布公告，删除项目内容并规劝所有人：请立刻停止一切侵权相关行为，不要再效仿、从事、传播各类侵权活动」，并附「阅文知识产权保护公告」链接。即该项目作者已因侵权承担责任、删除项目并明确反对传播。仓库内已无代码、LICENSE 与图标。强烈建议从站内移除，不要通过网盘分发。"
+  },
+  "21": {
+    "isOpenSource": true, "repoFullName": "sky-map-team/stardroid",
+    "repoUrl": "https://github.com/sky-map-team/stardroid",
+    "stars": "1843", "license": null, "platform": "Android", "pkg": "com.google.android.stardroid",
+    "iconUrl": "https://raw.githubusercontent.com/sky-map-team/stardroid/master/app/src/main/res/drawable-xxxhdpi/skymap_logo.png",
+    "iconFallbackUrl": "https://raw.githubusercontent.com/sky-map-team/stardroid/master/app/src/main/res/drawable-hdpi/skymap_logo.png",
+    "notes": "仓库描述即「Sky Map (formerly Google Sky Map, open sourced in 2012)」，主分支为 master。许可证 GitHub 识别为 NOASSERTION，未逐字确认故留空。"
+  },
+  "22": {
+    "isOpenSource": true, "repoFullName": null,
+    "repoUrl": "https://gitlab.com/relan/fennecbuild",
+    "stars": null, "license": "AGPL-3.0", "platform": "Android", "pkg": null,
+    "iconUrl": "https://gitlab.com/uploads/-/system/project/avatar/18517841/ic_launcher.png",
+    "iconFallbackUrl": null, "confidence": "medium",
+    "notes": "⚠️ 仓库不在 GitHub：Fennec F-Droid 的官方构建仓库在 GitLab（relan/fennecbuild），自述为「Scripts and patches for the F-Droid flavor of Mozilla Fennec」。故 repoFullName 为空、代码仓库链接指向 GitLab。"
+  },
+  "23": {
+    "isOpenSource": true, "repoFullName": "trynoice/android-app",
+    "repoUrl": "https://github.com/trynoice/android-app",
+    "stars": "1034", "license": "GPL-3.0", "platform": "Android", "pkg": "com.github.ashutoshgngwr.noice",
+    "iconUrl": "https://raw.githubusercontent.com/trynoice/android-app/main/fastlane/metadata/android/en-US/images/icon.png",
+    "iconFallbackUrl": "https://f-droid.org/repo/com.github.ashutoshgngwr.noice/en/icon.png",
+    "confidence": "high",
+    "notes": "官方组织 trynoice 下的客户端，代码 GPL-3.0；注意商店版含订阅内购。包名是 com.github.ashutoshgngwr.noice，**不是** com.github.trynoice.android。最后提交 2024-08-04。"
+  },
+  "24": {
+    "isOpenSource": true, "repoFullName": "gkd-kit/gkd",
+    "repoUrl": "https://github.com/gkd-kit/gkd",
+    "stars": "41849", "license": "GPL-3.0", "platform": "Android", "pkg": "li.songe.gkd",
+    "iconUrl": "https://raw.githubusercontent.com/gkd-kit/gkd/main/app/src/main/res/mipmap/gkd_black.png",
+    "iconFallbackUrl": null, "confidence": "high",
+    "notes": "基于无障碍服务 + 高级选择器 + 订阅规则，无需 Root，官方声明 GPL-3.0-only。未上架 F-Droid 主仓库。"
+  },
+  "25": {
+    "isOpenSource": true, "repoFullName": "FriesI23/mhabit",
+    "repoUrl": "https://github.com/FriesI23/mhabit",
+    "stars": "1569", "license": "Apache-2.0",
+    "platform": "Android / iOS / Windows / macOS / Linux", "pkg": "io.github.friesi23.mhabit",
+    "iconUrl": "https://f-droid.org/repo/io.github.friesi23.mhabit/en/icon.png",
+    "iconFallbackUrl": "https://raw.githubusercontent.com/FriesI23/mhabit/main/assets/logo/icon-1024x1024.png",
+    "confidence": "high",
+    "notes": "表格化习惯追踪，含打卡评分、成长曲线、WebDAV 同步。与 Loop Habit Tracker 是不同项目（但官方支持从其导入）。"
+  },
+  "26": {
+    "isOpenSource": true, "repoFullName": "rosuH/EasyWatermark",
+    "repoUrl": "https://github.com/rosuH/EasyWatermark",
+    "stars": "1887", "license": "MIT", "platform": "Android / iOS", "pkg": "me.rosuh.easywatermark",
+    "iconUrl": "https://f-droid.org/repo/me.rosuh.easywatermark/en/icon.png",
+    "iconFallbackUrl": "https://raw.githubusercontent.com/rosuH/EasyWatermark/master/static/app-icon.png",
+    "confidence": "medium",
+    "notes": "⚠️ 知识库描述有误：EasyWatermark 只处理**照片（图片）**，导出 JPEG/PNG 并剥离 EXIF，明确不含视频加水印。展示文案已改为「图片批量加水印」。"
+  },
+  "27": {
+    "isOpenSource": true, "repoFullName": "organicmaps/organicmaps",
+    "repoUrl": "https://github.com/organicmaps/organicmaps",
+    "stars": "15417", "license": "Apache-2.0", "platform": "Android / iOS", "pkg": null,
+    "iconUrl": null, "iconFallbackUrl": null, "confidence": "high",
+    "notes": "仓库描述「free Android & iOS offline maps app ... OpenStreetMap data ... No ads, no tracking」，与条目描述一致。GitHub 的 license 字段为 NOASSERTION，但仓库根 LICENSE 内容为 LICENSES/Apache-2.0.txt，实际为 Apache-2.0。图标未取到。"
+  },
+  "28": {
+    "isOpenSource": "uncertain", "repoFullName": null, "repoUrl": null,
+    "stars": null, "license": null, "platform": null, "pkg": null,
+    "iconUrl": null, "iconFallbackUrl": null, "confidence": "low",
+    "notes": "⚠️ 未能指认。GitHub 全站搜 cuppa 命中的是报警解码器、茶计时器（ncosgray/cuppa_mobile）、构建依赖轮询工具等，无一是饮水提醒 App；F-Droid 上唯一的 Cuppa 是「泡茶计时器」com.nathanatos.Cuppa。名称与功能不匹配，疑为知识库信息有误。若确需开源饮水提醒，F-Droid 上有 com.david.waterreminder，但那不是 Cuppa。"
+  },
+  "29": {
+    "isOpenSource": true, "repoFullName": "TeamNewPipe/NewPipe",
+    "repoUrl": "https://github.com/TeamNewPipe/NewPipe",
+    "stars": "39683", "license": "GPL-3.0", "platform": "Android", "pkg": "org.schabi.newpipe",
+    "iconUrl": "https://raw.githubusercontent.com/TeamNewPipe/NewPipe/dev/assets/new_pipe_icon_5.png",
+    "iconFallbackUrl": "https://f-droid.org/repo/org.schabi.newpipe/en/icon.png", "confidence": "high",
+    "notes": "官方组织仓库，描述「A libre lightweight streaming front-end for Android」，不使用 Google Play Services 等专有库，支持后台音频播放/订阅/离线。注意默认分支为 dev（非 main）。"
+  },
+  "30": {
+    "isOpenSource": true, "repoFullName": "z-huang/InnerTune",
+    "repoUrl": "https://github.com/z-huang/InnerTune",
+    "stars": "6086", "license": "GPL-3.0", "platform": "Android", "pkg": "com.zionhuang.music",
+    "iconUrl": "https://raw.githubusercontent.com/z-huang/InnerTune/dev/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+    "iconFallbackUrl": "https://f-droid.org/repo/com.zionhuang.music/en/icon.png", "confidence": "medium",
+    "notes": "原作者 z-huang 官方原仓库，描述「A Material 3 YouTube Music client for Android」。Malopieds/InnerTune 等均为 fork。注意默认分支为 dev。"
+  },
+  "31": {
+    "isOpenSource": true, "repoFullName": "10miaomiao/bilimiao2",
+    "repoUrl": "https://github.com/10miaomiao/bilimiao2",
+    "stars": "2934", "license": "GPL-3.0", "platform": "Android", "pkg": null,
+    "iconUrl": "https://10miaomiao.cn/icons/bilimiao_new.png",
+    "iconFallbackUrl": null, "confidence": "medium",
+    "notes": "官方 bilimiao 2.x（第三方 B 站客户端），homepage 10miaomiao.cn/project/bilimiao。旧仓库 10miaomiao/bilimiao 已归档。图标为作者自有站点外链，可用性未验证。"
+  },
+  "32": {
+    "isOpenSource": true, "repoFullName": "guozhigq/pilipala",
+    "repoUrl": "https://github.com/guozhigq/pilipala",
+    "stars": "13826", "license": "GPL-3.0", "platform": "Android", "pkg": null,
+    "iconUrl": "https://raw.githubusercontent.com/guozhigq/pilipala/main/assets/images/logo/logo_android.png",
+    "iconFallbackUrl": null, "confidence": "medium",
+    "notes": "⚠️ 仓库已归档（archived，最后提交 2025-05-14），长期维护性存疑。Flutter 开发的第三方 B 站客户端。"
+  },
+  "33": {
+    "isOpenSource": true, "repoFullName": "crackededed/Xtra",
+    "repoUrl": "https://github.com/crackededed/Xtra",
+    "stars": "2256", "license": "AGPL-3.0", "platform": "Android", "pkg": null,
+    "iconUrl": null, "iconFallbackUrl": null, "confidence": "medium",
+    "notes": "第三方 Twitch 客户端。注意 fork 关系：crackededed/Xtra 为社区维护 fork（star 更多、活跃），上游 AndreyAsadchy/Xtra 仅 128★ 且已归档停更。图标未取到。"
+  },
+  "34": {
+    "isOpenSource": true, "repoFullName": "openfoodfacts/smooth-app",
+    "repoUrl": "https://github.com/openfoodfacts/smooth-app",
+    "stars": "1410", "license": "Apache-2.0", "platform": "Android / iOS", "pkg": null,
+    "iconUrl": "https://raw.githubusercontent.com/openfoodfacts/smooth-app/develop/fastlane/metadata/android/en-US/images/icon.png",
+    "iconFallbackUrl": null, "confidence": "high",
+    "notes": "官方客户端现为 smooth-app（Flutter），默认分支 develop。旧仓库 openfoodfacts/openfoodfacts-android 现已重定向到一个已归档的 Cordova 旧版，不要使用。注意区分「食品数据库开放（ODbL）」与「App 开源」两件事。"
+  },
+  "35": {
+    "isOpenSource": true, "repoFullName": "vicolo-dev/chrono",
+    "repoUrl": "https://github.com/vicolo-dev/chrono",
+    "stars": null, "license": null, "platform": "Android", "pkg": "com.vicolo.chrono",
+    "iconUrl": "https://raw.githubusercontent.com/vicolo-dev/chrono/master/android/app/src/dev/res/mipmap-xxxhdpi/ic_launcher.png",
+    "iconFallbackUrl": "https://raw.githubusercontent.com/vicolo-dev/chrono/master/android/app/src/dev/res/mipmap-hdpi/ic_launcher.png",
+    "confidence": "medium",
+    "notes": "⚠️ 知识库该条描述是两个不相关项目被混写的产物：「计时管理」指 Android 时钟/闹钟/计时器 App Chrono（vicolo-dev/chrono），「仿真模拟、物理仿真、系统建模」指完全无关的 C++ 多体仿真引擎 Project Chrono（projectchrono/chrono）。本条目取前者，展示文案已改为「时钟、闹钟与计时器」并删去仿真相关表述。stars/license 未确认。"
+  },
+  "36": {
+    "isOpenSource": true, "repoFullName": "EnjoyingFOSS/feeel",
+    "repoUrl": "https://github.com/EnjoyingFOSS/feeel",
+    "stars": "114", "license": null, "platform": "Android / iOS", "pkg": "com.enjoyingfoss.feeel",
+    "iconUrl": "https://raw.githubusercontent.com/EnjoyingFOSS/feeel/master/fastlane/metadata/android/en-US/images/icon.png",
+    "iconFallbackUrl": "https://f-droid.org/repo/com.enjoyingfoss.feeel/en/icon.png", "confidence": "high",
+    "notes": "Flutter 自重训练 App，隐私友好。该 GitHub 仓库官方自述为 GitLab 镜像，主仓库与 issue 在 gitlab.com/enjoyingfoss/feeel。许可证 GitHub 返回 NOASSERTION，未确认故留空。注意默认分支为 master。"
+  },
+  "37": {
+    "isOpenSource": true, "repoFullName": "kylecorry31/Trail-Sense",
+    "repoUrl": "https://github.com/kylecorry31/Trail-Sense",
+    "stars": "2858", "license": "MIT", "platform": "Android", "pkg": "com.kylecorry.trail_sense",
+    "iconUrl": "https://raw.githubusercontent.com/kylecorry31/Trail-Sense/main/fastlane/metadata/android/en-US/images/icon.png",
+    "iconFallbackUrl": "https://f-droid.org/repo/com.kylecorry.trail_sense/en/icon.png", "confidence": "high",
+    "notes": "仓库名为 Trail-Sense（带连字符）。Kotlin/MIT，topics 含 compass/altimeter/barometer/offline/weather-forecasting/astronomy，与「离线指南针、天气预测、海拔测量、日出日落」一致。图标直链实测返回 image/png（24015 字节）。"
+  },
+  "38": {
+    "isOpenSource": true, "repoFullName": "maksimowiczm/FoodYou",
+    "repoUrl": "https://github.com/maksimowiczm/FoodYou",
+    "stars": "594", "license": "GPL-3.0", "platform": "Android", "pkg": "com.maksimowiczm.foodyou",
+    "iconUrl": "https://raw.githubusercontent.com/maksimowiczm/FoodYou/main/metadata/en-US/images/icon.png",
+    "iconFallbackUrl": "https://f-droid.org/repo/com.maksimowiczm.foodyou/en/icon.png", "confidence": "medium",
+    "notes": "「free, open-source, and privacy-focused food diary and nutrition tracker」，Kotlin/GPL-3.0。注意该仓库标准 fastlane 路径不存在，图标实际路径为 metadata/en-US/images/icon.png。"
+  }
+}

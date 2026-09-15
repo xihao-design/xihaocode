@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XihaoUC · 精选 GitHub 开源软件</title>
+<meta name="description" content="37 款经过挑选的免费开源应用，覆盖影音播放、动漫阅读、系统工具、图片处理、效率笔记与生活健康。无广告，无需付费。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="XihaoUC · 精选 GitHub 开源软件">
+<meta property="og:description" content="37 款经过挑选的免费开源应用，覆盖影音播放、动漫阅读、系统工具、图片处理、效率笔记与生活健康。">
+<link rel="canonical" href="https://www.xihaouc.top/">
+
+<style>
+/* ============================================================
+   设计系统 — Claude 风格（暖象牙纸 / 单一珊瑚强调色 / 细发丝线）
+   ------------------------------------------------------------
+   色彩：中性暖灰骨架 + 1 个品牌强调色 + 6 个沉稳分类色
+   字体：系统中文字体栈（国内不可依赖 Google Fonts）
+   圆角：8 / 10 / 14 / 999 四档
+   阴影：仅 1 档（悬停浮起），不使用多层 elevation
+   动效：180–260ms，cubic-bezier(.2,.6,.3,1)
+   ============================================================ */
+:root{
+  --bg:#FAF9F5;
+  --bg-alt:#F0EEE6;
+  --surface:#FFFFFF;
+  --ink:#1A1915;
+  --ink-2:#55534B;
+  --ink-3:#8B887C;
+  --line:#E7E4D9;
+  --line-strong:#D6D2C2;
+  --accent:#D97757;
+  --accent-deep:#B85C3C;
+  --accent-tint:#F7E9E2;
+
+  --tone-clay:#B4552F;  --tint-clay:#F6E9E3;
+  --tone-plum:#7A5068;  --tint-plum:#F1E9EE;
+  --tone-slate:#4F6377; --tint-slate:#E8EDF1;
+  --tone-sage:#5E7A5E;  --tint-sage:#E9EFE8;
+  --tone-amber:#9A7038; --tint-amber:#F5EDE1;
+  --tone-olive:#6E6A3E; --tint-olive:#EFEEE3;
+
+  --font-sans:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","Source Han Sans SC","Noto Sans CJK SC","Segoe UI",sans-serif;
+  --radius-sm:8px;
+  --radius:10px;
+  --radius-lg:14px;
+  --ease:cubic-bezier(.2,.6,.3,1);
+  --maxw:1120px;
+  --pad-x:clamp(20px,5vw,40px);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--font-sans);
+  font-size:16px;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,p{margin:0;text-wrap:pretty}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding-inline:var(--pad-x)}
+
+/* ---------- 顶栏 ---------- */
+.hdr{
+  position:sticky;top:0;z-index:40;
+  background:rgba(250,249,245,.86);
+  backdrop-filter:saturate(1.4) blur(12px);
+  -webkit-backdrop-filter:saturate(1.4) blur(12px);
+  border-bottom:1px solid var(--line);
+}
+.hdr__in{display:flex;align-items:center;gap:28px;height:64px}
+.brand{display:flex;align-items:center;gap:9px;font-weight:650;letter-spacing:-.01em;font-size:16px;text-decoration:none}
+.brand__dot{width:9px;height:9px;border-radius:3px;background:var(--accent);flex:none}
+.nav{display:flex;gap:22px;margin-inline-start:6px}
+.nav a{
+  font-size:14px;color:var(--ink-2);text-decoration:none;
+  padding:6px 0;transition:color .18s var(--ease);
+}
+.nav a:hover{color:var(--ink)}
+.hdr__spacer{flex:1}
+.hdr__count{font-size:13px;color:var(--ink-3);letter-spacing:.02em}
+
+/* ---------- Hero ---------- */
+.hero{padding-block:clamp(56px,9vw,104px) clamp(40px,6vw,64px)}
+.eyebrow{
+  display:flex;align-items:center;gap:12px;
+  font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);margin-bottom:22px;
+}
+.eyebrow::after{content:"";flex:1;height:1px;background:var(--line);max-width:180px}
+.hero h1{
+  font-size:clamp(30px,5.4vw,58px);
+  line-height:1.14;letter-spacing:-.025em;font-weight:650;
+  max-width:15em;
+}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero__lede{
+  margin-top:24px;max-width:38em;
+  font-size:clamp(15px,1.6vw,17px);line-height:1.8;color:var(--ink-2);
+}
+.hero__acts{margin-top:34px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+
+/* ---------- 按钮 ---------- */
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  height:44px;padding:0 20px;border-radius:var(--radius-sm);
+  font-size:14.5px;font-weight:550;text-decoration:none;
+  transition:background .18s var(--ease),border-color .18s var(--ease),transform .18s var(--ease),color .18s var(--ease);
+}
+.btn--solid{background:var(--ink);color:#FAF9F5}
+.btn--solid:hover{background:#000;transform:translateY(-1px)}
+.btn--ghost{border:1px solid var(--line-strong);color:var(--ink-2)}
+.btn--ghost:hover{border-color:var(--ink-3);color:var(--ink)}
+.btn--accent{background:var(--accent);color:#fff}
+.btn--accent:hover{background:var(--accent-deep)}
+
+/* ---------- 工具条（分类 + 搜索） ---------- */
+.tools{
+  position:sticky;top:64px;z-index:30;
+  background:var(--bg);
+  border-bottom:1px solid var(--line);
+  padding-block:14px;
+}
+.tools__in{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.chips{display:flex;gap:8px;flex-wrap:wrap;flex:1}
+.chip{
+  display:inline-flex;align-items:center;gap:7px;
+  height:34px;padding:0 14px;border-radius:999px;
+  border:1px solid var(--line-strong);
+  font-size:13.5px;color:var(--ink-2);
+  transition:background .18s var(--ease),color .18s var(--ease),border-color .18s var(--ease);
+}
+.chip:hover{border-color:var(--ink-3);color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#FAF9F5}
+.chip__n{font-size:11.5px;opacity:.6;font-variant-numeric:tabular-nums}
+
+.search{position:relative;flex:none;width:min(260px,100%)}
+.search input{
+  width:100%;height:38px;padding:0 34px 0 34px;
+  border-radius:var(--radius-sm);
+  border:1px solid var(--line-strong);
+  background:var(--surface);
+  font:inherit;font-size:14px;color:var(--ink);
+  transition:border-color .18s var(--ease),box-shadow .18s var(--ease);
+}
+.search input::placeholder{color:var(--ink-3)}
+.search input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-tint)}
+.search__ico{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:15px;height:15px;stroke:var(--ink-3);fill:none;stroke-width:1.8;pointer-events:none}
+.search__clr{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:26px;height:26px;border-radius:6px;color:var(--ink-3);display:none;align-items:center;justify-content:center}
+.search__clr[data-show]{display:flex}
+.search__clr:hover{background:var(--bg-alt);color:var(--ink)}
+
+/* ---------- 卡片网格 ---------- */
+.grid-sec{padding-block:32px 72px}
+.grid{
+  display:grid;gap:14px;
+  grid-template-columns:repeat(auto-fill,minmax(296px,1fr));
+}
+.card{
+  position:relative;text-align:left;
+  display:flex;flex-direction:column;gap:14px;
+  padding:18px;border:1px solid var(--line);border-radius:var(--radius-lg);
+  background:var(--surface);
+  transition:border-color .2s var(--ease),transform .2s var(--ease),box-shadow .2s var(--ease);
+  opacity:0;transform:translateY(10px);
+}
+.card.is-in{opacity:1;transform:none}
+.card:hover{
+  border-color:var(--line-strong);transform:translateY(-2px);
+  box-shadow:0 8px 24px -14px rgba(26,25,21,.28);
+}
+.card__top{display:flex;align-items:center;gap:12px}
+.mono{
+  width:40px;height:40px;flex:none;border-radius:var(--radius);
+  display:grid;place-items:center;
+  font-size:16px;font-weight:650;letter-spacing:-.02em;
+  background:var(--tint,var(--bg-alt));color:var(--tone,var(--ink-2));
+  transition:transform .2s var(--ease);
+}
+.card:hover .mono{transform:scale(1.05)}
+.card__name{font-size:15.5px;font-weight:600;letter-spacing:-.01em;line-height:1.3}
+.card__tl{font-size:13.5px;color:var(--ink-2);line-height:1.6;margin-top:-4px}
+.card__bot{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:auto}
+.tag{
+  display:inline-flex;align-items:center;gap:6px;
+  font-size:11.5px;letter-spacing:.04em;color:var(--tone,var(--ink-3));
+}
+.tag::before{content:"";width:5px;height:5px;border-radius:50%;background:currentColor;opacity:.75}
+.card__go{
+  display:inline-flex;align-items:center;gap:5px;
+  font-size:12.5px;color:var(--ink-3);
+  transition:color .18s var(--ease),gap .18s var(--ease);
+}
+.card:hover .card__go{color:var(--accent-deep);gap:8px}
+.card__go svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+
+/* 紧凑模式 */
+body[data-density="compact"] .grid{grid-template-columns:repeat(auto-fill,minmax(228px,1fr));gap:10px}
+body[data-density="compact"] .card{padding:14px;gap:10px;border-radius:var(--radius)}
+body[data-density="compact"] .card__tl{display:none}
+
+/* 分类色调：以属性选择器承载，使「单色模式」能整体覆盖（内联样式会赢过 body 级变量） */
+[data-tone="clay"]{--tone:var(--tone-clay);--tint:var(--tint-clay)}
+[data-tone="plum"]{--tone:var(--tone-plum);--tint:var(--tint-plum)}
+[data-tone="slate"]{--tone:var(--tone-slate);--tint:var(--tint-slate)}
+[data-tone="sage"]{--tone:var(--tone-sage);--tint:var(--tint-sage)}
+[data-tone="amber"]{--tone:var(--tone-amber);--tint:var(--tint-amber)}
+[data-tone="olive"]{--tone:var(--tone-olive);--tint:var(--tint-olive)}
+
+/* 关闭分类色（Tweaks） */
+body[data-neutral="1"] .card,
+body[data-neutral="1"] .drawer{
+  --tone:var(--ink-2);--tint:var(--bg-alt);
+}
+body[data-neutral="1"] .mono{background:var(--bg-alt);color:var(--ink-2)}
+
+/* ---------- 空状态 ---------- */
+.empty{
+  padding:72px 0;text-align:center;color:var(--ink-3);
+}
+.empty p{font-size:15px;margin-bottom:18px}
+
+/* ---------- 详情抽屉 ---------- */
+.backdrop{
+  position:fixed;inset:0;z-index:50;
+  background:rgba(26,25,21,.26);
+  backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px);
+  opacity:0;visibility:hidden;
+  transition:opacity .24s var(--ease),visibility .24s;
+}
+.backdrop[data-open]{opacity:1;visibility:visible}
+.drawer{
+  position:fixed;top:0;right:0;z-index:60;
+  height:100dvh;width:min(520px,100%);
+  background:var(--bg);
+  border-left:1px solid var(--line);
+  transform:translateX(100%);
+  transition:transform .28s var(--ease);
+  display:flex;flex-direction:column;
+  overscroll-behavior:contain;
+}
+.drawer[data-open]{transform:none}
+.drawer__hd{
+  display:flex;align-items:flex-start;gap:14px;
+  padding:22px clamp(20px,4vw,28px) 18px;
+  border-bottom:1px solid var(--line);
+}
+.drawer__mono{width:48px;height:48px;border-radius:12px;font-size:19px}
+.drawer__ttl{flex:1;min-width:0}
+.drawer__ttl h2{font-size:19px;font-weight:650;letter-spacing:-.015em;line-height:1.3}
+.drawer__ttl span{font-size:12.5px;letter-spacing:.04em;color:var(--tone,var(--ink-3))}
+.x{
+  width:34px;height:34px;flex:none;border-radius:var(--radius-sm);
+  border:1px solid var(--line-strong);
+  display:grid;place-items:center;color:var(--ink-2);
+  transition:background .18s var(--ease),color .18s var(--ease),border-color .18s var(--ease);
+}
+.x:hover{background:var(--surface);color:var(--ink);border-color:var(--ink-3)}
+.x svg{width:15px;height:15px;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round}
+.drawer__bd{
+  padding:24px clamp(20px,4vw,28px) 32px;
+  overflow-y:auto;flex:1;
+}
+.blk + .blk{margin-top:26px}
+.blk h3{
+  font-size:12px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink-3);font-weight:600;margin-bottom:11px;
+}
+.blk p{font-size:14.5px;line-height:1.85;color:var(--ink-2)}
+
+.dl{
+  margin-top:28px;padding:18px;
+  border:1px solid var(--line);border-radius:var(--radius-lg);
+  background:var(--bg-alt);
+}
+.dl__lab{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);font-weight:600}
+.dl__url{
+  margin-top:9px;font-size:12.5px;line-height:1.6;color:var(--ink-2);
+  word-break:break-all;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+.dl__pwd{
+  margin-top:14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+}
+.dl__pwd b{
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:16px;letter-spacing:.1em;font-weight:650;
+  background:var(--surface);border:1px solid var(--line-strong);
+  padding:5px 11px;border-radius:var(--radius-sm);
+}
+.dl__pwd span{font-size:13px;color:var(--ink-3)}
+.dl .btn{width:100%;justify-content:center;margin-top:16px}
+
+/* ---------- 页脚 ---------- */
+.ftr{border-top:1px solid var(--line);padding-block:44px 56px;margin-top:8px}
+.ftr__top{display:flex;gap:24px;justify-content:space-between;flex-wrap:wrap;align-items:flex-start}
+.ftr__brand{display:flex;align-items:center;gap:9px;font-weight:650;font-size:15px}
+.ftr__meta{font-size:13px;color:var(--ink-3);line-height:2;text-align:right}
+.ftr__meta a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line-strong)}
+.ftr__meta a:hover{color:var(--ink);border-color:var(--ink-3)}
+.ftr__note{
+  margin-top:28px;padding-top:20px;border-top:1px solid var(--line);
+  font-size:12.5px;line-height:1.9;color:var(--ink-3);max-width:60em;
+}
+
+/* ---------- Tweaks ---------- */
+.tw{position:fixed;right:18px;bottom:18px;z-index:70;font-size:13px}
+.tw__btn{
+  height:38px;padding:0 15px;border-radius:999px;
+  background:var(--ink);color:#FAF9F5;font-size:13px;
+  box-shadow:0 8px 22px -12px rgba(26,25,21,.5);
+}
+.tw__panel{
+  position:absolute;right:0;bottom:48px;width:238px;
+  background:var(--surface);border:1px solid var(--line-strong);
+  border-radius:var(--radius-lg);padding:14px;
+  box-shadow:0 16px 40px -20px rgba(26,25,21,.4);
+  display:none;
+}
+.tw__panel[data-open]{display:block}
+.tw__row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:7px 0}
+.tw__row + .tw__row{border-top:1px solid var(--line)}
+.tw__row span{color:var(--ink-2)}
+.seg{display:flex;border:1px solid var(--line-strong);border-radius:var(--radius-sm);overflow:hidden}
+.seg button{padding:4px 9px;font-size:12px;color:var(--ink-2)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#FAF9F5}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:720px){
+  .nav{display:none}
+  .hdr__count{display:none}
+  .tools{position:static}
+  .search{width:100%}
+  .grid{grid-template-columns:1fr}
+  .ftr__meta{text-align:left}
+  .hero__acts .btn{flex:1;justify-content:center}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  .card{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<header class="hdr">
+  <div class="wrap hdr__in">
+    <a class="brand" href="#top"><span class="brand__dot"></span>XihaoUC</a>
+    <nav class="nav">
+      <a href="#all">全部软件</a>
+      <a href="#all">分类浏览</a>
+      <a href="#about">关于本站</a>
+    </nav>
+    <div class="hdr__spacer"></div>
+    <span class="hdr__count" id="hdrCount"></span>
+  </div>
+</header>
+
+<main id="top">
+  <section class="wrap hero">
+    <p class="eyebrow">GitHub 开源软件合集</p>
+    <h1>把好用的开源软件，<br>从 GitHub 带到<em>你的手机</em>。</h1>
+    <p class="hero__lede" id="lede"></p>
+    <div class="hero__acts">
+      <a class="btn btn--solid" href="#all">浏览全部软件
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <section class="tools" id="all">
+    <div class="wrap tools__in">
+      <div class="chips" id="chips" role="group" aria-label="按分类筛选"></div>
+      <div class="search">
+        <svg class="search__ico" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="搜索软件名称或功能…" aria-label="搜索软件" autocomplete="off">
+        <button class="search__clr" id="clr" aria-label="清除搜索">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap grid-sec">
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="empty" hidden>
+      <p>没有匹配的软件</p>
+      <button class="btn btn--ghost" id="reset">清除筛选条件</button>
+    </div>
+    <noscript>
+      <p style="padding:40px 0;color:var(--ink-3);font-size:15px">
+        本站的软件目录由 JavaScript 渲染。请启用 JavaScript，或直接访问各软件的独立页面。
+      </p>
+    </noscript>
+  </section>
+</main>
+
+<footer class="ftr" id="about">
+  <div class="wrap">
+    <div class="ftr__top">
+      <div>
+        <div class="ftr__brand"><span class="brand__dot"></span>XihaoUC</div>
+        <p style="margin-top:10px;font-size:13px;color:var(--ink-3);max-width:26em;line-height:1.8">
+          专注收集整理免费开源软件，把好工具带给更多人。
+        </p>
+      </div>
+      <div class="ftr__meta">
+        <div><a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" rel="noopener noreferrer">鲁ICP备2025193604号</a></div>
+        <div>Copyright © 2025–2027 XihaoUC</div>
+      </div>
+    </div>
+    <p class="ftr__note">
+      免责声明：本站所列软件均为开源项目，版权归各自作者所有。本站仅提供信息整理与网盘转存指引，不提供任何破解、修改或商业授权。所有资源仅供个人学习与研究使用，请于下载后 24 小时内自行删除，并前往项目官方仓库支持作者。
+    </p>
+  </div>
+</footer>
+
+<!-- 详情抽屉 -->
+<div class="backdrop" id="backdrop"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="dName" hidden>
+  <div class="drawer__hd">
+    <div class="mono drawer__mono" id="dMono"></div>
+    <div class="drawer__ttl">
+      <h2 id="dName"></h2>
+      <span id="dCat"></span>
+    </div>
+    <button class="x" id="dClose" aria-label="关闭详情">
+      <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="drawer__bd">
+    <div class="blk"><h3>关于这款软件</h3><p id="dDesc"></p></div>
+    <div class="blk"><h3>功能特点</h3><p id="dFeat"></p></div>
+    <div class="dl">
+      <div class="dl__lab">下载方式</div>
+      <div class="dl__url" id="dUrl"></div>
+      <div class="dl__pwd" id="dPwdRow">
+        <span>提取码</span><b id="dPwd"></b>
+      </div>
+      <button class="btn btn--accent" id="dGet">复制提取码并打开网盘</button>
+    </div>
+  </div>
+</aside>
+
+<!-- Tweaks -->
+<div class="tw">
+  <div class="tw__panel" id="twPanel">
+    <div class="tw__row"><span>卡片密度</span>
+      <div class="seg" id="twDensity">
+        <button data-v="comfy" aria-pressed="true">舒展</button>
+        <button data-v="compact" aria-pressed="false">紧凑</button>
+      </div>
+    </div>
+    <div class="tw__row"><span>分类色彩</span>
+      <div class="seg" id="twNeutral">
+        <button data-v="0" aria-pressed="true">彩色</button>
+        <button data-v="1" aria-pressed="false">单色</button>
+      </div>
+    </div>
+    <div class="tw__row"><span>默认排序</span>
+      <div class="seg" id="twSort">
+        <button data-v="kb" aria-pressed="true">知识库</button>
+        <button data-v="name" aria-pressed="false">名称</button>
+      </div>
+    </div>
+  </div>
+  <button class="tw__btn" id="twBtn" aria-expanded="false">Tweaks</button>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  'use strict';
+  const APPS = (window.KB && window.KB.apps) || [];
+  const CATS = (window.KB && window.KB.categories) || [];
+  const catById = Object.fromEntries(CATS.map(c => [c.id, c]));
+
+  const $ = s => document.querySelector(s);
+  const grid = $('#grid'), chips = $('#chips'), q = $('#q'), empty = $('#empty');
+
+  const state = { cat: 'all', q: '', sort: 'kb' };
+
+  /* ---------- Hero 文案（数量由数据驱动，避免写死后对不上） ---------- */
+  $('#lede').textContent =
+    APPS.length + ' 款经过挑选的免费开源应用，覆盖' +
+    CATS.map(c => c.name).join('、') +
+    '。全部开源、无广告、无需付费。';
+  $('#hdrCount').textContent = APPS.length + ' 款软件 · ' + CATS.length + ' 个分类';
+
+  /* ---------- 首字标记 ---------- */
+  const initial = name => {
+    const ch = (name || '?').trim()[0];
+    return /[a-z]/i.test(ch) ? ch.toUpperCase() : ch;
+  };
+
+  /* ---------- 分类筛选条 ---------- */
+  function paintChips(){
+    const counts = {};
+    APPS.forEach(a => counts[a.cat] = (counts[a.cat] || 0) + 1);
+    let html = chipHtml('all', '全部', APPS.length);
+    CATS.forEach(c => html += chipHtml(c.id, c.name, counts[c.id] || 0));
+    chips.innerHTML = html;
+  }
+  function chipHtml(id, label, n){
+    return '<button class="chip" data-cat="' + id + '" aria-pressed="' +
+      (state.cat === id) + '">' + label + '<span class="chip__n">' + n + '</span></button>';
+  }
+
+  /* ---------- 过滤与排序 ---------- */
+  function visible(){
+    const kw = state.q.trim().toLowerCase();
+    let list = APPS.filter(a => {
+      if (state.cat !== 'all' && a.cat !== state.cat) return false;
+      if (!kw) return true;
+      return (a.name + ' ' + a.tagline + ' ' + a.desc + ' ' + a.catName)
+        .toLowerCase().includes(kw);
+    });
+    if (state.sort === 'name') {
+      list = list.slice().sort((a, b) => a.name.localeCompare(b.name, 'zh-Hans-CN'));
+    }
+    return list;
+  }
+
+  /* ---------- 渲染卡片 ---------- */
+  const arrow = '<svg viewBox="0 0 24 24"><path d="M5 12h13M12 6l6 6-6 6"/></svg>';
+
+  function paintGrid(){
+    const list = visible();
+    grid.innerHTML = list.map(a => {
+      const c = catById[a.cat] || {};
+      return '<button class="card" data-row="' + a.row + '" data-tone="' + c.tone + '">' +
+        '<span class="card__top">' +
+          '<span class="mono">' + initial(a.name) + '</span>' +
+          '<span class="card__name">' + esc(a.name) + '</span>' +
+        '</span>' +
+        '<span class="card__tl">' + esc(a.tagline) + '</span>' +
+        '<span class="card__bot">' +
+          '<span class="tag">' + esc(a.catName) + '</span>' +
+          '<span class="card__go">查看' + arrow + '</span>' +
+        '</span>' +
+      '</button>';
+    }).join('');
+
+    empty.hidden = list.length > 0;
+    reveal();
+  }
+  function esc(s){
+    return String(s == null ? '' : s)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      .replace(/"/g,'&quot;');
+  }
+
+  /* ---------- 入场动效 ---------- */
+  let io = null;
+  function reveal(){
+    const cards = grid.querySelectorAll('.card');
+    if (!('IntersectionObserver' in window) ||
+        window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      cards.forEach(c => c.classList.add('is-in'));
+      return;
+    }
+    if (io) io.disconnect();
+    io = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          const el = e.target;
+          setTimeout(() => el.classList.add('is-in'), Math.min(i * 26, 180));
+          io.unobserve(el);
+        }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: .05 });
+    cards.forEach(c => io.observe(c));
+  }
+
+  /* ---------- 详情抽屉 ---------- */
+  const drawer = $('#drawer'), backdrop = $('#backdrop');
+  let lastFocus = null;
+
+  function openApp(row){
+    const a = APPS.find(x => String(x.row) === String(row));
+    if (!a) return;
+    const c = catById[a.cat] || {};
+    drawer.dataset.tone = c.tone;
+    $('#dMono').textContent = initial(a.name);
+    $('#dName').textContent = a.name;
+    $('#dCat').textContent = a.catName;
+    $('#dDesc').textContent = a.desc;
+    $('#dFeat').textContent = a.features;
+    $('#dUrl').textContent = a.link;
+    $('#dPwd').textContent = a.pwd || '无';
+    $('#dPwdRow').style.display = a.pwd ? '' : 'none';
+
+    lastFocus = document.activeElement;
+    drawer.hidden = false;
+    requestAnimationFrame(() => {
+      drawer.setAttribute('data-open', '');
+      backdrop.setAttribute('data-open', '');
+    });
+    document.body.style.overflow = 'hidden';
+    $('#dClose').focus();
+  }
+  function closeApp(){
+    drawer.removeAttribute('data-open');
+    backdrop.removeAttribute('data-open');
+    document.body.style.overflow = '';
+    setTimeout(() => { drawer.hidden = true; }, 280);
+    if (lastFocus) lastFocus.focus();
+  }
+
+  $('#dGet').addEventListener('click', async () => {
+    const row = drawer.dataset.row;
+    const a = APPS.find(x => String(x.row) === String(row));
+    if (!a) return;
+    let copied = false;
+    if (a.pwd) {
+      try { await navigator.clipboard.writeText(a.pwd); copied = true; }
+      catch (e) { copied = false; }
+    }
+    const btn = $('#dGet');
+    const old = btn.textContent;
+    btn.textContent = a.pwd ? (copied ? '已复制 ' + a.pwd + '，正在打开…' : '提取码 ' + a.pwd + '，正在打开…')
+                            : '正在打开网盘…';
+    window.open(a.link, '_blank', 'noopener');
+    setTimeout(() => { btn.textContent = old; }, 2200);
+  });
+
+  grid.addEventListener('click', e => {
+    const card = e.target.closest('.card');
+    if (!card) return;
+    drawer.dataset.row = card.dataset.row;
+    openApp(card.dataset.row);
+  });
+  $('#dClose').addEventListener('click', closeApp);
+  backdrop.addEventListener('click', closeApp);
+  document.addEventListener('keydown', e => {
+    if (!drawer.hasAttribute('data-open')) return;
+    if (e.key === 'Escape') { closeApp(); return; }
+    if (e.key !== 'Tab') return;
+    // 焦点约束在抽屉内
+    const f = drawer.querySelectorAll('button, a[href], input');
+    if (!f.length) return;
+    const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  /* ---------- 交互绑定 ---------- */
+  chips.addEventListener('click', e => {
+    const b = e.target.closest('.chip');
+    if (!b) return;
+    state.cat = b.dataset.cat;
+    chips.querySelectorAll('.chip').forEach(c =>
+      c.setAttribute('aria-pressed', String(c.dataset.cat === state.cat)));
+    paintGrid();
+  });
+
+  const clr = $('#clr');
+  q.addEventListener('input', () => {
+    state.q = q.value;
+    clr.toggleAttribute('data-show', !!q.value);
+    paintGrid();
+  });
+  clr.addEventListener('click', () => {
+    q.value = ''; state.q = '';
+    clr.removeAttribute('data-show'); q.focus(); paintGrid();
+  });
+  $('#reset').addEventListener('click', () => {
+    state.cat = 'all'; state.q = ''; q.value = '';
+    clr.removeAttribute('data-show');
+    chips.querySelectorAll('.chip').forEach(c =>
+      c.setAttribute('aria-pressed', String(c.dataset.cat === 'all')));
+    paintGrid();
+  });
+
+  /* ---------- Tweaks ---------- */
+  const twBtn = $('#twBtn'), twPanel = $('#twPanel');
+  twBtn.addEventListener('click', () => {
+    const open = twPanel.toggleAttribute('data-open');
+    twBtn.setAttribute('aria-expanded', String(open));
+  });
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.tw')) {
+      twPanel.removeAttribute('data-open');
+      twBtn.setAttribute('aria-expanded', 'false');
+    }
+  });
+  function seg(id, fn){
+    const box = $(id);
+    box.addEventListener('click', e => {
+      const b = e.target.closest('button');
+      if (!b) return;
+      box.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+      fn(b.dataset.v);
+    });
+  }
+  seg('#twDensity', v => document.body.dataset.density = v);
+  seg('#twNeutral', v => document.body.dataset.neutral = v);
+  seg('#twSort',    v => { state.sort = v; paintGrid(); });
+
+  /* ---------- 启动 ---------- */
+  paintChips();
+  paintGrid();
+})();
+</script>
+</body>
+</html>

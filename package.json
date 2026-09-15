@@ -1,0 +1,16 @@
+{
+  "name": "xihaouc-site",
+  "version": "2.0.0",
+  "private": true,
+  "description": "XihaoUC —— 精选 GitHub 开源软件的资源站。纯静态生成，零第三方依赖。",
+  "scripts": {
+    "build": "node redesign/build.mjs",
+    "check": "node redesign/tools/check-dist.js",
+    "icons": "node redesign/tools/fetch-icons.mjs",
+    "verify": "node redesign/tools/verify-repos.mjs",
+    "extract": "powershell -NoProfile -ExecutionPolicy Bypass -File redesign/tools/extract-kb.ps1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
