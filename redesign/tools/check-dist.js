@@ -56,7 +56,7 @@ const appFiles = new Set(fs.readdirSync(path.join(DIST, 'apps')).map(f => f.repl
 const unreachable = [...appFiles].filter(s => !appLinks.has(s));
 if (unreachable.length) { console.log(`  FAIL unreachable from home: ${unreachable.join(',')}`); fail++; }
 
-for (const s of ['auto-jingling', 'legado']) {
+for (const s of ['auto-jingling', 'legado', 'loop', 'cuppa']) {
   if (appFiles.has(s)) { console.log(`  FAIL excluded item present: ${s}`); fail++; }
   if (home.includes(`apps/${s}.html`)) { console.log(`  FAIL home links excluded: ${s}`); fail++; }
 }
