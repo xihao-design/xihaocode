@@ -1,0 +1,54 @@
+/* ============================================================
+   增量样式：只为「线上没有、但新内容需要」的少量类
+   ------------------------------------------------------------
+   `live/styles.css` 是从线上直接取回的原产物，**刻意保持逐字节不变** ——
+   这样它的 sha256 能一直和线上比对，出问题时能立刻判断是「样式被改了」
+   还是「内容变了」。所以新内容需要的类一律写在这里，由构建追加在线上 CSS 之后。
+
+   两条约束：
+   1) 只允许**新增**类，不允许覆盖线上已有的类。一旦覆盖，
+      「产物样式 = 线上样式 + 已知增量」这个等式就不成立，回退的可验证性就没了。
+   2) 每个类都要写清「为什么需要」以及「对应哪个页面」，
+      否则半年后没人敢删。
+   ============================================================ */
+
+/* ---------- .tools--plain：不吸顶的筛选条 ----------
+   用在 AI 库目录页。用户要求「筛选随页面滚动」，不要固定。
+   线上 .tools 是 position:sticky（首页/技能库/电脑软件页用），
+   这里只覆盖 AI 库这一处 —— 注意这是**覆盖线上已有类**的一个受控例外，
+   所以用修饰符类（--plain）而不是改 .tools 本身：
+   其它页面仍走线上的吸顶行为，只有明确带了修饰符的才取消。 */
+.tools--plain{position:static;box-shadow:none}
+
+/* ---------- .sec-sub：区块内的小标题行 ----------
+   用在「官方出品」模块里分隔出自营产品与运营指南两层。
+   线上没有这个类，因为线上这两块是两个独立 section（各自有 .sec-hd）；
+   合并成一个 section 后，第二层需要一个比 .sec-hd 小一号的标题行。 */
+.sec-sub{
+  display:flex;align-items:baseline;justify-content:space-between;
+  gap:18px;flex-wrap:wrap;
+  margin:34px 0 16px;
+  padding-top:22px;
+  border-top:1px solid var(--line);
+}
+.sec-sub h3{
+  font-size:15.5px;font-weight:650;letter-spacing:-.01em;
+  display:flex;align-items:center;gap:9px;
+}
+.sec-sub h3::before{
+  content:"";width:3px;height:15px;border-radius:2px;
+  background:var(--accent);flex:none;
+}
+.sec-sub p{font-size:13px;color:var(--ink-3);flex:1;min-width:12em}
+
+/* ---------- .warnish：元信息里的「需要注意」的值 ----------
+   AI 工具详情页的「国内访问」一栏用（需自备网络条件）。
+   线上没有这个类：线上没有 AI 库，也就没有这类提示字段。
+   走强调色而不是报错红 —— 站内没有「报错红」这套语义，这只是如实提示。 */
+.warnish{color:var(--accent-deep);font-weight:600}
+
+/* ---------- 隐藏的频道：.chan[hidden] ----------
+   频道配置里 hidden:true 的项整条不出现。构建期已经不渲染它们了，
+   这条只是兜底：万一以后有别的入口（比如关于页）忘了过滤，
+   至少不会在首页露出一张不可点的卡。 */
+.chan[hidden]{display:none}

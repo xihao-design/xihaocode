@@ -1,0 +1,9 @@
+# live/ 下是从线上取回的原产物（styles.css / app.js）+ 本工程的增量（addon.css / app-delta.js）。
+# 「逐字节等于线上」是这几份文件的核心价值：sha256 用来一秒分清「文件被改了」还是「线上内容变了」，
+# 构建与 check-dist 还靠它断言「产物脚本 == 线上脚本 + 已登记增量」。
+#
+# 本仓库开着 core.autocrlf=true，若不在这里关掉文本转换，checkout 会把 LF 换成 CRLF ——
+# 实测 live/app.js 会从 18834 字节变成 19363 字节（CRLF 529 处），构建当场失败。
+# 所以这一条不是洁癖，是必须的：-text 表示「别碰它的换行」。
+# （用 -text 而不是 binary：文件内容仍可正常 diff 与查看。）
+redesign/live/** -text
