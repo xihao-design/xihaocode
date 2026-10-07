@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "wawawriter",
+  "status": "ok",
+  "cat": "writing",
+  "name": "蛙蛙写作",
+  "nameZh": "蛙蛙写作",
+  "vendor": "蛙蛙写作",
+  "tagline": "面向小说创作的 AI 写作工具，支持续写与情节扩写",
+  "desc": "蛙蛙写作：面向小说创作的 AI 写作工具，支持续写与情节扩写。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页。",
+  "site": "https://www.wawawriter.com",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "面向网文与小说创作的 AI 写作助手",
+    "支持续写、改写、大纲与人物设定生成",
+    "提供网页端与移动端页面使用",
+    "基础功能有免费额度，高级功能需付费"
+  ],
+  "howto": [
+    "打开官网 www.wawawriter.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchA-writing-chatbot-coding-image"
+}

@@ -1,0 +1,36 @@
+{
+  "type": "tool",
+  "slug": "grammarly",
+  "status": "ok",
+  "cat": "writing",
+  "name": "Grammarly",
+  "nameZh": "Grammarly",
+  "vendor": "Grammarly, Inc.",
+  "tagline": "英语写作辅助工具，检查语法拼写并给出改写与语气建议",
+  "desc": "Grammarly：英语写作辅助工具，检查语法拼写并给出改写与语气建议。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。以英文界面与英文输入为主。支持平台：网页、Windows、macOS、iOS、Android。",
+  "site": "https://www.grammarly.com",
+  "pricingUrl": "https://www.grammarly.com/plans",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": false,
+  "platforms": [
+    "网页",
+    "Windows",
+    "macOS",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    "免费版提供基础语法、拼写与标点检查",
+    "付费版增加改写建议、语气调整与抄袭检测",
+    "以英文写作为主，界面与改写功能主要面向英语",
+    "提供桌面客户端、浏览器扩展与手机键盘"
+  ],
+  "howto": [
+    "打开官网 www.grammarly.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchA-writing-chatbot-coding-image"
+}

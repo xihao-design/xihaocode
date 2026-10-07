@@ -1,0 +1,36 @@
+{
+  "type": "tool",
+  "slug": "jimeng",
+  "status": "ok",
+  "cat": "image",
+  "name": "即梦 AI",
+  "nameZh": "即梦 AI",
+  "vendor": "字节跳动",
+  "tagline": "字节跳动旗下AI创作平台，可用中文提示词生成图片与视频",
+  "desc": "即梦 AI 是字节跳动的产品，图像视频生成平台，支持文生图与图生视频。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页、iOS、Android。",
+  "site": "https://jimeng.jianying.com",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    "支持文生图、图生图、文生视频与图生视频",
+    "提供智能画布与局部重绘等编辑能力",
+    "可接入 Seedream 系列图像模型生成图片",
+    "每日提供免费积分，超出后需购买积分",
+    "提供文生视频、图生视频与首尾帧生成",
+    "针对中文提示词做了语义理解优化"
+  ],
+  "howto": [
+    "打开官网 jimeng.jianying.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchA-writing-chatbot-coding-image"
+}

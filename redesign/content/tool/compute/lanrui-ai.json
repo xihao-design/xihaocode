@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "lanrui-ai",
+  "status": "ok",
+  "cat": "compute",
+  "name": "揽睿星舟",
+  "nameZh": "揽睿星舟",
+  "vendor": "翼方健数（BaseBit Technologies）",
+  "tagline": "翼方健数推出的云端训推一体算力平台，面向企业与开发者",
+  "desc": "揽睿星舟是翼方健数（BaseBit Technologies）的产品，翼方健数推出的云端训推一体算力平台，面向企业与开发者。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页。",
+  "site": "https://www.lanrui-ai.com",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "提供 GPU 训推一体的云端开发环境",
+    "内置 JupyterLab 与常用训练框架",
+    "支持数据与模型资产的托管管理",
+    "由翼方健数运营，站点与文档为中文"
+  ],
+  "howto": [
+    "打开官网 www.lanrui-ai.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

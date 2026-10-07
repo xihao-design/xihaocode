@@ -2,59 +2,83 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
+<title>西浩资源库 · OG 分享图模板</title>
 <style>
+  /* 1200×630 社交分享图。深色玻璃版 —— 在信息流里比浅色更抓眼。
+     改完运行：node redesign/tools/make-og.mjs */
   *{margin:0;padding:0;box-sizing:border-box}
   body{
-    width:1200px;height:630px;overflow:hidden;
-    background:#FAF9F5;color:#1A1915;
+    width:1200px;height:630px;overflow:hidden;position:relative;
+    background:#0B0C10;color:#ECEEF2;
     font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","Segoe UI",sans-serif;
     display:flex;flex-direction:column;justify-content:space-between;
     padding:76px 80px;
-    position:relative;
   }
-  /* 右侧极淡的分类色块，暗示产品内容而非装饰 */
-  .tiles{position:absolute;right:-40px;top:50%;transform:translateY(-50%);
-    display:grid;grid-template-columns:repeat(3,74px);gap:14px;opacity:.5}
-  .tiles i{width:74px;height:74px;border-radius:18px}
-  .tiles i:nth-child(1){background:#F6E9E3}
-  .tiles i:nth-child(2){background:#F1E9EE}
-  .tiles i:nth-child(3){background:#E8EDF1}
-  .tiles i:nth-child(4){background:#E9EFE8}
-  .tiles i:nth-child(5){background:#F5EDE1}
-  .tiles i:nth-child(6){background:#EFEEE3}
-  .tiles i:nth-child(7){background:#F7E9E2}
-  .tiles i:nth-child(8){background:#F0EEE6}
-  .tiles i:nth-child(9){background:#F6E9E3}
+  /* 柔光：只在这里用，站点正文里克制使用。紫↔珊瑚双色 */
+  .glow{
+    position:absolute;inset:0;pointer-events:none;
+    background:
+      radial-gradient(42% 54% at 14% 20%, rgba(157,123,255,.22), transparent 70%),
+      radial-gradient(38% 46% at 82% 12%, rgba(255,142,106,.18), transparent 72%),
+      radial-gradient(34% 42% at 62% 92%, rgba(86,196,178,.12), transparent 70%);
+  }
+  header,main,footer{position:relative}
 
-  header{display:flex;align-items:center;gap:11px;font-weight:650;font-size:22px;letter-spacing:-.01em;position:relative}
-  .dot{width:12px;height:12px;border-radius:4px;background:#D97757}
+  header{display:flex;align-items:center;gap:12px;font-weight:650;font-size:23px;letter-spacing:-.01em}
+  .mark{display:flex;flex-direction:column;gap:3.4px;width:26px}
+  .mark i{height:6.4px;border-radius:3.2px;display:block}
+  .mark i:nth-child(1){width:26px;background:linear-gradient(90deg,#9D7BFF,#FF8E6A)}
+  .mark i:nth-child(2){width:19px;background:rgba(236,238,242,.55)}
+  .mark i:nth-child(3){width:12px;background:rgba(236,238,242,.28)}
+  .tag{margin-left:6px;padding-left:13px;border-left:1px solid rgba(255,255,255,.18);
+       font-size:14px;font-weight:500;letter-spacing:.12em;color:#71767F}
 
-  main{position:relative;max-width:730px}
-  .eyebrow{font-size:14px;letter-spacing:.16em;text-transform:uppercase;color:#8B887C;margin-bottom:20px}
-  h1{font-size:60px;line-height:1.16;letter-spacing:-.028em;font-weight:650}
-  h1 em{font-style:normal;color:#D97757}
-  p{margin-top:22px;font-size:20px;line-height:1.7;color:#55534B;max-width:640px}
+  main{max-width:900px}
+  .eyebrow{font-size:14px;letter-spacing:.18em;text-transform:uppercase;color:#71767F;margin-bottom:20px}
+  /* 48px / 900px 的余量是算出来的：13 个汉字 × ~58px ≈ 874px，
+     再大一点第二行就会掉出一个「源。」孤字（改这行前先量一下宽度） */
+  h1{font-size:48px;line-height:1.2;letter-spacing:-.03em;font-weight:650}
+  h1 em{
+    font-style:normal;
+    background:linear-gradient(90deg,#B79AFF,#FF8E6A);
+    -webkit-background-clip:text;background-clip:text;
+    -webkit-text-fill-color:transparent;color:transparent;
+  }
+  p{margin-top:22px;font-size:19px;line-height:1.7;color:#A6ABB6;max-width:660px}
 
-  footer{display:flex;align-items:flex-end;justify-content:space-between;position:relative}
-  .host{font-size:17px;color:#8B887C;letter-spacing:.02em}
-  .count{font-size:17px;color:#55534B}
-  .count b{color:#1A1915;font-weight:650}
+  footer{display:flex;align-items:flex-end;justify-content:space-between;gap:24px}
+  .host{font-size:17px;color:#71767F;letter-spacing:.02em}
+  .facts{display:flex;gap:10px}
+  .fact{
+    font-size:14.5px;color:#A6ABB6;
+    border:1px solid rgba(255,255,255,.14);border-radius:999px;
+    padding:6px 14px;background:rgba(255,255,255,.05);
+  }
 </style>
 </head>
 <body>
-  <div class="tiles"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="glow"></div>
 
-  <header><span class="dot"></span>XihaoUC</header>
+  <header>
+    <span class="mark"><i></i><i></i><i></i></span>
+    西浩资源库
+    <span class="tag">开源软件 · AI 工具 · 中文教程</span>
+  </header>
 
   <main>
-    <p class="eyebrow">GitHub 开源软件合集</p>
-    <h1>把好用的开源软件，<br>从 GitHub 带到<em>你的手机</em>。</h1>
-    <p>覆盖影音播放、动漫阅读、系统工具、图片处理、效率笔记与生活健康。</p>
+    <p class="eyebrow">GitHub 开源资源 · 每条都核实过</p>
+    <h1>把 GitHub 上值得用的东西，<br>做成你<em>直接能拿到手</em>的中文资源。</h1>
+    <p>开源软件、AI 工具与中文教程的整理索引：附官方仓库、协议说明与百度网盘获取方式，提取码一键复制。</p>
   </main>
 
   <footer>
     <span class="host">www.xihaouc.top</span>
-    <span class="count"><b>37</b> 款免费开源软件 · <b>6</b> 个分类 · 无广告</span>
+    <span class="facts">
+      <span class="fact">逐条核实</span>
+      <span class="fact">不编造</span>
+      <span class="fact">网盘直取</span>
+      <span class="fact">无广告</span>
+    </span>
   </footer>
 </body>
 </html>

@@ -1,0 +1,50 @@
+{
+  "type": "skill",
+  "slug": "api-and-interface-design",
+  "name": "api-and-interface-design",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/api-and-interface-design",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/api-and-interface-design",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 14884
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 15952,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/14AGyYh4T3qkyyUtSqPwSdA",
+  "pwd": "xa75",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "API 与接口设计",
+  "tagline": "定住模块边界，别让接口反复改",
+  "desc": "指导稳定的 API 与接口设计：写 REST 或 GraphQL 端点、定义模块之间的类型契约、划前后端边界时用它。核心目标是接口一旦定下来就不要反复改。",
+  "features": [
+    "REST / GraphQL 端点设计",
+    "模块之间的类型契约",
+    "前后端边界划分",
+    "以「稳定、不反复改」为设计目标"
+  ],
+  "install": [
+    "把 api-and-interface-design 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

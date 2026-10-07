@@ -1,0 +1,72 @@
+{
+  "$note": "标签规则。只根据条目自身文本（名称/定位/正文/特性/分类）做关键词归类，不人工贴标签——这样每个标签都有据可查，页面上也能如实写出归类依据。命中条目数低于 minItems 的标签不产出页面：一个标签页只挂 1-2 个条目属于薄内容，百度会判低质，宁可不做。",
+
+  "minItems": 3,
+
+  "$design_note": "标签必须是「跨分类」的维度，不能和分类页重合：影音播放/系统工具这些是分类，无广告/离线可用/支持桌面端才是标签。重合就等于自己跟自己制造重复内容。",
+
+  "$source_note": "两种归类来源，页面上会分开写明：kw = 按条目自身介绍文本归类；license / platform = 按核实到的字段归类。有核实字段能用时优先用核实字段——宣传文本可能是套话（实测有条目介绍里写「兼容 Android 和桌面平台」，而核实到的平台只有 Android）。",
+
+  "tags": [
+    {
+      "slug": "no-ads",
+      "name": "无广告",
+      "basis": "条目介绍中明确写出不含广告",
+      "kw": ["无广告", "没有广告", "不含广告", "免广告", "无任何广告"]
+    },
+    {
+      "slug": "offline",
+      "name": "离线可用",
+      "basis": "条目介绍中提到可离线使用，或数据保存在本地",
+      "kw": ["离线", "断网", "无需联网", "本地存储", "本地优先", "本地数据", "无需网络", "不联网"]
+    },
+    {
+      "slug": "lightweight",
+      "name": "轻量简洁",
+      "basis": "条目介绍中以轻量、小巧、简洁或极简为主要卖点",
+      "kw": ["轻量", "小巧", "极简", "简洁", "清爽", "无多余", "体积小"]
+    },
+    {
+      "slug": "privacy",
+      "name": "隐私友好",
+      "basis": "条目介绍中提到隐私保护、去中心化、端到端加密或不做追踪",
+      "kw": ["隐私", "私密", "去中心化", "端到端", "加密", "无追踪", "不收集", "匿名"]
+    },
+    {
+      "slug": "self-hosted",
+      "name": "可自建服务",
+      "basis": "条目介绍中提到可连接自建服务器、私有云或 NAS",
+      "kw": ["自建", "自托管", "私有云", "nas", "服务器", "jellyfin"]
+    },
+    {
+      "slug": "desktop",
+      "name": "支持桌面端",
+      "basis": "核实到的支持平台中包含 Windows / macOS / Linux",
+      "platform": ["Windows", "macOS", "Linux", "跨平台"]
+    },
+    {
+      "slug": "ios",
+      "name": "支持 iOS",
+      "basis": "核实到的支持平台中包含 iOS",
+      "platform": ["iOS"]
+    },
+    {
+      "slug": "android-tv",
+      "name": "支持 Android TV",
+      "basis": "核实到的支持平台中包含 Android TV",
+      "platform": ["TV"]
+    },
+    {
+      "slug": "license-gpl",
+      "name": "GPL 系协议",
+      "basis": "核实到的开源协议为 GPL / AGPL / LGPL 系列",
+      "license": ["GPL", "AGPL", "LGPL"]
+    },
+    {
+      "slug": "license-permissive",
+      "name": "宽松协议",
+      "basis": "核实到的开源协议为 MIT / Apache / BSD 等宽松许可",
+      "license": ["MIT", "Apache", "BSD", "ISC", "MPL", "Unlicense", "CC0", "Zlib"]
+    }
+  ]
+}

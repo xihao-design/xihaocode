@@ -1,0 +1,159 @@
+{
+  "$comment": "AI 库的两级分类。父类来自 site.config.json 的 toolCategories；这里定义每个父类下的功能子类及成员 slug。",
+  "$basis_note": "成员归属是**人工逐条判定**的，不做关键词匹配 —— 实测关键词会犯实质错误：ACE Studio（歌声合成）因介绍里有「分离」被判进「音轨分离」；魔音工坊 / 讯飞智作（配音平台）因介绍里有「音色克隆」被判进「语音克隆」。子类页归错类比没有子类页更糟，访客一眼就看出不对。判定依据只写在这一处，页面、筛选条、侧栏都读它。",
+  "$gate_note": "minItems 门槛 + 两条附加规则，都在 build.mjs 里执行并逐条打印原因：(1) 成员数不足门槛的子类不产出页面；(2) 成员与父类完全相同的子类不产出页面（那是父类页的副本）。不够门槛的子类只作为分类页上的筛选标签，不进 sitemap、不进侧栏。成员可以跨子类重复 —— 子类是功能视角，一个工具能做两件事就如实出现在两处。",
+  "$audit_note": "slug 列表必须与父类实际成员一致；build.mjs 会校验每个 slug 是否属于该父类，不属于就报出来并忽略。本轮据此修掉过 3 处人工错记（meitu-designkit 实际在 design 不在 image、jimeng 在 image 不在 video、xunfei-zhiwen 在 design 不在 work）。",
+  "minItems": 4,
+  "subcats": [
+    {
+      "cat": "chatbot",
+      "desc": "通用大模型对话助手",
+      "items": [
+        { "slug": "chat", "name": "通用对话助手", "desc": "日常问答、写作与通用任务的对话助手", "slugs": ["chatgpt", "claude", "gemini", "doubao", "kimi", "qwen", "wenxin-yiyan", "xinghuo", "yuanbao", "deepseek"] },
+        { "slug": "long-doc", "name": "长文本与文档解析", "slugs": ["kimi", "claude", "doubao", "chatgpt", "gemini"] },
+        { "slug": "multimodal", "name": "多模态理解", "slugs": ["chatgpt", "claude", "gemini", "doubao", "yuanbao", "xinghuo"] }
+      ]
+    },
+    {
+      "cat": "writing",
+      "desc": "文案、论文、公文与小说写作辅助",
+      "items": [
+        { "slug": "proofreading", "name": "语法校对与润色", "desc": "纠错、改写、润色与语气调整", "slugs": ["grammarly", "xiezuocat", "quillbot", "deepl-write"] },
+        { "slug": "marketing-copy", "name": "营销与文案生成", "desc": "批量生成营销、广告与社媒文案", "slugs": ["copy-ai", "jasper", "rytr"] },
+        { "slug": "fiction", "name": "小说与网文创作", "desc": "面向长篇虚构创作的续写、大纲与情节扩写", "slugs": ["wawawriter", "xiezuocat"] },
+        { "slug": "academic-writing", "name": "学术写作辅助", "desc": "论文与学术场景的写作辅助", "slugs": ["xiezuocat"] }
+      ]
+    },
+    {
+      "cat": "coding",
+      "desc": "代码补全、AI 编程助手与自主编码",
+      "items": [
+        { "slug": "ai-ide", "name": "AI 编程 IDE", "desc": "自带 AI 能力的完整编辑器，可跨文件改造代码库", "slugs": ["cursor", "windsurf", "replit"] },
+        { "slug": "completion-plugins", "name": "代码补全插件", "desc": "装在既有编辑器里的补全与对话插件", "slugs": ["github-copilot", "tabnine", "lingma", "codegeex", "amazon-q-developer"] },
+        { "slug": "coding-agents", "name": "自主编码智能体", "desc": "能自行读写文件、执行命令与跑测试的编码代理", "slugs": ["claude-code", "cline"] }
+      ]
+    },
+    {
+      "cat": "image",
+      "desc": "文生图、图片编辑与抠图放大",
+      "items": [
+        { "slug": "text-to-image", "name": "文生图", "desc": "用提示词从零生成图片", "slugs": ["midjourney", "dall-e-3", "stable-diffusion", "jimeng", "wanxiang", "ideogram", "leonardo-ai"] },
+        { "slug": "img2img-edit", "name": "图生图与局部编辑", "desc": "基于已有图片重绘、扩图与局部修改", "slugs": ["stable-diffusion", "jimeng", "wanxiang", "leonardo-ai", "ideogram"] },
+        { "slug": "upscale-restore", "name": "图像放大与修复", "desc": "提升分辨率、修复画质与细节增强", "slugs": ["leonardo-ai", "midjourney", "stable-diffusion"] },
+        { "slug": "background-removal", "name": "抠图去背景", "desc": "识别主体并移除背景", "slugs": ["remove-bg"] },
+        { "slug": "text-rendering", "name": "文字渲染与海报", "desc": "图中文字排版能力突出，适合海报与标志", "slugs": ["ideogram", "dall-e-3"] }
+      ]
+    },
+    {
+      "cat": "video",
+      "desc": "文生视频、数字人与视频剪辑",
+      "items": [
+        { "slug": "text-image-to-video", "name": "文生视频与图生视频", "desc": "用文字或图片生成视频片段", "slugs": ["kling-ai", "hailuo-ai", "vidu", "runway", "pixverse", "hunyuanvideo", "jianying"] },
+        { "slug": "digital-human", "name": "数字人与口播", "desc": "虚拟形象播报、口型同步与音色克隆", "slugs": ["heygen", "dujia", "jianying"] },
+        { "slug": "video-editing", "name": "AI 视频剪辑", "desc": "自动成片、智能剪辑与画质处理", "slugs": ["jianying", "dujia"] }
+      ]
+    },
+    {
+      "cat": "audio",
+      "desc": "配音、语音克隆、转写与会议记录",
+      "items": [
+        { "slug": "transcription", "name": "转写与会议记录", "desc": "语音转文字、字幕生成与会议纪要", "slugs": ["whisper", "tingwu", "otter-ai", "descript"] },
+        { "slug": "tts-dubbing", "name": "语音合成与配音", "desc": "文字转语音、多种音色与配音导出", "slugs": ["elevenlabs", "xunfei-peiyin", "moyin", "cosyvoice", "gpt-sovits"] },
+        { "slug": "voice-clone", "name": "语音克隆与复刻", "desc": "用少量音频样本复刻特定音色", "slugs": ["cosyvoice", "gpt-sovits", "elevenlabs"] },
+        { "slug": "denoise", "name": "音频降噪与修复", "desc": "削弱噪声混响、提升人声清晰度", "slugs": ["adobe-podcast"] }
+      ]
+    },
+    {
+      "cat": "music",
+      "desc": "作曲、歌声合成与音轨分离",
+      "items": [
+        { "slug": "song-generation", "name": "AI 歌曲生成", "desc": "按歌词或描述生成带人声的完整歌曲", "slugs": ["suno", "udio", "tiangong-skymusic", "musicgen", "stable-audio", "netease-tianyin"] },
+        { "slug": "stem-separation", "name": "音轨分离", "desc": "把成品歌曲拆成人声与各乐器声部", "slugs": ["demucs", "moises", "lalal-ai"] },
+        { "slug": "singing-synthesis", "name": "歌声合成", "desc": "输入歌词与旋律生成演唱人声", "slugs": ["ace-studio", "netease-tianyin"] }
+      ]
+    },
+    {
+      "cat": "design",
+      "desc": "海报、PPT、Logo 与界面设计",
+      "items": [
+        { "slug": "graphic-design", "name": "海报与平面设计", "desc": "模板化出图，面向新媒体与电商运营", "slugs": ["gaoding", "chuangkit", "meitu-designkit", "canva", "adobe-firefly"] },
+        { "slug": "ui-prototyping", "name": "界面与原型设计", "desc": "界面设计稿、组件与原型制作", "slugs": ["figma", "penpot"] },
+        { "slug": "slides", "name": "演示文稿设计", "desc": "按主题生成成套幻灯片版式", "slugs": ["gamma", "canva", "xunfei-zhiwen"] },
+        { "slug": "logo-brand", "name": "Logo 与品牌", "desc": "生成品牌标识及配套视觉物料", "slugs": ["looka", "meitu-designkit"] }
+      ]
+    },
+    {
+      "cat": "work",
+      "desc": "文档表格、会议纪要与办公提效",
+      "items": [
+        { "slug": "docs-sheets", "name": "文档与表格处理", "desc": "写作、公式生成、数据解释与文档问答", "slugs": ["wps-ai", "tencent-docs-ai", "baidu-wenku-ai", "notion-ai", "feishu-ai", "dingtalk-ai"] },
+        { "slug": "deck-generation", "name": "演示文稿生成", "desc": "输入主题生成 PPT 与大纲", "slugs": ["wps-ai", "baidu-wenku-ai", "tencent-docs-ai"] },
+        { "slug": "meeting-notes", "name": "会议与记录", "desc": "会议纪要、消息总结与录音转写", "slugs": ["feishu-ai", "dingtalk-ai"] }
+      ]
+    },
+    {
+      "cat": "search",
+      "desc": "AI 搜索、答案引擎与个人知识库",
+      "items": [
+        { "slug": "answer-engine", "name": "AI 搜索与答案引擎", "desc": "直接给答案并标注来源的联网搜索", "slugs": ["perplexity", "metaso", "tiangong-ai", "nano-ai", "quark-ai", "zhihu-zhida"] },
+        { "slug": "academic-search", "name": "学术与科研检索", "desc": "面向论文与文献的检索和证据汇总", "slugs": ["consensus", "elicit", "notebooklm"] },
+        { "slug": "knowledge-base", "name": "个人知识库", "desc": "把自有资料做成可问答的知识库", "slugs": ["notebooklm"] }
+      ]
+    },
+    {
+      "cat": "agents",
+      "desc": "智能体平台与工作流自动化",
+      "items": [
+        { "slug": "agent-platform", "name": "智能体开发平台", "desc": "零代码或可视化搭建并发布智能体", "slugs": ["coze", "dify", "zhipu-qingyan", "wenxin-agentbuilder", "tencent-yuanqi"] },
+        { "slug": "workflow-automation", "name": "工作流自动化", "desc": "连接多个应用、编排多步骤自动化流程", "slugs": ["zapier", "n8n", "make", "gumloop", "manus"] }
+      ]
+    },
+    {
+      "cat": "study",
+      "desc": "学习辅导、语言学习与学术辅助",
+      "items": [
+        { "slug": "course-tutor", "name": "课程与学习辅导", "desc": "随课程答疑、生成学习指南与练习", "slugs": ["coursera-coach", "khanmigo"] },
+        { "slug": "photo-solver", "name": "拍照与解题", "desc": "拍照或输入题目给出分步解答", "slugs": ["zuoyebang", "xiaoyuan-ai", "photomath", "solvely"] },
+        { "slug": "flashcards", "name": "闪卡与记忆复习", "desc": "把资料转成闪卡并按计划安排复习", "slugs": ["gizmo", "studyfetch", "turbo-ai"] },
+        { "slug": "language-learning", "name": "语言学习", "desc": "游戏化或多语种的语言练习", "slugs": ["duolingo"] }
+      ]
+    },
+    {
+      "cat": "prompts",
+      "desc": "提示词库、调试与效果评测",
+      "items": [
+        { "slug": "prompt-eval", "name": "提示词调试与评测", "desc": "版本管理、链路追踪与批量回归测试", "slugs": ["langsmith", "langfuse", "promptfoo", "latitude", "agenta", "braintrust", "promptlayer"] },
+        { "slug": "prompt-library", "name": "提示词库与社区", "desc": "浏览、分享与直接试用他人的提示词", "slugs": ["flowgpt", "promptlayer"] },
+        { "slug": "prompt-programming", "name": "提示词编程", "desc": "用代码声明流程并自动优化提示词", "slugs": ["dspy"] }
+      ]
+    },
+    {
+      "cat": "model",
+      "desc": "开源模型托管、推理与微调",
+      "items": [
+        { "slug": "local-inference", "name": "本地运行与推理", "desc": "在自己机器上加载并运行开源模型", "slugs": ["ollama", "lm-studio", "llama-factory"] },
+        { "slug": "model-hub", "name": "模型托管与下载", "desc": "搜索、下载与分享开源模型权重", "slugs": ["hugging-face", "modelscope", "llama-factory"] },
+        { "slug": "inference-api", "name": "云端推理与 API", "desc": "按调用量使用开源模型的托管服务", "slugs": ["replicate", "together-ai", "openrouter", "siliconflow"] },
+        { "slug": "fine-tuning", "name": "模型微调与训练", "desc": "用自有数据微调模型", "slugs": ["llama-factory", "hugging-face", "modelscope", "together-ai"] },
+        { "slug": "model-arena", "name": "模型评测与对决", "desc": "公开榜单与匿名对战式的模型比较", "slugs": ["lmarena"] }
+      ]
+    },
+    {
+      "cat": "compute",
+      "desc": "GPU 云、按量算力与免费额度",
+      "items": [
+        { "slug": "gpu-rental", "name": "GPU 租用", "desc": "按小时或按秒租用 GPU 实例", "slugs": ["autodl", "gpushare", "gongji-suanli", "luchen-cloud", "runpod", "vast-ai", "lanrui-ai", "lightning-ai"] },
+        { "slug": "free-notebook", "name": "免费算力与 Notebook", "desc": "提供免费额度的在线 Notebook 环境", "slugs": ["google-colab", "lightning-ai", "modal"] },
+        { "slug": "deploy-api", "name": "模型部署与推理 API", "desc": "把模型部署成可调用的推理端点", "slugs": ["modal", "runpod", "gongji-suanli", "luchen-cloud"] }
+      ]
+    },
+    {
+      "cat": "lawyer",
+      "desc": "合同审查、法律检索与文书起草",
+      "items": [
+        { "slug": "contract-review", "name": "合同审查", "desc": "审查条款、比对版本并提示风险", "slugs": ["mecheck", "legalon", "ironclad", "spellbook", "fatianshi", "harvey", "tongyi-farui"] },
+        { "slug": "legal-research", "name": "法律检索与文书", "desc": "检索法规案例并起草法律文书", "slugs": ["cocounsel", "delilegal", "fatianshi", "fagougou", "tongyi-farui"] }
+      ]
+    }
+  ]
+}

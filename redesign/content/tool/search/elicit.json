@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "elicit",
+  "status": "ok",
+  "cat": "search",
+  "name": "Elicit",
+  "nameZh": "Elicit",
+  "vendor": "Ought Inc.",
+  "tagline": "面向科研的文献助手，可从论文中批量提取数据并综述",
+  "desc": "Elicit 是 Ought 的产品，面向科研的文献助手，可从论文中批量提取数据并综述。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页。",
+  "site": "https://elicit.com/",
+  "pricingUrl": "https://elicit.com/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "基于研究问题检索论文并生成结构化数据表",
+    "支持批量抽取样本量、研究方法等字段信息",
+    "可对选定文献自动生成文献综述草稿",
+    "免费账号每月提供一定积分，付费方案提升额度"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 elicit.com/",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchC-work-search-agents-study"
+}

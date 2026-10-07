@@ -1,0 +1,49 @@
+{
+  "type": "skill",
+  "slug": "ci-cd-and-automation",
+  "name": "ci-cd-and-automation",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/ci-cd-and-automation",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/ci-cd-and-automation",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 11332
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 12400,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/13EG6Xr96mSuxZWz8GAZxCg",
+  "pwd": "b8bs",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "CI/CD 与自动化",
+  "tagline": "把质量闸门和部署策略写进流水线",
+  "desc": "自动化 CI/CD 流水线的搭建与修改：把质量闸门自动化、在 CI 里配好测试运行器、确立部署策略。新建或调整构建与部署流程时用它。",
+  "features": [
+    "质量闸门自动化",
+    "在 CI 中配置测试运行器",
+    "确立部署策略"
+  ],
+  "install": [
+    "把 ci-cd-and-automation 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

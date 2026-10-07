@@ -1,0 +1,34 @@
+{
+  "type": "tool",
+  "slug": "notebooklm",
+  "status": "ok",
+  "cat": "search",
+  "name": "NotebookLM",
+  "nameZh": "NotebookLM",
+  "vendor": "Google",
+  "tagline": "谷歌的文档知识库助手，可基于资料问答并生成音频概览",
+  "desc": "NotebookLM 是 Google 的产品，谷歌的文档知识库助手，可基于资料问答并生成音频概览。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。原生支持中文输入输出。支持平台：网页、iOS、Android。",
+  "site": "https://notebooklm.google.com/",
+  "pricingUrl": "https://workspace.google.com/products/notebooklm/",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    "将上传的 PDF、网页等资料作为回答依据并给出引用",
+    "可自动生成学习指南、时间线与思维导图",
+    "能把资料转化为双人对谈形式的音频概览",
+    "个人版免费提供一定数量的笔记本与对话额度"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 notebooklm.google.com/",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchC-work-search-agents-study"
+}

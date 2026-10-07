@@ -1,0 +1,34 @@
+{
+  "type": "tool",
+  "slug": "demucs",
+  "status": "ok",
+  "cat": "music",
+  "name": "Demucs",
+  "nameZh": "Demucs",
+  "vendor": "Meta",
+  "tagline": "Meta开源的音乐音源分离模型，可拆分人声与伴奏",
+  "desc": "Demucs 是 Meta 的产品，音乐音源分离模型，可拆分人声与伴奏。完全免费。从中国大陆可以直连访问。以英文界面与英文输入为主。支持平台：Linux、macOS、Windows。项目源码在 github.com/facebookresearch/demucs 公开，可自行查看实现。",
+  "site": "https://github.com/facebookresearch/demucs",
+  "pricingUrl": "",
+  "repo": "https://github.com/facebookresearch/demucs",
+  "opensource": true,
+  "freeTier": "free",
+  "needsVpn": false,
+  "zhSupport": false,
+  "platforms": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "features": [
+    "采用混合频谱与波形分离架构",
+    "可将歌曲拆分为人声、鼓、贝斯等声部",
+    "提供命令行工具与Python接口",
+    "部分模型支持六轨分离"
+  ],
+  "howto": [
+    "打开官网 github.com/facebookresearch/demucs",
+    "按官方文档说明部署或调用，可完全离线运行"
+  ],
+  "sourceBatch": "video-audio-music-design"
+}

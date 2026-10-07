@@ -1,0 +1,36 @@
+{
+  "type": "tool",
+  "slug": "chatgpt",
+  "status": "ok",
+  "cat": "chatbot",
+  "name": "ChatGPT",
+  "nameZh": "ChatGPT",
+  "vendor": "OpenAI",
+  "tagline": "OpenAI 的通用对话助手，支持问答、写作与代码生成",
+  "desc": "ChatGPT 是 OpenAI 的产品，通用对话助手，支持问答、写作与代码生成。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。原生支持中文输入输出。支持平台：网页、Windows、macOS、iOS、Android。",
+  "site": "https://chatgpt.com",
+  "pricingUrl": "https://openai.com/chatgpt/pricing/",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "Windows",
+    "macOS",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    "支持多轮对话、文件上传、图像生成与代码执行",
+    "免费版可用基础模型，但消息与功能有额度限制",
+    "付费订阅可提高额度并使用更高能力模型",
+    "提供网页版、桌面客户端和手机应用"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 chatgpt.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchA-writing-chatbot-coding-image"
+}

@@ -1,0 +1,37 @@
+{
+  "type": "tool",
+  "slug": "tencent-docs-ai",
+  "status": "ok",
+  "cat": "work",
+  "name": "Tencent Docs AI",
+  "nameZh": "腾讯文档 AI",
+  "vendor": "腾讯（Tencent）",
+  "tagline": "腾讯文档的 AI 能力入口，支持写作、表格分析与演示生成",
+  "desc": "腾讯文档 AI 是腾讯（Tencent）的产品，腾讯文档的 AI 能力入口，支持写作、表格分析与演示生成。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页、Windows、macOS、iOS、Android、微信小程序。",
+  "site": "https://docs.qq.com/ai/",
+  "pricingUrl": "https://docs.qq.com/vip",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "Windows",
+    "macOS",
+    "iOS",
+    "Android",
+    "微信小程序"
+  ],
+  "features": [
+    "官网独立入口为 docs.qq.com/ai",
+    "可在文档与表格中生成内容、润色文字并解释数据",
+    "支持将内容一键整理为演示文稿",
+    "基础功能随免费账号开放，高级额度需开通会员"
+  ],
+  "howto": [
+    "打开官网 docs.qq.com/ai/",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchC-work-search-agents-study"
+}

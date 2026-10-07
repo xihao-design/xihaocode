@@ -1,0 +1,34 @@
+{
+  "type": "tool",
+  "slug": "lm-studio",
+  "status": "ok",
+  "cat": "model",
+  "name": "LM Studio",
+  "nameZh": "LM Studio",
+  "vendor": "Element Labs, Inc.",
+  "tagline": "桌面端本地大模型运行工具，图形界面搜索下载并加载模型对话",
+  "desc": "LM Studio，由 Element Labs 推出，桌面端本地大模型运行工具，图形界面搜索下载并加载模型对话。完全免费。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：Windows、macOS、Linux。",
+  "site": "https://lmstudio.ai",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "free",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "features": [
+    "提供图形界面搜索并下载 GGUF 模型",
+    "支持本地模型离线对话与文档问答",
+    "内置兼容 OpenAI 格式的本地服务器",
+    "个人与工作场景均可免费使用"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 lmstudio.ai",
+    "按官方说明免费使用，通常需要注册账号"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

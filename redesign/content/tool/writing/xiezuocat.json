@@ -1,0 +1,33 @@
+{
+  "type": "tool",
+  "slug": "xiezuocat",
+  "status": "ok",
+  "cat": "writing",
+  "name": "秘塔写作猫",
+  "nameZh": "秘塔写作猫",
+  "vendor": "秘塔科技",
+  "tagline": "中文写作校对工具，提供纠错、润色、改写与续写",
+  "desc": "秘塔写作猫，由秘塔科技推出，中文写作校对工具，提供纠错、润色、改写与续写。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页、Windows。",
+  "site": "https://xiezuocat.com",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "Windows"
+  ],
+  "features": [
+    "面向中文的智能纠错、润色、改写与续写",
+    "支持长文档写作与公文、论文等多种场景",
+    "由秘塔科技开发，使用自研 MetaLLM 大模型",
+    "网页端可直接使用，部分功能需要会员"
+  ],
+  "howto": [
+    "打开官网 xiezuocat.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchA-writing-chatbot-coding-image"
+}

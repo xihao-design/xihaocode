@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "gamma",
+  "status": "ok",
+  "cat": "design",
+  "name": "Gamma",
+  "nameZh": "Gamma",
+  "vendor": "Gamma",
+  "tagline": "AI演示文稿生成工具，输入主题即可生成幻灯片",
+  "desc": "Gamma：AI 演示文稿生成工具，输入主题即可生成幻灯片。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。原生支持中文输入输出。支持平台：网页。",
+  "site": "https://gamma.app",
+  "pricingUrl": "https://gamma.app/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": true,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "输入主题即可生成图文并茂的演示稿",
+    "支持导出PPTX与PDF文件",
+    "生成结果以网页形式在线分享",
+    "提供AI配图与排版一键调整"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 gamma.app",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "video-audio-music-design"
+}

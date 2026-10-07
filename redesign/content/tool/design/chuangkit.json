@@ -1,0 +1,34 @@
+{
+  "type": "tool",
+  "slug": "chuangkit",
+  "status": "ok",
+  "cat": "design",
+  "name": "创客贴",
+  "nameZh": "创客贴",
+  "vendor": "创客贴科技",
+  "tagline": "在线设计工具，提供海报、名片等中文模板素材",
+  "desc": "创客贴，由创客贴科技推出，在线设计工具，提供海报、名片等中文模板素材。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页、iOS、Android。",
+  "site": "https://www.chuangkit.com",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    "提供海报、名片、公众号配图等模板",
+    "支持拖拽编辑与多人团队协作",
+    "可导出PNG、JPG与PDF等格式",
+    "提供企业品牌素材管理功能"
+  ],
+  "howto": [
+    "打开官网 www.chuangkit.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "video-audio-music-design"
+}

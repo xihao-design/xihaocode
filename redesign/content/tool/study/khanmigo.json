@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "khanmigo",
+  "status": "ok",
+  "cat": "study",
+  "name": "Khanmigo",
+  "nameZh": "Khanmigo",
+  "vendor": "Khan Academy",
+  "tagline": "可汗学院推出的 AI 辅导工具，用提问引导而非直接给答案",
+  "desc": "Khanmigo 是 Khan Academy 的产品，可汗学院推出的 AI 辅导工具，用提问引导而非直接给答案。需要付费使用，官网可查具体方案。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页。",
+  "site": "https://www.khanmigo.ai/",
+  "pricingUrl": "https://www.khanmigo.ai/parents",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "paid",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "以苏格拉底式提问引导学生自行推导答案",
+    "覆盖数学、科学、人文等可汗学院课程内容",
+    "为教师提供备课与批改辅助功能",
+    "面向个人与家长按月订阅收费，部分地区教师免费"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 www.khanmigo.ai/",
+    "官网了解具体方案后开通使用"
+  ],
+  "sourceBatch": "batchC-work-search-agents-study"
+}

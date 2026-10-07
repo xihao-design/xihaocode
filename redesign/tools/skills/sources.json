@@ -1,0 +1,63 @@
+{
+  "$note": "技能类目的采集源配置。topic 选型是实测出来的（npm run topics），不是凭印象定的；被放弃的 topic 连同放弃理由一起记在 dropped 里，避免以后有人凭直觉再加回来。",
+
+  "minStars": 200,
+  "$minStars_note": "技能类不按条目卡 Star，而是按**仓库**卡。原因：单个 skill 没有 Star 数据，而优质 skill 往往集中在大仓库里（实测 anthropics/skills 一个仓库 20 个 skill，wshobson/agents 一个仓库 183 个）。门槛定在仓库级 200，比 app 类的 300 略松——技能生态整体更年轻。",
+
+  "pushedWithinDays": 240,
+  "requireLicense": false,
+  "$license_note": "技能类**不要求**仓库有协议，但要求**目录级**能查到授权：先看 skill 目录内的 LICENSE，再看仓库根 LICENSE，都没有就降级为「仅中文介绍 + 官方获取指引」，不放网盘包。硬性拒收仓库级协议（仓库级 license 字段为 null 而目录里有 LICENSE 是常态，实测 anthropics/skills 就是这样——按仓库判会把最优质的源整仓拒收）。",
+
+  "maxReposPerRun": 40,
+  "$maxReposPerRun_note": "每次内省多少个仓库。每扫一个仓库的目录树是 1 次核心 API 请求，配了 Token 是 5000 次/小时，40 个绰绰有余；扫描量想放大就调这里或用 --limit。",
+
+  "sources": [
+    {
+      "id": "agent-skills",
+      "role": "primary",
+      "topics": ["agent-skills", "claude-skills"],
+      "measured": "agent-skills ★≥300 可用 429 / 总量 24890；claude-skills 可用 202 / 总量 8822",
+      "note": "技能主源。官方技能库 anthropics/skills 挂在 agent-skills 下。"
+    },
+    {
+      "id": "mcp-server",
+      "role": "primary",
+      "topics": ["mcp-server", "model-context-protocol"],
+      "measured": "mcp-server ★≥300 可用 532 / 总量 29744；model-context-protocol 可用 274 / 总量 29971",
+      "note": "MCP 服务主源。两个 topic 高度重叠，必须按 repoFullName 去重。",
+      "deliverable": "config"
+    },
+    {
+      "id": "claude-code-plugin",
+      "role": "supplement",
+      "topics": ["claude-code-plugin"],
+      "measured": "★≥300 可用仅 79 / 总量 6681",
+      "note": "量偏少，只做补源，不单独撑类目。"
+    }
+  ],
+
+  "dropped": [
+    {
+      "topic": "cursor-rules",
+      "measured": "★≥300 可用 9 / 总量 499",
+      "reason": "撑不起类目。只做单条收录，不做标签页/频道页。"
+    },
+    {
+      "topic": "n8n-workflow",
+      "measured": "★≥300 可用 13 / 总量 1355",
+      "reason": "同上。"
+    },
+    {
+      "topic": "ai-agents",
+      "measured": "★≥300 可用 1302 / 总量 96493",
+      "reason": "量最大但最杂，实测按 Star 排序的头部全是综合 Agent 框架（服务端项目），不是「工具」条目。只当候选池补充，且类型必须靠内省判定，不能靠 topic 判定。"
+    },
+    {
+      "topic": "mcp / claude-code",
+      "measured": "总量 79518 / 75766（未量可用数）",
+      "reason": "太泛。实测同一个仓库在这些 topic 里反复出现，topic 标记被滥用（项目为了被搜到把热门 topic 全挂上），命中 topic 不能作为「这项目是什么」的证据。"
+    }
+  ],
+
+  "$topic_abuse_note": "实测同一个仓库跨多个 topic 反复出现：DietrichGebert/ponytail 同时挂在 cursor-rules / claude-code-plugin / prompt-engineering；affaan-m/ECC 挂在 ai-agents / mcp / claude-code。更明显的是 topic:mcp-server 按 Star 排序第一名是 n8n（一个工作流平台，只是顺带支持 MCP）。所以：跨 topic 必须去重，且类型必须由目录内省决定。"
+}

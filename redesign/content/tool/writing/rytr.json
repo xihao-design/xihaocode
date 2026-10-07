@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "rytr",
+  "status": "ok",
+  "cat": "writing",
+  "name": "Rytr",
+  "nameZh": "Rytr",
+  "vendor": "Rytr",
+  "tagline": "按模板生成营销与博客文案的 AI 写作工具",
+  "desc": "Rytr：按模板生成营销与博客文案的 AI 写作工具。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。以英文界面与英文输入为主。支持平台：网页。",
+  "site": "https://rytr.me",
+  "pricingUrl": "https://rytr.me/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": false,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "提供 40 多种写作模板，覆盖博客与营销文案",
+    "支持 30 多种语言的文本生成",
+    "免费计划每月提供一定字符额度",
+    "付费计划提高字符额度并增加语气与风格选项"
+  ],
+  "howto": [
+    "打开官网 rytr.me",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchA-writing-chatbot-coding-image"
+}

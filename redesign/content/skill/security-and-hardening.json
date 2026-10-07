@@ -1,0 +1,56 @@
+{
+  "type": "skill",
+  "slug": "security-and-hardening",
+  "name": "security-and-hardening",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/security-and-hardening",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/security-and-hardening",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 17178
+    },
+    {
+      "path": "references/hardening-patterns.md",
+      "bytes": 13036
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 31282,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1FSSI_cDUBi2L8U5wRobAQQ",
+  "pwd": "x619",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "安全加固",
+  "tagline": "登录流程对着 OWASP Top Ten 逐条查",
+  "desc": "加固代码以抵御漏洞：审计输入处理、处理用户输入与鉴权、数据存储、外部集成，检查登录流程是否扛得住 OWASP Top Ten；任何接受不可信数据、管理用户会话、对接第三方服务的功能都适用；也用于审计依赖里的已知漏洞。",
+  "features": [
+    "输入处理审计",
+    "登录流程对照 OWASP Top Ten",
+    "用户会话与数据存储",
+    "第三方集成",
+    "依赖的已知漏洞审计",
+    "附 references/hardening-patterns.md"
+  ],
+  "install": [
+    "把 security-and-hardening 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

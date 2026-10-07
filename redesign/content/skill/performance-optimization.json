@@ -1,0 +1,51 @@
+{
+  "type": "skill",
+  "slug": "performance-optimization",
+  "name": "performance-optimization",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/performance-optimization",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/performance-optimization",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 21717
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 22785,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1rgzYPCs1KlQGBIpYVj0KeQ",
+  "pwd": "vj4n",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "性能优化",
+  "tagline": "前端、后端、查询、数据库一起看",
+  "desc": "跨前端、后端、查询与数据库做性能优化：有性能指标要求、怀疑出现性能回退、Core Web Vitals 或加载时间需要改善、N+1 查询要修、或者剖析已经指出瓶颈时用它。",
+  "features": [
+    "前端与后端性能",
+    "查询与数据库层",
+    "Core Web Vitals 与加载时间",
+    "N+1 查询修复",
+    "以剖析结果定位瓶颈"
+  ],
+  "install": [
+    "把 performance-optimization 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

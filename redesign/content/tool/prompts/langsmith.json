@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "langsmith",
+  "status": "ok",
+  "cat": "prompts",
+  "name": "LangSmith",
+  "nameZh": "LangSmith",
+  "vendor": "LangChain, Inc.",
+  "tagline": "LangChain 推出的提示词调试、追踪与评测平台",
+  "desc": "LangSmith 是 LangChain 的产品，提示词调试、追踪与评测平台。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页。",
+  "site": "https://smith.langchain.com",
+  "pricingUrl": "https://www.langchain.com/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "提供提示词版本管理与在线 Playground 调试",
+    "可记录每次模型调用的完整链路与耗时",
+    "支持数据集回归测试与自动化评分",
+    "免费开发者套餐每月含一定调用额度"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 smith.langchain.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

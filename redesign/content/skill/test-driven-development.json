@@ -1,0 +1,49 @@
+{
+  "type": "skill",
+  "slug": "test-driven-development",
+  "name": "test-driven-development",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/test-driven-development",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/test-driven-development",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 16517
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 17585,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1bBZLtTPHUMXVbkYcKjOgdw",
+  "pwd": "ubnn",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "测试驱动开发",
+  "tagline": "红-绿-重构，先写测试",
+  "desc": "用测试驱动开发，走红-绿-重构循环：实现任何逻辑、修任何 bug、改任何行为时用它；需要证明代码确实工作、收到 bug 报告、或者即将修改既有功能时同样适用。",
+  "features": [
+    "红-绿-重构循环",
+    "实现逻辑、修 bug、改行为都先写测试",
+    "以测试作为「确实工作」的证据"
+  ],
+  "install": [
+    "把 test-driven-development 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

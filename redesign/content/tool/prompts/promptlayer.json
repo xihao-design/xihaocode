@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "promptlayer",
+  "status": "ok",
+  "cat": "prompts",
+  "name": "PromptLayer",
+  "nameZh": "PromptLayer",
+  "vendor": "PromptLayer, Inc.",
+  "tagline": "提示词版本管理与调用日志平台，可在可视化编辑器里修改提示词",
+  "desc": "PromptLayer：提示词版本管理与调用日志平台，可在可视化编辑器里修改提示词。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页。",
+  "site": "https://www.promptlayer.com",
+  "pricingUrl": "https://www.promptlayer.com/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "记录每次请求使用的提示词版本与响应",
+    "可在网页编辑器中直接修改线上提示词",
+    "支持提示词模板变量与请求重放",
+    "提供 Python 与 Node.js 客户端库"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 www.promptlayer.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

@@ -1,0 +1,233 @@
+{
+  "$comment": "站点配置。改这里就能改站（品牌名、域名、备案、联系方式、导航、频道、AdSense），不用动 build.mjs。",
+
+  "name": "西浩资源库",
+  "shortName": "西浩",
+  "url": "https://www.xihaouc.top",
+  "host": "www.xihaouc.top",
+  "tagline": "开源软件 · AI 工具 · 中文教程",
+  "titleSuffix": "西浩资源库",
+  "homeTitle": "西浩资源库 - 开源软件·AI工具·中文教程免费下载",
+  "slogan": "把 GitHub 上值得用的东西，做成你能直接拿到手的中文资源",
+  "beian": "鲁ICP备2025193604号",
+  "since": 2025,
+  "until": 2027,
+
+  "$contact_note": "email 留空时，合规页会退化成「本站暂未开通公开邮箱」的表述；填上就会自动渲染成 mailto 链接。",
+  "contact": {
+    "email": "silentzyh@gmail.com"
+  },
+
+  "adsense": {
+    "enabled": true,
+    "client": "ca-pub-7382599676480629"
+  },
+
+  "$theme_note": "themeColor 用于移动端浏览器地址栏配色，切换主题时由 app.js 动态更新。",
+  "theme": {
+    "default": "auto",
+    "storageKey": "xihaoz.theme",
+    "light": { "themeColor": "#F2F3F5" },
+    "dark": { "themeColor": "#0B0C10" }
+  },
+
+  "$seo_note": "百度搜索资源平台普通收录 API。site 必须与平台登记的站点形态完全一致（带不带 https:// 是有效差异，不一致会返回 not_same_site）；token 不写在这里，放 _daily/baidu-push-token.txt 或环境变量 BAIDU_PUSH_TOKEN。",
+  "seo": {
+    "baiduPush": {
+      "site": "https://www.xihaouc.top",
+
+      "$priority_note": "推送优先级：每日配额只有 10 条，不排序的话高价值页会永远排在积压（数百条）后面。按顺序用 path 正则匹配，命中即用其 score（越大越先推）；都不命中用 fallback。同分保持 sitemap 原顺序。排序思路：首页 → 自营产品/运营指南（商业价值）→ 频道与分类入口（聚合页，能带爬虫发现下级详情）→ 专题 → 详情页 → 标签页（薄内容）。改这里就能调，不用动代码。",
+      "$aggregator_note": "aggregator: true = 聚合页。这类页面只要站点发布一次（新增任何 App/AI 工具/技能），页内的链接列表就变一遍，内容哈希必然变化 —— 所以按哈希判定「内容有变要重推」会让它们**每次都重回候选队列**。结果就是每天 10 个名额被首页和分类页循环吃掉，详情页永远排在几十位之后（实测 App 详情第 45 位，历史 0 条推成功）。标记后：聚合页推过就不再因哈希变化重推，只有超过 rePushAfterDays 天才刷一次。详情页不受影响，仍按内容哈希判定。",
+      "rePushAfterDays": 30,
+      "priority": [
+        { "path": "^/$", "score": 1000, "label": "首页", "aggregator": true },
+        { "path": "^/products/", "score": 950, "label": "自营产品" },
+        { "path": "^/guides/", "score": 900, "label": "运营指南" },
+        { "path": "^/(desktop|skills|ai)/?$", "score": 850, "label": "频道入口", "aggregator": true },
+        { "path": "^/category/[^/]+$", "score": 850, "label": "分类入口", "aggregator": true },
+        { "path": "^/topic/", "score": 800, "label": "专题合集", "aggregator": true },
+        { "path": "^/ai/category/", "score": 750, "label": "AI 分类", "aggregator": true },
+        { "path": "^/apps/", "score": 600, "label": "App 详情" },
+        { "path": "^/ai/", "score": 580, "label": "AI 工具详情" },
+        { "path": "^/skills/", "score": 560, "label": "技能详情" },
+        { "path": "^/tag/", "score": 300, "label": "标签页" }
+      ],
+      "fallback": 200
+    }
+  },
+
+  "$verification_note": "搜索引擎站长平台验证。填了才输出对应 meta；只输出在首页 index.html —— 百度/搜狗/360 验证的都是站点根地址，放在子页面没有意义。留空则整行不输出。",
+  "verification": {
+    "baidu": "codeva-dATvDtVjtE",
+    "sogou": "yzVWJCQLgs",
+    "360": "83f7ef7f9a5c45ec6b98ef6c0d60c219"
+  },
+
+  "$nav_note": "主导航。key 用于高亮当前页，href 为相对根路径（构建时会自动加层级前缀）。requires 表示该导航项依赖的内容：内容不够（例如电脑软件不足 minItems 条）就不渲染，避免死链和空频道。",
+  "nav": [
+    { "key": "all", "label": "全部资源", "href": "index.html", "countFrom": "apps" },
+    { "key": "cats", "label": "频道入口", "href": "index.html#cats" },
+    { "key": "ai", "label": "AI 库", "href": "ai/index.html", "requires": "tools", "countFrom": "tools" },
+    { "key": "desktop", "label": "电脑软件", "href": "desktop/index.html", "requires": "desktop", "countFrom": "desktop" },
+    { "key": "skills", "label": "技能库", "href": "skills/index.html", "requires": "skills", "countFrom": "skills" },
+    { "key": "guides", "label": "运营指南", "href": "guides/index.html", "requires": "guides", "$comment": "原先指向 index.html#official（指南曾并入首页「官方出品」）。指南层挪进产品详情页后，首页那个锚点只剩产品横幅，导航改指指南目录页 —— 它是唯一的完整清单，产品页只展示前 3 篇。" },
+    { "key": "product", "label": "号狐浏览器", "href": "products/haofox.html", "requires": "product" },
+    { "key": "about", "label": "关于本站", "href": "about.html" }
+  ],
+
+  "$toolcat_note": "AI 库的分类。id 必须与 content/tool/<slug>.json 的 cat 字段一致；少于 toolCategoryMinItems 条的分类不产出页面（薄内容对访客和搜索引擎都是负分），筛选条上也不出现。order 只影响显示顺序。",
+  "toolCategoryMinItems": 4,
+  "toolCategories": [
+    { "id": "chatbot", "name": "AI 聊天助手", "en": "Chatbot", "desc": "通用大模型对话助手，日常问答与写作", "tone": "sage", "order": 10 },
+    { "id": "writing", "name": "AI 写作工具", "en": "Writing", "desc": "文案、论文、公文与小说写作辅助", "tone": "clay", "order": 20 },
+    { "id": "coding", "name": "AI 开发编程", "en": "Coding", "desc": "代码补全、AI 编程助手与代码审查", "tone": "slate", "order": 30 },
+    { "id": "image", "name": "AI 图像生成", "en": "Image", "desc": "文生图、图片编辑与抠图放大", "tone": "plum", "order": 40 },
+    { "id": "video", "name": "AI 视频工具", "en": "Video", "desc": "文生视频、数字人与视频剪辑", "tone": "amber", "order": 50 },
+    { "id": "audio", "name": "AI 音频处理", "en": "Audio", "desc": "配音、语音克隆、转写与会议记录", "tone": "olive", "order": 60 },
+    { "id": "music", "name": "AI 音乐生成", "en": "Music", "desc": "作曲、歌声合成与音轨分离", "tone": "plum", "order": 70 },
+    { "id": "design", "name": "AI 设计工具", "en": "Design", "desc": "海报、PPT、Logo 与界面设计", "tone": "clay", "order": 80 },
+    { "id": "work", "name": "AI 办公工具", "en": "Work", "desc": "文档表格、会议纪要与办公提效", "tone": "slate", "order": 90 },
+    { "id": "search", "name": "AI 搜索与知识库", "en": "Search", "desc": "AI 搜索、答案引擎与个人知识库", "tone": "sage", "order": 100 },
+    { "id": "agents", "name": "AI 智能体", "en": "Agents", "desc": "智能体平台与工作流自动化", "tone": "amber", "order": 110 },
+    { "id": "study", "name": "AI 教育学习", "en": "Study", "desc": "学习辅导、语言学习与学术辅助", "tone": "olive", "order": 120 },
+    { "id": "prompts", "name": "AI 提示词", "en": "Prompts", "desc": "提示词库、调试与效果评测", "tone": "plum", "order": 130 },
+    { "id": "model", "name": "AI 模型平台", "en": "Models", "desc": "开源模型托管、推理与微调", "tone": "slate", "order": 140 },
+    { "id": "compute", "name": "AI 算力平台", "en": "Compute", "desc": "GPU 云、按量算力与免费额度", "tone": "clay", "order": 150 },
+    { "id": "lawyer", "name": "AI 法律助手", "en": "Legal", "desc": "合同审查、法律检索与文书起草", "tone": "olive", "order": 160 }
+  ],
+
+  "$channels_note": "首页频道入口。status=live 的显示真实条目数并链接到入口；status=soon 的只做预告、不可点击（不产出空页面，避免薄内容被百度判低质）。requires + minItems：算出来的条目数不够门槛时，这张卡自动退回「筹备中」，频道页也不产出 —— 与标签页同一套 minItems 逻辑。",
+  "channels": [
+    {
+      "id": "software",
+      "name": "软件库",
+      "en": "Software",
+      "desc": "开源 App 与桌面端软件，附官方仓库与校验信息",
+      "status": "live",
+      "countFrom": "apps",
+      "href": "index.html#all"
+    },
+    {
+      "id": "desktop",
+      "name": "电脑软件",
+      "en": "Desktop",
+      "desc": "Windows 桌面软件：官方安装包 / 便携版，附源码与校验值",
+      "status": "live",
+      "countFrom": "desktop",
+      "requires": "desktop",
+      "minItems": 8,
+      "href": "desktop/index.html"
+    },
+    {
+      "id": "ai",
+      "name": "AI 库",
+      "en": "AI Tools",
+      "desc": "AI 工具清单：免费额度、是否需梯子、能否商用、中文支持",
+      "status": "live",
+      "countFrom": "tools",
+      "requires": "tools",
+      "minItems": 24,
+      "href": "ai/index.html"
+    },
+    {
+      "id": "skills",
+      "name": "技能库",
+      "en": "Skills",
+      "desc": "Claude 技能、MCP 服务、Cursor 规则，打包即用",
+      "status": "live",
+      "countFrom": "skills",
+      "href": "skills/index.html"
+    },
+    {
+      "$comment": "教程库先隐藏（用户要求）：保留配置以便日后一行恢复，用 hidden:true 而不是删掉。",
+      "id": "tutorials",
+      "name": "教程库",
+      "en": "Tutorials",
+      "desc": "开源教程、官方文档与电子书的中文集结",
+      "status": "soon",
+      "hidden": true
+    }
+  ],
+
+  "$promise_note": "首页「为什么可信」区块。只放能被站点数据证实的承诺，不写做不到的话。",
+  "promises": [
+    { "k": "逐条核实", "v": "每个条目都打开官方仓库确认过协议与维护状态，核不到的会标「待确认」而不是含糊带过" },
+    { "k": "不编造", "v": "拿不到的信息宁可留空，也不用假数据凑数" },
+    { "k": "网盘直取", "v": "资源以百度网盘转存分享，提取码在详情页一键复制" },
+    { "k": "无广告无付费", "v": "站内不设收费墙，不做「关注后获取」那一套" }
+  ],
+
+  "$product_note": "自营产品推广位：站长自己运营的商业产品，与本站「开源收录」相互独立、分开标注。只放能核实到的事实，具体功能/套餐以官网为准。brandColor 用于与珊瑚强调色区分的独立品牌色。",
+  "product": {
+    "name": "号狐浏览器",
+    "en": "HaoFox Browser",
+    "badge": "官方出品 · 自营",
+    "slug": "haofox",
+    "url": "https://accfox.cn/",
+    "tagline": "指纹浏览器 · 多账号防关联管理",
+    "cta": "访问官网",
+    "download": {
+      "label": "网盘下载客户端",
+      "url": "https://pan.baidu.com/s/1Q60KEAlgyUChzq3z3daOJA",
+      "pwd": "h77a",
+      "note": "百度网盘下载，提取码见按钮旁；具体版本、更新与使用方式以 accfox.cn 官网为准。"
+    },
+    "desc": "面向跨境电商、社媒矩阵与广告投放的多开账号聚合浏览器。通过浏览器指纹隔离实现多账号防关联，一个客户端即可集中管理多个相互独立的账号环境，让多店多号运营更省心。",
+    "homeTitle": "做跨境电商、多账号运营？试试号狐浏览器",
+    "homeText": "站长自营的指纹浏览器：多开账号聚合 + 指纹隔离防关联，多店多号不再互相牵连。",
+    "homeNote": "自营产品，与本站开源收录相互独立",
+    "scenarios": [
+      { "title": "跨境电商多店铺", "desc": "多平台、多店铺之间环境相互隔离，降低因设备指纹相同而被平台判定关联的风险，团队可分工协作管理。" },
+      { "title": "社媒矩阵运营", "desc": "一个客户端集中管理多个社媒账号，每个账号拥有独立指纹环境，矩阵运营更安全省力。" },
+      { "title": "广告投放多账户", "desc": "广告账户彼此隔离，减少多账户投放时的关联封号风险，批量管理更方便。" },
+      { "title": "独立站与联盟营销", "desc": "以不同身份运营独立站或联盟账号，环境独立、互不干扰。" }
+    ],
+    "features": [
+      "浏览器指纹隔离：每个账号环境独立指纹，降低被识别为关联账号的风险",
+      "多开账号聚合：一个客户端集中管理多个独立账号环境，切换不串号",
+      "团队协作：成员与权限管理，适合多人分工运营（以官网实际功能为准）",
+      "代理集成：为每个环境配置独立网络出口，进一步隔离身份（以官网实际功能为准）"
+    ],
+    "why": [
+      "站长自营：由本站作者运营维护，使用问题可直接反馈",
+      "定位分开：开源资源归开源，商业产品单独标注，不混为一谈",
+      "以官网为准：具体功能、套餐与使用方式以 accfox.cn 官方为准"
+    ],
+    "faq": [
+      { "q": "号狐浏览器和普通浏览器有什么区别？", "a": "普通浏览器多账号登录会共享同一套设备指纹，容易被平台判定为关联账号；指纹浏览器为每个账号生成独立的浏览器环境与指纹，从环境层面降低关联风险。" },
+      { "q": "它适合谁用？", "a": "主要面向跨境电商卖家、社媒矩阵运营、广告投放团队，以及任何需要同时管理多个独立账号的人。" },
+      { "q": "和本站的开源资源是什么关系？", "a": "号狐浏览器是站长自营的商业产品，与本站收录的开源软件相互独立。本站只把它作为「官方出品」单独介绍，不会混入开源收录清单。" },
+      { "q": "怎么开始使用？", "a": "前往 accfox.cn 官网了解功能与价格、注册并下载客户端即可。具体功能、套餐与使用方式以官网为准。" }
+    ]
+  },
+
+  "$affiliate_note": "联盟导购位（第三方推广，区别于自营产品）。programs 为数组，每项一个联盟方；id 用于跳转页 /go/<id>.html 与埋点动作名，url 为真实联盟链接；enabled=false 时该项不渲染。卡片以「广告」角标显著标注推广身份。",
+  "affiliate": {
+    "programs": [
+      {
+        "id": "qcloud",
+        "provider": "腾讯云",
+        "enabled": true,
+        "title": "想把这套软件跑在自己的服务器上？",
+        "text": "思源笔记、Jellyfin 这类「可自建服务」的软件，需要一台长期在线的云服务器来托管。腾讯云轻量服务器面向新人常有首购优惠，跑个人自建服务够用。",
+        "cta": "腾讯云轻量服务器 · 新人优惠",
+        "url": "https://curl.qcloud.com/lbVgJuPz"
+      },
+      {
+        "id": "aliyun",
+        "provider": "阿里云",
+        "enabled": true,
+        "title": "自建服务，也可以看看阿里云",
+        "text": "阿里云轻量应用服务器同样面向新人有首购优惠，适合跑个人自建服务。",
+        "cta": "阿里云 · 新人优惠",
+        "url": "https://www.aliyun.com/minisite/goods?userCode=54mgmkvt"
+      }
+    ]
+  },
+
+  "$analytics_note": "百度统计：baiduTongjiId 填你注册百度统计后拿到的站点 ID（即 hm.baidu.com/hm.js? 后面的 32 位串）。填上后全站加载百度统计脚本，并在联盟按钮点击时上报「affiliate/qcloud/<来源>」事件；留空则不加载、不上报。beaconUrl 为额外可选的 beacon 接收端点（一般留空）。",
+  "analytics": {
+    "baiduTongjiId": "e6e45e124e4700933a2a47790bb0d09c",
+    "beaconUrl": ""
+  }
+}

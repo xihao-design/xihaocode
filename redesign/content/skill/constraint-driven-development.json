@@ -1,0 +1,55 @@
+{
+  "type": "skill",
+  "slug": "constraint-driven-development",
+  "name": "constraint-driven-development",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/constraint-driven-development",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/constraint-driven-development",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 21008
+    },
+    {
+      "path": "references/floor-guard.md",
+      "bytes": 5851
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 27927,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1hw8NbfRfehmrCBVAOn6WIg",
+  "pwd": "v8hv",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "约束驱动开发",
+  "tagline": "把质量标准写成契约，挡住悄悄降级",
+  "desc": "把项目的质量标准写成一份明文契约（CONSTRAINTS.md），并阻止 agent 悄悄把标准降下来。它会先访谈你哪些维度重要，你没具体数字时给一套合理默认值；之后盯着 diff 找被削弱的迹象 —— 新增的 @ts-ignore / eslint-disable、被跳过或删掉的测试、被去掉的断言、没实现的桩函数。",
+  "features": [
+    "访谈式确定质量维度与阈值",
+    "你没数字时给合理默认值",
+    "全部记录进 CONSTRAINTS.md",
+    "监控 diff 里被削弱的迹象：抑制注释、跳过测试、去掉断言、未实现桩",
+    "附 references/floor-guard.md"
+  ],
+  "install": [
+    "把 constraint-driven-development 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "首次使用会先访谈你，并把 CONSTRAINTS.md 写进项目根目录"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

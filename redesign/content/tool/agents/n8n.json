@@ -1,0 +1,35 @@
+{
+  "type": "tool",
+  "slug": "n8n",
+  "status": "ok",
+  "cat": "agents",
+  "name": "n8n",
+  "nameZh": "n8n",
+  "vendor": "n8n GmbH",
+  "tagline": "面向技术团队的开源工作流自动化工具，支持自托管",
+  "desc": "n8n：面向技术团队的开源工作流自动化工具，支持自托管。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。原生支持中文输入输出。支持平台：网页、Docker 自部署、npm。",
+  "site": "https://n8n.io/",
+  "pricingUrl": "https://n8n.io/pricing/",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "Docker",
+    "npm"
+  ],
+  "features": [
+    "支持数百种服务集成与自定义代码节点",
+    "可接入大模型搭建 AI 智能体工作流",
+    "自托管版免费，云版提供付费方案",
+    "源码公开可查，但许可条款对商业用途有限制"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 n8n.io/",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "openNote": "源码公开可查，但采用 Sustainable Use License（fair-code），对商业用途有限制 —— 因此本站不把它归入「开源」，商用前请自行阅读官方许可条款。",
+  "sourceBatch": "batchC-work-search-agents-study"
+}

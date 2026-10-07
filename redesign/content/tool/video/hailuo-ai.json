@@ -1,0 +1,34 @@
+{
+  "type": "tool",
+  "slug": "hailuo-ai",
+  "status": "ok",
+  "cat": "video",
+  "name": "Hailuo AI",
+  "nameZh": "海螺AI",
+  "vendor": "MiniMax",
+  "tagline": "MiniMax推出的AI视频生成工具，支持文生与图生视频",
+  "desc": "海螺 AI 是 MiniMax 的产品，AI 视频生成工具，支持文生与图生视频。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页、iOS、Android。",
+  "site": "https://hailuoai.video",
+  "pricingUrl": "https://hailuoai.video/zh-Intl/subscribe",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    "视频模型由MiniMax自研并持续迭代",
+    "单段视频可选6秒或10秒时长",
+    "支持1080P分辨率的画面输出",
+    "提供图生视频与主体参考等生成模式"
+  ],
+  "howto": [
+    "打开官网 hailuoai.video",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "video-audio-music-design"
+}

@@ -1,0 +1,33 @@
+{
+  "type": "tool",
+  "slug": "wanxiang",
+  "status": "ok",
+  "cat": "image",
+  "name": "通义万相",
+  "nameZh": "通义万相",
+  "vendor": "阿里巴巴",
+  "tagline": "阿里巴巴的图像视频生成模型，支持文生图与文生视频",
+  "desc": "通义万相是阿里巴巴的产品，图像视频生成模型，支持文生图与文生视频。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页。项目源码在 github.com/Wan-Video/Wan2.2 公开，可自行查看实现。",
+  "site": "https://tongyi.aliyun.com/wan/",
+  "pricingUrl": "https://tongyi.aliyun.com/wan/pricing",
+  "repo": "https://github.com/Wan-Video/Wan2.2",
+  "opensource": true,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "支持文生图、文生视频与图像编辑等功能",
+    "对中文提示词理解较好，提供多种风格模板",
+    "部分万相模型权重在 GitHub 开源",
+    "可通过阿里云百炼平台调用 API"
+  ],
+  "howto": [
+    "打开官网 tongyi.aliyun.com/wan/",
+    "注册账号后可使用免费额度，用量与限制以官网为准",
+    "想自行部署或二次开发的，可从源码仓库获取代码"
+  ],
+  "sourceBatch": "batchA-writing-chatbot-coding-image"
+}

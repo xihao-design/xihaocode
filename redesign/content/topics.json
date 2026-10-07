@@ -1,0 +1,68 @@
+{
+  "$note": "专题合集：人工策展的跨分类清单。和分类页的区别是「按需求串起来」而不是「按分类切开」——所以每个专题都得有一个分类切不出来的角度，否则就是给自己制造重复内容。slug 引用条目 slug，写错会被构建报出来。",
+
+  "$field_note": "title 专题名 / sub 一句话 / intro 原创导语（正文，别照抄条目文案）/ slugs 成员 / tone 卡片色调",
+
+  "topics": [
+    {
+      "slug": "fresh-install",
+      "title": "新机先装这 12 款开源 App",
+      "sub": "换手机后的第一轮安装清单",
+      "tone": "slate",
+      "intro": [
+        "新手机到手先装什么？这份清单按「装完就能用起来」的顺序排：先从文件管理和深度清理入手，再补齐浏览器、扫码、时钟这些每天都在用的工具，最后是备份和开屏广告跳过。",
+        "清单里的每一款都在官方仓库核实过源码与协议，详情页可以直接跳到作者仓库。这里的先后顺序是使用频率，不是评分，也不代表其他条目不好用。"
+      ],
+      "slugs": [
+        "amazefilemanager", "sd-maid-se", "fennec", "binaryeye", "mlauncher",
+        "chrono", "rain-weather", "http-shortcuts", "gkd", "restoid",
+        "siyuan", "iyps"
+      ]
+    },
+    {
+      "slug": "offline-first",
+      "title": "没网也能用：离线优先的开源应用",
+      "sub": "地图、阅读、音乐、户外——断网时不抓瞎",
+      "tone": "sage",
+      "intro": [
+        "地铁、飞机、山区，或者只是流量用完的时候，这些应用不依赖网络照样干活：离线地图与导航、本地音乐播放、离线阅读、户外工具、用药提醒。",
+        "「离线优先」不等于功能残缺——它们多数把数据存在本地，联网只是可选项。这也是为什么这一类应用往往顺带把隐私问题一起解决了。"
+      ],
+      "slugs": [
+        "organicmaps", "trailsense", "hikari-novel", "and-bible", "gramophone",
+        "capyreader", "feeder", "feed-flow", "noice", "medtimer",
+        "foodyou", "openfoodfacts"
+      ]
+    },
+    {
+      "slug": "self-sovereign",
+      "title": "数据留在自己手里",
+      "sub": "本地优先与可自建服务的开源方案",
+      "tone": "plum",
+      "intro": [
+        "这一组应用的设计前提是：数据先属于你，再谈别的。它们要么把数据存在本地，要么连你自己的服务器。",
+        "自建服务有折腾成本——通常需要一台常开的机器或 NAS；换来的好处是不必把数据交给第三方，也不用担心某个服务哪天关停。按需挑选，不必全都上。"
+      ],
+      "slugs": [
+        "siyuan", "lespas", "jellyfin-androidtv", "android-mirror", "deltachat-android",
+        "meshtastic-android", "pachli-android", "hail", "restoid", "capyreader",
+        "feeder", "table-habit"
+      ]
+    },
+    {
+      "slug": "media-toolbox",
+      "title": "开源影音客户端合集",
+      "sub": "音乐、直播、追番与视频下载",
+      "tone": "clay",
+      "intro": [
+        "把影音播放与动漫阅读两个分类里经常被一起使用的客户端放在一处：本地与在线音乐播放、多平台直播聚合、番剧追更管理、视频下载。",
+        "需要说明的是：这类工具本身是开源客户端，不附带任何内容源。能用什么、能长久用到什么程度，取决于你自己配置的源，请自行判断合规性。本站不提供、不推荐任何内容源。"
+      ],
+      "slugs": [
+        "musicfree", "innertune", "gramophone", "simplelive", "seal",
+        "newpipe", "bilimiao", "pilipala", "xtra", "jellyfin-androidtv",
+        "miru", "kazumi", "animeko", "bangumi", "laqoo", "antennapod"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "tool",
+  "slug": "xiaoyuan-ai",
+  "status": "ok",
+  "cat": "study",
+  "name": "Xiaoyuan AI",
+  "nameZh": "小猿AI",
+  "vendor": "猿辅导（Yuanfudao）",
+  "tagline": "猿辅导旗下的学习应用，可拍照批改口算题与作业",
+  "desc": "小猿 AI 是猿辅导（Yuanfudao）的产品，猿辅导旗下的学习应用，可拍照批改口算题与作业。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：iOS、Android。",
+  "site": "https://www.xiaoyuankousuan.com/",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    "支持拍照识别整页口算题并自动判对错",
+    "覆盖中小学主要学科的练习与讲解",
+    "提供错题整理与学习报告",
+    "基础功能免费，部分题库与课程需付费"
+  ],
+  "howto": [
+    "打开官网 www.xiaoyuankousuan.com/",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchC-work-search-agents-study"
+}

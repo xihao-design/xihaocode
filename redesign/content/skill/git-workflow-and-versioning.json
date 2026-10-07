@@ -1,0 +1,50 @@
+{
+  "type": "skill",
+  "slug": "git-workflow-and-versioning",
+  "name": "git-workflow-and-versioning",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/git-workflow-and-versioning",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/git-workflow-and-versioning",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 14141
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 15209,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1q3QKm_QEEg1-fnoKvwNSHw",
+  "pwd": "vnqz",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "Git 工作流与版本管理",
+  "tagline": "把脏工作区拆成干净的原子提交",
+  "desc": "规范 git 工作流：提交、开分支、解冲突、把混乱工作区里未提交的改动拆成干净的原子提交、发起或评审 PR、推远端、组织多线并行的工作；也覆盖发版、语义化版本号选择、打标签与变更日志。",
+  "features": [
+    "提交、分支、冲突处理",
+    "把脏工作区拆成干净的原子提交",
+    "PR 的发起与评审",
+    "语义化版本号、打标签、变更日志"
+  ],
+  "install": [
+    "把 git-workflow-and-versioning 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

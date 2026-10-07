@@ -1,0 +1,49 @@
+{
+  "type": "skill",
+  "slug": "code-review-and-quality",
+  "name": "code-review-and-quality",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/code-review-and-quality",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/code-review-and-quality",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 20555
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 21623,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1I_aRnJeokeC_3UqfVvJQtQ",
+  "pwd": "ds4h",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "多维度代码评审",
+  "tagline": "合并之前，从多个维度看一遍",
+  "desc": "多维度代码评审：评审自己写的、其他 agent 写的、或人写的代码，在进入主干之前从多个维度评估质量。任何改动合并前都适用。",
+  "features": [
+    "多维度质量评估",
+    "适用自写、他人或 agent 写的代码",
+    "用在进主干之前"
+  ],
+  "install": [
+    "把 code-review-and-quality 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

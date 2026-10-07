@@ -1,0 +1,69 @@
+{
+  "type": "skill",
+  "slug": "slack-gif-creator",
+  "name": "slack-gif-creator",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "skills/slack-gif-creator",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/slack-gif-creator",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "skills/slack-gif-creator/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11345
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7841
+    },
+    {
+      "path": "core/easing.py",
+      "bytes": 6265
+    },
+    {
+      "path": "core/frame_composer.py",
+      "bytes": 4548
+    },
+    {
+      "path": "core/gif_builder.py",
+      "bytes": 9847
+    },
+    {
+      "path": "core/validators.py",
+      "bytes": 3785
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 66
+    }
+  ],
+  "pack": {
+    "dirBytes": 43697,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1443apE62PhapwTe6xaFhdA",
+  "pwd": "hgc5",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "Slack 动图制作",
+  "tagline": "做适配 Slack 的动图 GIF",
+  "desc": "制作针对 Slack 优化的动图 GIF：给出尺寸与体积等约束、校验工具和动画思路，避免做出来传不上去或者糊成一团。",
+  "features": [
+    "Slack 的尺寸与体积约束校验",
+    "core/ 下提供缓动、合成、构建、校验四个模块",
+    "附带动画设计思路"
+  ],
+  "install": [
+    "把 slack-gif-creator 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "core/ 是 Python 模块，需要 Python 环境"
+  ],
+  "hostNote": "目录结构为 Anthropic 官方技能格式（仓库内 skills/ 约定）。本站按路径推断适用宿主、未逐条实测：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

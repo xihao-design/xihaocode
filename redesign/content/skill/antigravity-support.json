@@ -1,0 +1,43 @@
+{
+  "type": "skill",
+  "slug": "antigravity-support",
+  "name": "antigravity-support",
+  "category": "ai-skill",
+  "source": {
+    "repo": "google-gemini/gemini-cli",
+    "repoUrl": "https://github.com/google-gemini/gemini-cli",
+    "path": "packages/core/src/skills/builtin/antigravity-support",
+    "commit": "87de0b6369f0466da37d9b3c0c9b77374bb59992",
+    "commitDate": "2026-09-24",
+    "license": "Apache-2.0",
+    "stars": 107131,
+    "treeUrl": "https://github.com/google-gemini/gemini-cli/tree/87de0b6369f0466da37d9b3c0c9b77374bb59992/packages/core/src/skills/builtin/antigravity-support",
+    "hostGuess": "技能目录（宿主待人工确认）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3364
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11357
+    }
+  ],
+  "pack": {
+    "dirBytes": 14721,
+    "packedAt": "2026-09-24T16:46:15.290Z"
+  },
+  "link": null,
+  "pwd": null,
+  "linkMode": "package",
+  "status": "exclude",
+  "nameZh": null,
+  "tagline": null,
+  "desc": null,
+  "features": null,
+  "install": null,
+  "hostNote": null,
+  "excludeReason": "宿主不确定：路径不在 .gemini/skills/ 下，实测位于仓库示例目录（examples/），不是给用户安装使用的技能。收录它会把示例误当成品。"
+}

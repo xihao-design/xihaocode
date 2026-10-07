@@ -1,0 +1,34 @@
+{
+  "type": "tool",
+  "slug": "xunfei-zhiwen",
+  "status": "ok",
+  "cat": "design",
+  "name": "讯飞智文",
+  "nameZh": "讯飞智文",
+  "vendor": "科大讯飞",
+  "tagline": "科大讯飞推出的AI文档工具，可一键生成PPT",
+  "desc": "讯飞智文是科大讯飞的产品，AI 文档工具，可一键生成 PPT。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页。",
+  "site": "https://zhiwen.xfyun.cn",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "输入主题即可生成PPT与Word文档",
+    "支持将已有文档一键转换为PPT",
+    "提供多种模板与配色方案",
+    "可导出PPTX等常见文件格式",
+    "输入主题后可自动生成大纲、正文与演示文稿",
+    "支持 Word、PPT 等格式的导出与在线编辑"
+  ],
+  "howto": [
+    "打开官网 zhiwen.xfyun.cn",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "video-audio-music-design"
+}

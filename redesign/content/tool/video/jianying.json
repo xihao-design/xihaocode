@@ -1,0 +1,36 @@
+{
+  "type": "tool",
+  "slug": "jianying",
+  "status": "ok",
+  "cat": "video",
+  "name": "剪映",
+  "nameZh": "剪映",
+  "vendor": "深圳市脸萌科技有限公司（字节跳动）",
+  "tagline": "字节跳动旗下视频剪辑软件，内置多项AI智能功能",
+  "desc": "剪映是深圳市脸萌科技有限公司（字节跳动）的产品，字节跳动旗下视频剪辑软件，内置多项 AI 智能功能。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：Windows、macOS、iOS、Android、网页。",
+  "site": "https://www.jianying.com",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "Windows",
+    "macOS",
+    "iOS",
+    "Android",
+    "网页"
+  ],
+  "features": [
+    "支持智能剪口播、人声分离与音频降噪",
+    "提供数字人播报与文本朗读能力",
+    "支持多机位、关键帧与多时间线剪辑",
+    "可一键完成画质修复与智能抠像"
+  ],
+  "howto": [
+    "打开官网 www.jianying.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "video-audio-music-design"
+}

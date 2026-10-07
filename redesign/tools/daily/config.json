@@ -1,0 +1,350 @@
+{
+  "_note": "每日采集流水线配置。改这里，不用改代码。",
+  "quota": 4,
+  "_quota_note": "每天最终交付几个 App（发现的候选会多得多，靠下面几道闸门筛）",
+  "sources": {
+    "fdroid": true,
+    "githubSearch": true,
+    "_note": "fdroid 为主源：每条都是真能装的 Android 开源 App，带官方 sha256 与签名构建。githubSearch 为补充源，用于捞 F-Droid 没收录的高星项目。"
+  },
+  "fdroid": {
+    "enabled": true,
+    "mirrors": [
+      "https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo",
+      "https://mirrors.ustc.edu.cn/fdroid/repo",
+      "https://mirrors.bfsu.edu.cn/fdroid/repo"
+    ],
+    "_mirrors_note": "官方 f-droid.org 本机不可达；实测清华 TUNA 可用（59MB / 4385 个 App，4 秒）。",
+    "cacheTtlDays": 3,
+    "updatedWithinDays": 400,
+    "minStars": 0,
+    "_minStars_note": "F-Droid 索引没有 Star 数据。设为 0 表示不卡 Star（很多好用的 F-Droid 应用只有几百星）；Star 会作为排序与展示信息。想只收高星就把这里调高。",
+    "githubEnrichTop": 16,
+    "_githubEnrichTop_note": "对分数最高的这么多个候选查 GitHub 拿 Star/归档状态，每查一次消耗 1 次核心 API。",
+    "rejectAntiFeatures": [
+      "Ads",
+      "Tracking",
+      "NoSourceSince"
+    ],
+    "_rejectAntiFeatures_note": "带广告、带追踪、已停止开源的，直接不收。",
+    "flagAntiFeatures": [
+      "NonFreeNet",
+      "TetheredNet",
+      "NonFreeDep",
+      "NonFreeAssets"
+    ],
+    "_flagAntiFeatures_note": "不拒收但打标记：TetheredNet 意味着必须自建服务器才能用，对普通访客价值有限，脚本会大幅降权。",
+    "excludeCategories": []
+  },
+  "desktop": {
+    "enabled": true,
+    "_note": "电脑软件（Windows）通道，作为第 3 个发现源。默认执行，--no-desktop 可跳过。底线的正则（代理翻墙黑名单、服务端信号、非应用信号）、拒收词与体积上限都在 tools/desktop/config.json —— 那边是探测脚本与每日流水线共用的唯一一份，不要在这里再抄一遍。",
+    "quota": 2,
+    "_quota_note": "**独立配额**：这 2 个不占 filters 那 4 个手机 App 的名额。理由：桌面包比 APK 大一个量级，百度网盘上传是真实瓶颈，两边不该互相挤。临时改：--desktop-quota=N。",
+    "topics": [
+      "windows",
+      "desktop-app",
+      "cross-platform"
+    ],
+    "starBands": [
+      "500..2000",
+      "2000..6000",
+      "6000..20000",
+      ">20000"
+    ],
+    "minStars": 500,
+    "pushedWithinDays": 365,
+    "maxDesktopMB": 300,
+    "_maxDesktopMB_note": "单包上限，超了不收。桌面软件比 APK 大一个量级，而网盘上传慢、占空间 —— 这个数字直接决定每天能不能传得完。",
+    "minPortableMB": 1,
+    "minInstallerMB": 0.05,
+    "searchesPerRun": 2,
+    "perPage": 30,
+    "pageRotation": 3,
+    "releaseChecks": 10,
+    "_releaseChecks_note": "每轮最多查多少个候选的 Release（每个 1 次核心 API 调用）。与 filters.maxReleaseChecks 是分开的计数。",
+    "platform": "win",
+    "_platform_note": "只要 Windows。macOS 供给量同级，但国内用户 Windows 占绝大多数，先做一端 —— 平台是硬过滤，写在这里就成了所有调用方的默认值。",
+    "winSignals": [
+      "windows",
+      "win32",
+      "win64",
+      "desktop",
+      "跨平台",
+      "cross-platform",
+      "portable",
+      "免安装",
+      "便携"
+    ],
+    "appSignals": [
+      "desktop app",
+      "desktop application",
+      "client",
+      "player",
+      "reader",
+      "manager",
+      "viewer",
+      "editor",
+      "launcher",
+      "browser",
+      "downloader",
+      "tracker",
+      "reminder",
+      "gallery",
+      "cleaner",
+      "scanner",
+      "converter",
+      "monitor",
+      "timer",
+      "calculator",
+      "translator",
+      "explorer",
+      "chat",
+      "messenger",
+      "gui",
+      "工具",
+      "客户端",
+      "播放器",
+      "编辑器",
+      "管理器"
+    ],
+    "cliSignals": [
+      "command line",
+      "command-line",
+      "cli tool",
+      "terminal tool",
+      "shell script",
+      "standalone binary"
+    ],
+    "_signals_note": "winSignals/appSignals 是加分项，cliSignals 是减分项（命令行工具不是桌面应用）。真正的硬门槛是「Release 里有没有能装的 Windows 资产」—— 桌面端没有 APK 这种铁证，只能靠这个。"
+  },
+  "filters": {
+    "minStars": 300,
+    "_note": "以下过滤只作用于 Android 两源（F-Droid 与 GitHub 搜索）。电脑软件通道用上面的 desktop 块。",
+    "pushedWithinDays": 240,
+    "requireLicense": true,
+    "allowArchived": false,
+    "maxApkMB": 300,
+    "minApkMB": 0.05,
+    "maxReleaseChecks": 18,
+    "_maxReleaseChecks_note": "GitHub 通道每次最多查多少个候选的 Release。未认证时核心 API 只有 60 次/小时，别调太大。",
+    "rejectDebugBuilds": true
+  },
+  "license": {
+    "allow": [
+      "MIT",
+      "Apache-2.0",
+      "GPL-2.0",
+      "GPL-3.0",
+      "LGPL-2.1",
+      "LGPL-3.0",
+      "AGPL-3.0",
+      "MPL-2.0",
+      "BSD-2-Clause",
+      "BSD-3-Clause",
+      "ISC",
+      "Unlicense",
+      "CC0-1.0",
+      "Zlib",
+      "0BSD",
+      "MIT-0",
+      "EPL-2.0"
+    ],
+    "deny": [
+      "NOASSERTION",
+      "Other",
+      "UNLICENSED",
+      "CC-BY-NC-4.0",
+      "CC-BY-NC-SA-4.0",
+      "CC-BY-ND-4.0"
+    ],
+    "_note": "F-Droid 用 SPDX 完整写法（GPL-3.0-only / -or-later），比较前会自动归一化。deny 里的 NOASSERTION/Other 一律不收：没有明确许可的代码不允许再分发。"
+  },
+  "discovery": {
+    "topics": [
+      "android",
+      "android-app",
+      "android-application",
+      "android-client",
+      "f-droid",
+      "kotlin-android",
+      "jetpack-compose",
+      "compose-android",
+      "material-you",
+      "android-ui",
+      "wear-os",
+      "android-widget"
+    ],
+    "_topics_note": "只用 Android 专属 topic。早前放了 self-hosted / open-source，结果捞进来的几乎全是服务端项目（实测 18 个候选只有 2 个有 APK），已剔除。",
+    "keywords": [
+      "music player",
+      "video player",
+      "comic reader",
+      "ebook reader",
+      "rss reader",
+      "podcast",
+      "notes",
+      "todo",
+      "habit tracker",
+      "weather",
+      "gallery",
+      "camera",
+      "file manager",
+      "download manager",
+      "screen recorder",
+      "expense tracker",
+      "fitness workout",
+      "meditation",
+      "map navigation",
+      "qr code scanner",
+      "calculator",
+      "clock alarm",
+      "keyboard",
+      "launcher",
+      "translate",
+      "torrent client",
+      "vpn",
+      "markdown editor",
+      "password manager",
+      "calendar"
+    ],
+    "_keywords_note": "关键词会与 topic:android 组合，保证结果一定是 Android 项目。",
+    "starBands": [
+      "300..800",
+      "800..2000",
+      "2000..6000",
+      "6000..20000",
+      ">20000"
+    ],
+    "searchesPerRun": 4,
+    "perPage": 30,
+    "pageRotation": 3,
+    "_note": "每天按 dayIndex 轮换 topic/关键词 × 星数区间 × 排序 × 翻页，保证每天的候选池不重样；已收录的靠 state/seen.json 挡掉。"
+  },
+  "mirrors": [
+    "https://ghfast.top/",
+    "https://gh-proxy.com/",
+    "https://ghproxy.net/"
+  ],
+  "_mirrors_note": "顺序只是冷启动的初始顺序。实测 ghfast.top 6.3MB/s、gh-proxy 2.0MB/s、ghproxy.net 0.8MB/s，脚本会把每次实测吞吐量记进 state/mirror-stats.json 并自动按速度重排。",
+  "tryDirect": false,
+  "_tryDirect_note": "直连 release-assets.githubusercontent.com 实测 10s 超时（被墙），默认关掉省时间。",
+  "netdisk": {
+    "mode": "manual",
+    "_mode_note": "manual = 你手动上传（脚本只准备好上传目录、links.txt 登记表和操作说明）；auto = 用 BaiduPCS-Go 自动上传并自动建分享链接。想切回全自动就把这里改成 auto。",
+    "enabled": true,
+    "binPath": "",
+    "_binPath_note": "仅 auto 模式使用。留空则依次找 tools/daily/bin/BaiduPCS-Go.exe、PATH。",
+    "remoteRoot": "/XihaoUC",
+    "layout": "date/slug",
+    "_layout_note": "网盘目录结构：<remoteRoot>/<YYYY-MM-DD>/<slug>/。上传后为每个 App 单独建分享链接。",
+    "uploadPolicy": "skip",
+    "_uploadPolicy_note": "同名文件处理策略，实测该 build 支持 skip / overwrite / rsync。",
+    "shareExpireDays": 0,
+    "sharePwd": "",
+    "_share_note": "实测 share set 的开关为：-p 提取码 / --period 有效天数(0为永久) / -f 输出带密码的完整链接。sharePwd 留空则由百度随机生成 4 位提取码；shareExpireDays 为 0 表示永久有效（不传该参数即默认永久）。"
+  },
+  "compliance": {
+    "bundleReadme": true,
+    "_bundleReadme_note": "每个 App 目录里附一份 来源/协议/源码链接/sha256 的 README.txt —— 既是分发合规的最低要求，也是你日后自查的凭据。",
+    "fetchLicenseFile": true,
+    "contentRiskKeywords": [
+      "影视",
+      "追番",
+      "番剧",
+      "弹幕",
+      "磁力",
+      "破解",
+      "去广告",
+      "点播",
+      "影视仓",
+      "视频解析",
+      "解析接口",
+      "vip视频",
+      "插件源",
+      "来源插件",
+      "piracy",
+      "torrent",
+      "magnet",
+      "iptv",
+      "aggregator",
+      "药物",
+      "物质交互",
+      "剂量",
+      "用药",
+      "毒品",
+      "精神活性",
+      "违禁"
+    ],
+    "_risk_note": "只留「盗版内容聚合」特征词。早前把 video/movie/anime/音乐 这类通用词也算进去，会把正经播放器全部误标，已收窄。命中的照收但打【内容风险】标记，必须你点头再发。 2026-10-03 增补：涉毒类（药物/物质交互/剂量/用药/毒品/精神活性/违禁）—— 有备案的站，这类内容风险高于翻墙工具。 注意：关键词**拦不住** intra 这类描述中性、但目的是规避审查的工具（官方摘要只写「加密 DNS 客户端」，仓库却在 Jigsaw-Code 这个反审查组织下），那需要仓库级名单，属于 collect.mjs 的改动。",
+    "denyRepos": [
+      {
+        "pattern": "Jigsaw-Code/",
+        "reason": "Jigsaw 是 Google 的反审查团队，旗下项目（如 Intra）以规避网络审查为目的。本站有备案，这类工具与翻墙工具同级，一律不收。关键词拦不住它——官方摘要只写「加密 DNS 客户端」。"
+      },
+      {
+        "pattern": "net4people/",
+        "reason": "反审查议题的聚合组织，收录内容多为规避审查的工具与方案。"
+      },
+      {
+        "pattern": "censorship",
+        "reason": "仓库名含 censorship，通常是反审查/规避封锁类项目。"
+      },
+      {
+        "pattern": "shadowsocks",
+        "reason": "代理工具（与 deny 关键词重复，此处按仓库名再兜一层）。"
+      },
+      {
+        "pattern": "v2ray",
+        "reason": "代理工具，同上。"
+      },
+      {
+        "pattern": "clash",
+        "reason": "代理工具，同上。"
+      }
+    ],
+    "denyKeywords": [
+      {
+        "word": "反审查",
+        "reason": "规避网络审查类工具，本站有备案不收。"
+      },
+      {
+        "word": "规避审查",
+        "reason": "同上。"
+      },
+      {
+        "word": "突破封锁",
+        "reason": "同上。"
+      },
+      {
+        "word": "翻墙",
+        "reason": "同上。"
+      },
+      {
+        "word": "科学上网",
+        "reason": "同上。"
+      },
+      {
+        "word": "机场",
+        "reason": "代理服务推广词，同上。"
+      },
+      {
+        "word": "circumvent",
+        "reason": "英文的规避（审查），同上。"
+      },
+      {
+        "word": "censorship",
+        "reason": "同上。"
+      },
+      {
+        "word": "anti-censorship",
+        "reason": "同上。"
+      }
+    ],
+    "_deny_note": "denyRepos / denyKeywords 是**硬拒**（直接不收），与 contentRiskKeywords 的只标记不同。规则带理由，加规则不用改代码。消费方：redesign/tools/daily/compliance.mjs"
+  },
+  "output": {
+    "root": "D:/vitepress/_daily",
+    "keepDays": 60
+  }
+}

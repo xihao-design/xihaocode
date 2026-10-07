@@ -1,0 +1,43 @@
+{
+  "type": "skill",
+  "slug": "template",
+  "name": "template",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "template",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/template",
+    "hostGuess": "未知",
+    "licenseFile": "skills/academy-guide/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 140
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11345
+    }
+  ],
+  "pack": {
+    "dirBytes": 11485,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": null,
+  "pwd": null,
+  "linkMode": "package",
+  "status": "exclude",
+  "nameZh": null,
+  "tagline": null,
+  "desc": null,
+  "features": null,
+  "install": null,
+  "hostNote": null,
+  "excludeReason": "官方仓库里的空模板（描述原文是「Replace with description of the skill and when Claude should use it.」），是给技能作者用的脚手架，不是可用的技能。收录它等于把模板当成品发布。"
+}

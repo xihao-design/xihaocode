@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "adobe-podcast",
+  "status": "ok",
+  "cat": "audio",
+  "name": "Adobe Podcast",
+  "nameZh": "Adobe Podcast",
+  "vendor": "Adobe",
+  "tagline": "Adobe推出的网页音频工具，可一键提升人声清晰度",
+  "desc": "Adobe Podcast 是 Adobe 的产品，网页音频工具，可一键提升人声清晰度。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。以英文界面与英文输入为主。支持平台：网页。",
+  "site": "https://podcast.adobe.com",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": false,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "Enhance Speech可削弱环境噪声与混响",
+    "支持上传音频或视频文件进行处理",
+    "提供在线录音与基础剪辑功能",
+    "使用需登录Adobe账号"
+  ],
+  "howto": [
+    "打开官网 podcast.adobe.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "video-audio-music-design"
+}

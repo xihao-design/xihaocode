@@ -1,0 +1,36 @@
+{
+  "type": "tool",
+  "slug": "doubao",
+  "status": "ok",
+  "cat": "chatbot",
+  "name": "豆包",
+  "nameZh": "豆包",
+  "vendor": "字节跳动",
+  "tagline": "字节跳动的 AI 助手，支持对话、文档解析与语音交互",
+  "desc": "豆包是字节跳动的产品，AI 助手，支持对话、文档解析与语音交互。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页、iOS、Android、Windows、macOS。",
+  "site": "https://www.doubao.com",
+  "pricingUrl": "https://www.doubao.com/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "iOS",
+    "Android",
+    "Windows",
+    "macOS"
+  ],
+  "features": [
+    "支持文本对话、文档解析、图像识别与语音交互",
+    "可生成图片、总结长文并辅助写作",
+    "基础功能免费使用，后续推出付费专业版",
+    "提供网页版、桌面客户端和手机应用"
+  ],
+  "howto": [
+    "打开官网 www.doubao.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchA-writing-chatbot-coding-image"
+}

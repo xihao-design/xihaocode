@@ -1,0 +1,50 @@
+{
+  "type": "skill",
+  "slug": "incremental-implementation",
+  "name": "incremental-implementation",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/incremental-implementation",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/incremental-implementation",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 9629
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 10697,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1g44eHYUU45BhGE0jIAgrPw",
+  "pwd": "is6g",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "增量实现",
+  "tagline": "切成能验证的小片，一片片交付",
+  "desc": "把改动切成薄而可验证的小片逐步交付：实现任何涉及多个文件的改动、从计划里挑下一个任务、变更放在功能开关后面灰度、或者你正准备一次写一大坨代码时用它。",
+  "features": [
+    "薄而可验证的交付切片",
+    "配合功能开关灰度发布",
+    "避免一次性写大量代码",
+    "从计划中逐项推进"
+  ],
+  "install": [
+    "把 incremental-implementation 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

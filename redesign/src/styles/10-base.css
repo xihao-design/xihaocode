@@ -1,0 +1,103 @@
+/* ============================================================
+   西浩资源库 · 设计系统 01 · 基础层
+   排版、重置、焦点、选区、滚动条、动效开关。
+   ============================================================ */
+
+*,*::before,*::after{box-sizing:border-box}
+
+html{
+  -webkit-text-size-adjust:100%;
+  scroll-behavior:smooth;
+  scroll-padding-top:calc(var(--hdr-h) + 76px);
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--font-sans);
+  font-size:16px;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  text-rendering:optimizeLegibility;
+  overflow-x:hidden;
+  /* 主题切换时给一次短过渡，切完由 app.js 摘掉，避免影响交互性能 */
+  transition:background-color .22s var(--ease),color .22s var(--ease);
+}
+html[data-theme-anim] *,
+html[data-theme-anim] *::before,
+html[data-theme-anim] *::after{
+  transition:background-color .22s var(--ease),border-color .22s var(--ease),color .22s var(--ease)!important;
+}
+
+h1,h2,h3,h4,p,ul,ol,figure,blockquote{margin:0}
+h1,h2,h3,h4{text-wrap:balance}
+p{text-wrap:pretty}
+ul,ol{padding:0;list-style:none}
+img,svg{max-width:100%}
+img{display:block}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+input{font:inherit}
+a{color:inherit}
+hr{border:0}
+
+::selection{
+  background:var(--accent);
+  color:var(--accent-ink);
+}
+
+:focus-visible{
+  outline:2px solid var(--accent);
+  outline-offset:2px;
+  border-radius:var(--radius-xs);
+}
+/* 鼠标点击不该留下焦点环，键盘导航必须有 —— 交给 :focus-visible 处理 */
+:focus:not(:focus-visible){outline:none}
+
+/* ---------- 滚动条：深色下必须自己画，否则是一条刺眼的白条 ---------- */
+[data-theme="dark"]{
+  scrollbar-color:rgba(255,255,255,.22) transparent;
+}
+[data-theme="dark"] ::-webkit-scrollbar{width:10px;height:10px}
+[data-theme="dark"] ::-webkit-scrollbar-track{background:transparent}
+[data-theme="dark"] ::-webkit-scrollbar-thumb{
+  background:rgba(255,255,255,.18);
+  border-radius:999px;
+  border:2px solid transparent;
+  background-clip:content-box;
+}
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover{background:rgba(255,255,255,.3);background-clip:content-box}
+
+.sr{
+  position:absolute;width:1px;height:1px;overflow:hidden;
+  clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;
+}
+
+/* 跳转到主内容：键盘用户的第一个可聚焦元素 */
+.skip{
+  position:absolute;left:12px;top:-60px;z-index:100;
+  background:var(--ink);color:var(--ink-contrast);
+  padding:10px 16px;border-radius:var(--radius-sm);
+  font-size:14px;text-decoration:none;
+  transition:top .18s var(--ease);
+}
+.skip:focus{top:12px}
+
+/* ---------- 滚动进入动画：默认可见，JS 可用时才启用 ---------- */
+html.js-reveal [data-reveal]{
+  opacity:0;
+  transform:translateY(14px);
+}
+html.js-reveal [data-reveal].is-in{
+  opacity:1;
+  transform:none;
+  transition:opacity .5s var(--ease),transform .5s var(--ease);
+  transition-delay:var(--reveal-delay,0ms);
+}
+@media (prefers-reduced-motion:reduce){
+  html.js-reveal [data-reveal]{opacity:1;transform:none}
+}

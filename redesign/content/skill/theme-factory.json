@@ -1,0 +1,94 @@
+{
+  "type": "skill",
+  "slug": "theme-factory",
+  "name": "theme-factory",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "skills/theme-factory",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/theme-factory",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "skills/theme-factory/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11345
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3124
+    },
+    {
+      "path": "theme-showcase.pdf",
+      "bytes": 124310
+    },
+    {
+      "path": "themes/arctic-frost.md",
+      "bytes": 544
+    },
+    {
+      "path": "themes/botanical-garden.md",
+      "bytes": 519
+    },
+    {
+      "path": "themes/desert-rose.md",
+      "bytes": 496
+    },
+    {
+      "path": "themes/forest-canopy.md",
+      "bytes": 506
+    },
+    {
+      "path": "themes/golden-hour.md",
+      "bytes": 528
+    },
+    {
+      "path": "themes/midnight-galaxy.md",
+      "bytes": 513
+    },
+    {
+      "path": "themes/modern-minimalist.md",
+      "bytes": 549
+    },
+    {
+      "path": "themes/ocean-depths.md",
+      "bytes": 555
+    },
+    {
+      "path": "themes/sunset-boulevard.md",
+      "bytes": 558
+    },
+    {
+      "path": "themes/tech-innovation.md",
+      "bytes": 547
+    }
+  ],
+  "pack": {
+    "dirBytes": 144094,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1nbYB-YnmfwXcVsEK7RHFww",
+  "pwd": "p1m6",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "主题套用工具",
+  "tagline": "10 套配色字体，直接套到产物上",
+  "desc": "给产物统一套主题的工具箱，适用幻灯片、文档、报告、HTML 落地页等。内置 10 套预设主题（配色＋字体），也可以现场生成新主题。",
+  "features": [
+    "10 套预设主题，themes/ 下逐份可读",
+    "适用幻灯片、文档、报告、HTML 落地页",
+    "支持现场生成新主题",
+    "theme-showcase.pdf 可先看整体效果"
+  ],
+  "install": [
+    "把 theme-factory 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "先看 theme-showcase.pdf 选主题，再套 themes/ 里对应那份"
+  ],
+  "hostNote": "目录结构为 Anthropic 官方技能格式（仓库内 skills/ 约定）。本站按路径推断适用宿主、未逐条实测：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

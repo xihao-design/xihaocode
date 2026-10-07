@@ -1,0 +1,36 @@
+{
+  "type": "tool",
+  "slug": "wps-ai",
+  "status": "ok",
+  "cat": "work",
+  "name": "WPS AI",
+  "nameZh": "WPS AI",
+  "vendor": "金山办公（Kingsoft Office）",
+  "tagline": "金山办公的文档智能助手，可写作、生成公式并总结全文",
+  "desc": "WPS AI 是金山办公（Kingsoft Office）的产品，金山办公的文档智能助手，可写作、生成公式并总结全文。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：Windows、macOS、iOS、Android、网页。",
+  "site": "https://ai.wps.cn/",
+  "pricingUrl": "https://vip.wps.cn/home",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "Windows",
+    "macOS",
+    "iOS",
+    "Android",
+    "网页"
+  ],
+  "features": [
+    "官网 ai.wps.cn 提供 AI 写作、设计、阅读与数据四类助手",
+    "支持根据主题一键生成 PPT 大纲与完整演示文稿",
+    "表格中可用自然语言描述生成公式与条件格式",
+    "网页版仅开放基础功能，完整体验需安装 WPS 客户端"
+  ],
+  "howto": [
+    "打开官网 ai.wps.cn/",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchC-work-search-agents-study"
+}

@@ -1,0 +1,49 @@
+{
+  "type": "skill",
+  "slug": "doc-coauthoring",
+  "name": "doc-coauthoring",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "skills/doc-coauthoring",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/doc-coauthoring",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "skills/academy-guide/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 15815
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11345
+    }
+  ],
+  "pack": {
+    "dirBytes": 27160,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1leOz7bbwElG8xfp_FiwWxg",
+  "pwd": "jdyj",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "文档协作写作",
+  "tagline": "从交代上下文到成稿的结构化流程",
+  "desc": "带用户走一套结构化的文档协作流程：先把上下文交代清楚，再靠多轮迭代打磨内容，最后从读者视角验证这份文档是否真的成立。写文档、提案、技术方案、决策记录时用。",
+  "features": [
+    "结构化流程：交代上下文 → 迭代细化 → 读者视角验证",
+    "适用文档、提案、技术规格、决策记录",
+    "强调上下文传递效率与迭代打磨"
+  ],
+  "install": [
+    "把 doc-coauthoring 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "无需额外依赖（纯说明型技能）"
+  ],
+  "hostNote": "目录结构为 Anthropic 官方技能格式（仓库内 skills/ 约定）。本站按路径推断适用宿主、未逐条实测：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

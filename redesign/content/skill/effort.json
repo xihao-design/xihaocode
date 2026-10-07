@@ -1,0 +1,43 @@
+{
+  "type": "skill",
+  "slug": "effort",
+  "name": "effort",
+  "category": "ai-skill",
+  "source": {
+    "repo": "google-gemini/gemini-cli",
+    "repoUrl": "https://github.com/google-gemini/gemini-cli",
+    "path": "tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/effort",
+    "commit": "87de0b6369f0466da37d9b3c0c9b77374bb59992",
+    "commitDate": "2026-09-24",
+    "license": "Apache-2.0",
+    "stars": 107131,
+    "treeUrl": "https://github.com/google-gemini/gemini-cli/tree/87de0b6369f0466da37d9b3c0c9b77374bb59992/tools/caretaker-agent/cloudrun/triage-worker/.gemini/skills/effort",
+    "hostGuess": "Gemini CLI",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 3118
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11357
+    }
+  ],
+  "pack": {
+    "dirBytes": 14475,
+    "packedAt": "2026-09-24T16:46:15.290Z"
+  },
+  "link": null,
+  "pwd": null,
+  "linkMode": "package",
+  "status": "exclude",
+  "nameZh": null,
+  "tagline": null,
+  "desc": null,
+  "features": null,
+  "install": null,
+  "hostNote": null,
+  "excludeReason": "仓库内部维护工具，不是给用户用的技能：逐条核对官方描述后发现，这 21 条是 gemini-cli 团队维护自己项目用的自动化（PR 流程、issue 分类、CI 监控、changelog、bot 记忆等），其中 agent-tui 的官方描述明确写着「Main Agents: Do NOT use this skill directly」。收录会给技能库掺入看起来专业、实际用不上的页面。"
+}

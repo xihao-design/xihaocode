@@ -1,0 +1,52 @@
+{
+  "type": "skill",
+  "slug": "browser-testing-with-devtools",
+  "name": "browser-testing-with-devtools",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/browser-testing-with-devtools",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/browser-testing-with-devtools",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 14539
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 15607,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1483aJ_c-wthYCIOFiDxryg",
+  "pwd": "xc9g",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "真实浏览器调试",
+  "tagline": "用 Chrome DevTools 看真实运行数据",
+  "desc": "通过 Chrome DevTools MCP 在真实浏览器里做测试与调试：查 DOM、抓控制台报错、分析网络请求、做性能剖析、用真实运行时数据核对视觉输出。注意这个技能依赖 chrome-devtools MCP 服务，得先配好才跑得起来。",
+  "features": [
+    "查 DOM 结构",
+    "抓控制台错误",
+    "分析网络请求",
+    "性能剖析",
+    "用真实运行时数据核对视觉输出",
+    "⚠ 依赖 chrome-devtools MCP 服务，需先配置"
+  ],
+  "install": [
+    "把 browser-testing-with-devtools 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "这个技能依赖 chrome-devtools MCP 服务，需要先在宿主里配好该 MCP，否则技能跑不起来"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

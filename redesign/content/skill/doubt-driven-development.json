@@ -1,0 +1,50 @@
+{
+  "type": "skill",
+  "slug": "doubt-driven-development",
+  "name": "doubt-driven-development",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/doubt-driven-development",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/doubt-driven-development",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 16647
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 17715,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1NGkJRaDsC8JKxd360pPqaw",
+  "pwd": "5ecg",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "对抗式自查",
+  "tagline": "重要决定先被反问一遍",
+  "desc": "让每一个非平凡的决定在成立之前先经受一次「全新上下文的对抗式评审」：交叉盘问假设、对方案做隐藏失效模式的压力测试。正确性比速度重要时用它 —— 不熟悉的代码、生产环境鉴权、安全敏感逻辑、高风险迁移、不可逆操作。",
+  "features": [
+    "由全新上下文做对抗式评审",
+    "交叉盘问每一个假设",
+    "对方案做失效模式压力测试",
+    "适用高风险场景：生产鉴权、安全逻辑、不可逆操作"
+  ],
+  "install": [
+    "把 doubt-driven-development 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

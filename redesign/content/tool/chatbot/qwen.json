@@ -1,0 +1,36 @@
+{
+  "type": "tool",
+  "slug": "qwen",
+  "status": "ok",
+  "cat": "chatbot",
+  "name": "通义千问",
+  "nameZh": "通义千问",
+  "vendor": "阿里巴巴",
+  "tagline": "阿里巴巴的 AI 对话助手，支持问答、文档与图像理解",
+  "desc": "通义千问是阿里巴巴的产品，AI 对话助手，支持问答、文档与图像理解。完全免费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页、iOS、Android、Windows、macOS。",
+  "site": "https://www.qianwen.com",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "free",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "iOS",
+    "Android",
+    "Windows",
+    "macOS"
+  ],
+  "features": [
+    "支持文本对话、文档解析与图像识别",
+    "背后是通义千问系列大模型，部分模型已开源",
+    "网页版与手机应用可免费使用",
+    "通过阿里云百炼提供 API 调用并按量计费"
+  ],
+  "howto": [
+    "打开官网 www.qianwen.com",
+    "按官方说明免费使用，通常需要注册账号"
+  ],
+  "sourceBatch": "batchA-writing-chatbot-coding-image"
+}

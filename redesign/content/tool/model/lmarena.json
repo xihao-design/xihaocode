@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "lmarena",
+  "status": "ok",
+  "cat": "model",
+  "name": "LMArena",
+  "nameZh": "LMArena",
+  "vendor": "LMArena（原 LMSYS Chatbot Arena）",
+  "tagline": "以匿名对战投票为基础的模型排行榜，公开 Elo 评分与排名",
+  "desc": "LMArena 是 LMArena（原 LMSYS Chatbot Arena）的产品，以匿名对战投票为基础的模型排行榜，公开 Elo 评分与排名。完全免费。从中国大陆访问该站点通常需要自备网络条件。原生支持中文输入输出。支持平台：网页。",
+  "site": "https://lmarena.ai",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "free",
+  "needsVpn": true,
+  "zhSupport": true,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "用户匿名对比两个模型回答后投票",
+    "排行榜按 Elo 分数展示模型名次",
+    "设有中文、代码、视觉等分项榜单",
+    "投票与查榜完全免费，无需注册"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 lmarena.ai",
+    "按官方说明免费使用，通常需要注册账号"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

@@ -1,0 +1,322 @@
+{
+  "type": "skill",
+  "slug": "claude-api",
+  "name": "claude-api",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "skills/claude-api",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/claude-api",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "skills/claude-api/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11345
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 86198
+    },
+    {
+      "path": "csharp/claude-api/README.md",
+      "bytes": 18417
+    },
+    {
+      "path": "csharp/claude-api/batches.md",
+      "bytes": 411
+    },
+    {
+      "path": "csharp/claude-api/files-api.md",
+      "bytes": 900
+    },
+    {
+      "path": "csharp/claude-api/streaming.md",
+      "bytes": 789
+    },
+    {
+      "path": "csharp/claude-api/tool-use.md",
+      "bytes": 6002
+    },
+    {
+      "path": "curl/examples.md",
+      "bytes": 9193
+    },
+    {
+      "path": "curl/managed-agents.md",
+      "bytes": 8749
+    },
+    {
+      "path": "go/claude-api/README.md",
+      "bytes": 7760
+    },
+    {
+      "path": "go/claude-api/files-api.md",
+      "bytes": 936
+    },
+    {
+      "path": "go/claude-api/streaming.md",
+      "bytes": 1037
+    },
+    {
+      "path": "go/claude-api/tool-use.md",
+      "bytes": 8416
+    },
+    {
+      "path": "go/managed-agents/README.md",
+      "bytes": 18937
+    },
+    {
+      "path": "java/claude-api/README.md",
+      "bytes": 11308
+    },
+    {
+      "path": "java/claude-api/files-api.md",
+      "bytes": 1198
+    },
+    {
+      "path": "java/claude-api/streaming.md",
+      "bytes": 659
+    },
+    {
+      "path": "java/claude-api/tool-use.md",
+      "bytes": 9521
+    },
+    {
+      "path": "java/managed-agents/README.md",
+      "bytes": 16942
+    },
+    {
+      "path": "php/claude-api/README.md",
+      "bytes": 6113
+    },
+    {
+      "path": "php/claude-api/batches.md",
+      "bytes": 445
+    },
+    {
+      "path": "php/claude-api/files-api.md",
+      "bytes": 476
+    },
+    {
+      "path": "php/claude-api/streaming.md",
+      "bytes": 680
+    },
+    {
+      "path": "php/claude-api/tool-use.md",
+      "bytes": 8081
+    },
+    {
+      "path": "php/managed-agents/README.md",
+      "bytes": 13511
+    },
+    {
+      "path": "python/claude-api/README.md",
+      "bytes": 19875
+    },
+    {
+      "path": "python/claude-api/batches.md",
+      "bytes": 5582
+    },
+    {
+      "path": "python/claude-api/files-api.md",
+      "bytes": 4493
+    },
+    {
+      "path": "python/claude-api/sdk-upgrade.md",
+      "bytes": 28716
+    },
+    {
+      "path": "python/claude-api/streaming.md",
+      "bytes": 6531
+    },
+    {
+      "path": "python/claude-api/tool-use.md",
+      "bytes": 19264
+    },
+    {
+      "path": "python/managed-agents/README.md",
+      "bytes": 10341
+    },
+    {
+      "path": "ruby/claude-api/README.md",
+      "bytes": 4471
+    },
+    {
+      "path": "ruby/claude-api/streaming.md",
+      "bytes": 233
+    },
+    {
+      "path": "ruby/claude-api/tool-use.md",
+      "bytes": 1061
+    },
+    {
+      "path": "ruby/managed-agents/README.md",
+      "bytes": 10450
+    },
+    {
+      "path": "shared/admin-api.md",
+      "bytes": 11604
+    },
+    {
+      "path": "shared/agent-design.md",
+      "bytes": 8736
+    },
+    {
+      "path": "shared/anthropic-cli.md",
+      "bytes": 18162
+    },
+    {
+      "path": "shared/claude-platform-on-aws.md",
+      "bytes": 4412
+    },
+    {
+      "path": "shared/cost-optimization.md",
+      "bytes": 44959
+    },
+    {
+      "path": "shared/error-codes.md",
+      "bytes": 15474
+    },
+    {
+      "path": "shared/live-sources.md",
+      "bytes": 22559
+    },
+    {
+      "path": "shared/managed-agents-api-reference.md",
+      "bytes": 33958
+    },
+    {
+      "path": "shared/managed-agents-client-patterns.md",
+      "bytes": 12043
+    },
+    {
+      "path": "shared/managed-agents-core.md",
+      "bytes": 32573
+    },
+    {
+      "path": "shared/managed-agents-environments.md",
+      "bytes": 12653
+    },
+    {
+      "path": "shared/managed-agents-events.md",
+      "bytes": 24955
+    },
+    {
+      "path": "shared/managed-agents-memory.md",
+      "bytes": 11154
+    },
+    {
+      "path": "shared/managed-agents-multiagent.md",
+      "bytes": 26194
+    },
+    {
+      "path": "shared/managed-agents-onboarding.md",
+      "bytes": 10454
+    },
+    {
+      "path": "shared/managed-agents-outcomes.md",
+      "bytes": 7244
+    },
+    {
+      "path": "shared/managed-agents-overview.md",
+      "bytes": 13165
+    },
+    {
+      "path": "shared/managed-agents-scheduled-deployments.md",
+      "bytes": 8734
+    },
+    {
+      "path": "shared/managed-agents-self-hosted-sandboxes.md",
+      "bytes": 27847
+    },
+    {
+      "path": "shared/managed-agents-tools.md",
+      "bytes": 35652
+    },
+    {
+      "path": "shared/managed-agents-webhooks.md",
+      "bytes": 11321
+    },
+    {
+      "path": "shared/model-migration.md",
+      "bytes": 244863
+    },
+    {
+      "path": "shared/models.md",
+      "bytes": 13936
+    },
+    {
+      "path": "shared/platform-availability.md",
+      "bytes": 5537
+    },
+    {
+      "path": "shared/prompt-audit.md",
+      "bytes": 34966
+    },
+    {
+      "path": "shared/prompt-caching.md",
+      "bytes": 31084
+    },
+    {
+      "path": "shared/token-counting.md",
+      "bytes": 1597
+    },
+    {
+      "path": "shared/tool-use-concepts.md",
+      "bytes": 35290
+    },
+    {
+      "path": "typescript/claude-api/README.md",
+      "bytes": 15131
+    },
+    {
+      "path": "typescript/claude-api/batches.md",
+      "bytes": 2590
+    },
+    {
+      "path": "typescript/claude-api/files-api.md",
+      "bytes": 2382
+    },
+    {
+      "path": "typescript/claude-api/streaming.md",
+      "bytes": 5825
+    },
+    {
+      "path": "typescript/claude-api/tool-use.md",
+      "bytes": 18877
+    },
+    {
+      "path": "typescript/managed-agents/README.md",
+      "bytes": 9828
+    }
+  ],
+  "pack": {
+    "dirBytes": 1174800,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1kpie4t1obOv54GHENKuezw",
+  "pwd": "xjkz",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "Claude API 参考手册",
+  "tagline": "写 Claude 代码前，先查这份参考",
+  "desc": "Claude API / Anthropic SDK 的参考手册：模型 id、价格、参数、流式输出、工具调用、MCP、Agent、缓存、token 计数、模型迁移，并按语言分目录给出实现参考。它的触发规则很硬——只要提问里出现 Claude/Anthropic 相关字样，或用户在问 LLM 的价格与选型，就必须先读这份参考，不许凭记忆回答。",
+  "features": [
+    "模型 id、定价、参数与模型迁移",
+    "流式输出、工具调用、MCP 与 Agent 用法",
+    "缓存与 token 计数",
+    "多语言实现参考（68 个附加文件，按语言分目录）"
+  ],
+  "install": [
+    "把 claude-api 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "体积较大，建议整目录保留，不要只拷 SKILL.md"
+  ],
+  "hostNote": "目录结构为 Anthropic 官方技能格式（仓库内 skills/ 约定）。本站按路径推断适用宿主、未逐条实测：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

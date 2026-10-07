@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "dspy",
+  "status": "ok",
+  "cat": "prompts",
+  "name": "DSPy",
+  "nameZh": "DSPy",
+  "vendor": "Stanford NLP Group",
+  "tagline": "斯坦福开源的提示词编程框架，用优化器自动生成和调整提示词",
+  "desc": "DSPy 是 Stanford NLP Group 的产品，斯坦福开源的提示词编程框架，用优化器自动生成和调整提示词。完全免费。从中国大陆可以直连访问。以英文界面与英文输入为主。支持平台：命令行。项目源码在 github.com/stanfordnlp/dspy 公开，可自行查看实现。",
+  "site": "https://dspy.ai",
+  "pricingUrl": "",
+  "repo": "https://github.com/stanfordnlp/dspy",
+  "opensource": true,
+  "freeTier": "free",
+  "needsVpn": false,
+  "zhSupport": false,
+  "platforms": [
+    "命令行"
+  ],
+  "features": [
+    "以 Python 模块组合方式声明模型调用流程",
+    "通过优化器自动搜索更优的提示词",
+    "支持少样本示例自动挑选与编译",
+    "遵循 MIT 许可，可从 PyPI 安装"
+  ],
+  "howto": [
+    "打开官网 dspy.ai",
+    "按官方文档说明部署或调用，可完全离线运行"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

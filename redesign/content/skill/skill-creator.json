@@ -1,0 +1,117 @@
+{
+  "type": "skill",
+  "slug": "skill-creator",
+  "name": "skill-creator",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "skills/skill-creator",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/skill-creator",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "skills/skill-creator/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11345
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 33168
+    },
+    {
+      "path": "agents/analyzer.md",
+      "bytes": 10376
+    },
+    {
+      "path": "agents/comparator.md",
+      "bytes": 7287
+    },
+    {
+      "path": "agents/grader.md",
+      "bytes": 9049
+    },
+    {
+      "path": "assets/eval_review.html",
+      "bytes": 7058
+    },
+    {
+      "path": "eval-viewer/generate_review.py",
+      "bytes": 16365
+    },
+    {
+      "path": "eval-viewer/viewer.html",
+      "bytes": 44998
+    },
+    {
+      "path": "references/schemas.md",
+      "bytes": 12061
+    },
+    {
+      "path": "scripts/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "scripts/aggregate_benchmark.py",
+      "bytes": 14386
+    },
+    {
+      "path": "scripts/generate_report.py",
+      "bytes": 12847
+    },
+    {
+      "path": "scripts/improve_description.py",
+      "bytes": 11116
+    },
+    {
+      "path": "scripts/package_skill.py",
+      "bytes": 4234
+    },
+    {
+      "path": "scripts/quick_validate.py",
+      "bytes": 3972
+    },
+    {
+      "path": "scripts/run_eval.py",
+      "bytes": 11464
+    },
+    {
+      "path": "scripts/run_loop.py",
+      "bytes": 13605
+    },
+    {
+      "path": "scripts/utils.py",
+      "bytes": 1661
+    }
+  ],
+  "pack": {
+    "dirBytes": 224992,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1OP7fCG0ryeRuZD1hLki5aQ",
+  "pwd": "efmu",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "技能创建器",
+  "tagline": "写技能、改技能，并证明它真的有用",
+  "desc": "创建与改进技能的官方技能。它更在意第二件事：怎么证明一个技能有用。除了给出从零创建技能的流程，它还提供整套评测手段 —— 批量跑 eval 看技能是否在预期时机触发、做基准对比与方差分析判断改动是否真的有效、优化 SKILL.md 里的 description 以提高触发准确率。description 写得准不准，直接决定技能什么时候会被调用。",
+  "features": [
+    "从零创建新技能的结构化流程",
+    "批量跑评测（eval）验证技能的触发与执行",
+    "基准测试与方差分析，避免把噪声当成改进",
+    "优化 description 的触发准确率",
+    "附评测聚合、报告生成、技能打包与快速校验脚本",
+    "内含 analyzer / comparator / grader 三个评测角色说明"
+  ],
+  "install": [
+    "把 skill-creator 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "保持 agents/、references/、scripts/、eval-viewer/ 的相对位置不变",
+    "评测脚本需要 Python 环境；eval-viewer/viewer.html 可直接用浏览器打开看评测结果"
+  ],
+  "hostNote": "目录结构为 Anthropic 官方技能格式（仓库内 skills/ 约定）。本站按路径推断适用宿主、未逐条实测：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

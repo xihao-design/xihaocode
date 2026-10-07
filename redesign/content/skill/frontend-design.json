@@ -1,0 +1,49 @@
+{
+  "type": "skill",
+  "slug": "frontend-design",
+  "name": "frontend-design",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "skills/frontend-design",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/frontend-design",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "skills/frontend-design/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 10174
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9390
+    }
+  ],
+  "pack": {
+    "dirBytes": 19564,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1yo9E8cxZP4FN6gn6fXjyOA",
+  "pwd": "94j8",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "前端视觉设计指导",
+  "tagline": "让界面不像模板批量生产的",
+  "desc": "做新界面或改造旧界面时的视觉指导：定审美方向、配字体、做取舍——目标是让成品读起来不像「默认模板」。适合不想让页面千篇一律的场景。",
+  "features": [
+    "协助确定审美方向与字体方案",
+    "避免「模板感」的默认选择",
+    "适用于新建 UI 与既有界面改造"
+  ],
+  "install": [
+    "把 frontend-design 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "无需额外依赖（纯说明型技能）"
+  ],
+  "hostNote": "目录结构为 Anthropic 官方技能格式（仓库内 skills/ 约定）。本站按路径推断适用宿主、未逐条实测：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

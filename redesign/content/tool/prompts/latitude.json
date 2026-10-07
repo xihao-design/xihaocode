@@ -1,0 +1,34 @@
+{
+  "type": "tool",
+  "slug": "latitude",
+  "status": "ok",
+  "cat": "prompts",
+  "name": "Latitude",
+  "nameZh": "Latitude",
+  "vendor": "Latitude 团队",
+  "tagline": "面向提示词工程的协作平台，支持提示词版本管理与在线评测",
+  "desc": "Latitude 是 Latitude 团队的产品，面向提示词工程的协作平台，支持提示词版本管理与在线评测。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页、Docker。项目源码在 github.com/latitude-dev/latitude-llm 公开，可自行查看实现。",
+  "site": "https://latitude.so",
+  "pricingUrl": "",
+  "repo": "https://github.com/latitude-dev/latitude-llm",
+  "opensource": true,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页",
+    "Docker"
+  ],
+  "features": [
+    "以提示词为中心组织项目与运行记录",
+    "提供提示词在线编辑与版本回滚",
+    "支持自托管部署与云端托管两种方式",
+    "可接入评测集对比不同提示词效果"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 latitude.so",
+    "注册账号后可使用免费额度，用量与限制以官网为准",
+    "想自行部署或二次开发的，可从源码仓库获取代码"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

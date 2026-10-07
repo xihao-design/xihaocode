@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "fagougou",
+  "status": "ok",
+  "cat": "lawyer",
+  "name": "法狗狗",
+  "nameZh": "法狗狗",
+  "vendor": "法狗狗（深圳）科技有限公司",
+  "tagline": "国内法律 AI 服务平台，提供智能法律咨询",
+  "desc": "法狗狗，由法狗狗（深圳）科技有限公司推出，国内法律 AI 服务平台，提供智能法律咨询。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页。",
+  "site": "https://www.fagougou.com",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "提供按领域分类的法律咨询问答机器人",
+    "支持合同、标书、公文等文档智能处理",
+    "官网设有面向不同行业的解决方案页面",
+    "基础咨询免费，企业方案按需报价"
+  ],
+  "howto": [
+    "打开官网 www.fagougou.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

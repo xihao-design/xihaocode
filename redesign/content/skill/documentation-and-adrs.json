@@ -1,0 +1,50 @@
+{
+  "type": "skill",
+  "slug": "documentation-and-adrs",
+  "name": "documentation-and-adrs",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/documentation-and-adrs",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/documentation-and-adrs",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 9848
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 10916,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1HJOK_aNLd7ldyZ8Khr5lDg",
+  "pwd": "k5gh",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "文档与架构决策记录",
+  "tagline": "把当时的取舍写下来，给后面的人看",
+  "desc": "记录决策与文档：写架构决策记录（ADR）、记录某个设计取舍背后的原因、改公开 API、发版，以及任何未来的工程师和 agent 理解代码库时需要的上下文。",
+  "features": [
+    "架构决策记录（ADR）",
+    "记录设计取舍背后的原因",
+    "改公开 API 时的文档同步",
+    "给后续工程师与 agent 留上下文"
+  ],
+  "install": [
+    "把 documentation-and-adrs 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

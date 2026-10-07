@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "gongji-suanli",
+  "status": "ok",
+  "cat": "compute",
+  "name": "共绩算力",
+  "nameZh": "共绩算力",
+  "vendor": "共绩算力（北京共绩科技）",
+  "tagline": "弹性 GPU 算力服务平台，提供云主机与容器实例的按量租用",
+  "desc": "共绩算力是共绩算力（北京共绩科技）的产品，弹性 GPU 算力服务平台，提供云主机与容器实例的按量租用。需要付费使用，官网可查具体方案。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页。",
+  "site": "https://suanli.cn",
+  "pricingUrl": "https://suanli.cn/price/",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "paid",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "提供 GPU 云主机与容器实例产品",
+    "算力与存储价格在官网明码标价",
+    "支持按量付费与包时段两种计费方式",
+    "面向推理与训练场景提供弹性扩缩"
+  ],
+  "howto": [
+    "打开官网 suanli.cn",
+    "官网了解具体方案后开通使用"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

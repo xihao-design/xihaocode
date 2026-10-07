@@ -1,0 +1,50 @@
+{
+  "type": "skill",
+  "slug": "planning-and-task-breakdown",
+  "name": "planning-and-task-breakdown",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/planning-and-task-breakdown",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/planning-and-task-breakdown",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 10564
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 11632,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/11eFisey0uZErcKE1LWtslA",
+  "pwd": "itme",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "计划与任务拆解",
+  "tagline": "把规格拆成有顺序、能开工的任务",
+  "desc": "把工作拆成有顺序的任务：手上已有规格或明确需求、需要拆成可实施的任务、任务大到不知从哪下手、需要估算范围、或者存在可并行的工作时用它。",
+  "features": [
+    "拆成有顺序的可实施任务",
+    "任务过大时的切分",
+    "范围估算",
+    "识别可并行的工作"
+  ],
+  "install": [
+    "把 planning-and-task-breakdown 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

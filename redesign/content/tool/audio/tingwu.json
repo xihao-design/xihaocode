@@ -1,0 +1,36 @@
+{
+  "type": "tool",
+  "slug": "tingwu",
+  "status": "ok",
+  "cat": "audio",
+  "name": "通义听悟",
+  "nameZh": "通义听悟",
+  "vendor": "阿里云",
+  "tagline": "阿里云推出的音视频转写工具，可自动生成会议纪要",
+  "desc": "通义听悟是阿里云的产品，音视频转写工具，可自动生成会议纪要。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页、iOS、Android。",
+  "site": "https://tingwu.aliyun.com",
+  "pricingUrl": "https://help.aliyun.com/zh/tingwu/pricing-and-billing-rules",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    "1小时音视频约5分钟完成转写",
+    "支持实时转写与多语言同步翻译",
+    "可自动区分发言人并提取待办事项",
+    "支持导出字幕文件与纪要文档",
+    "支持实时记录与上传音视频文件两种转写方式",
+    "可自动区分发言人并生成要点与待办事项"
+  ],
+  "howto": [
+    "打开官网 tingwu.aliyun.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "video-audio-music-design"
+}

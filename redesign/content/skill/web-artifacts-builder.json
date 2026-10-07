@@ -1,0 +1,62 @@
+{
+  "type": "skill",
+  "slug": "web-artifacts-builder",
+  "name": "web-artifacts-builder",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "skills/web-artifacts-builder",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/web-artifacts-builder",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "skills/web-artifacts-builder/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11345
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3087
+    },
+    {
+      "path": "scripts/bundle-artifact.sh",
+      "bytes": 1517
+    },
+    {
+      "path": "scripts/init-artifact.sh",
+      "bytes": 9924
+    },
+    {
+      "path": "scripts/shadcn-components.tar.gz",
+      "bytes": 19967
+    }
+  ],
+  "pack": {
+    "dirBytes": 45840,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1wLMYhUcqu9UujAGXlkcxyw",
+  "pwd": "pqb6",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "复杂 Artifact 构建",
+  "tagline": "React + Tailwind + shadcn/ui 多组件 artifact",
+  "desc": "用现代前端技术栈（React、Tailwind CSS、shadcn/ui）构建结构复杂的 claude.ai HTML artifact：需要状态管理、路由或 shadcn/ui 组件时用。简单的单文件 HTML/JSX 用不上它。",
+  "features": [
+    "React + Tailwind CSS + shadcn/ui 技术栈",
+    "适合需要状态管理与路由的复杂 artifact",
+    "scripts/ 提供初始化与打包脚本",
+    "自带 shadcn 组件包（tar.gz），离线可用"
+  ],
+  "install": [
+    "把 web-artifacts-builder 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "scripts/init-artifact.sh 初始化项目，bundle-artifact.sh 打包产物"
+  ],
+  "hostNote": "目录结构为 Anthropic 官方技能格式（仓库内 skills/ 约定）。本站按路径推断适用宿主、未逐条实测：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

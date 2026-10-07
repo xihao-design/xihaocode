@@ -1,0 +1,33 @@
+{
+  "type": "tool",
+  "slug": "promptfoo",
+  "status": "ok",
+  "cat": "prompts",
+  "name": "Promptfoo",
+  "nameZh": "Promptfoo",
+  "vendor": "Promptfoo, Inc.",
+  "tagline": "开源提示词测试与红队工具，用配置文件批量跑断言并对比多模型",
+  "desc": "Promptfoo：开源提示词测试与红队工具，用配置文件批量跑断言并对比多模型。完全免费。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：命令行、网页。项目源码在 github.com/promptfoo/promptfoo 公开，可自行查看实现。",
+  "site": "https://www.promptfoo.dev",
+  "pricingUrl": "",
+  "repo": "https://github.com/promptfoo/promptfoo",
+  "opensource": true,
+  "freeTier": "free",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "命令行",
+    "网页"
+  ],
+  "features": [
+    "通过 YAML 配置批量测试提示词与模型",
+    "内置断言、相似度与模型评分等检查方式",
+    "支持红队测试，检测越狱与提示注入",
+    "可通过 npm 安装并接入 CI 流水线"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 www.promptfoo.dev",
+    "按官方文档说明部署或调用，可完全离线运行"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

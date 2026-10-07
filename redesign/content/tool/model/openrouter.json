@@ -1,0 +1,33 @@
+{
+  "type": "tool",
+  "slug": "openrouter",
+  "status": "ok",
+  "cat": "model",
+  "name": "OpenRouter",
+  "nameZh": "OpenRouter",
+  "vendor": "OpenRouter, Inc.",
+  "tagline": "聚合多家供应商的统一 API 网关，可调用数百个模型",
+  "desc": "OpenRouter：聚合多家供应商的统一 API 网关，可调用数百个模型。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页、命令行。",
+  "site": "https://openrouter.ai",
+  "pricingUrl": "https://openrouter.ai/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页",
+    "命令行"
+  ],
+  "features": [
+    "统一接口对接 OpenAI、Anthropic 等多家模型",
+    "可查看各模型实时价格与可用性状态",
+    "提供部分免费模型与相应速率限制",
+    "支持自动路由与供应商故障回退"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 openrouter.ai",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

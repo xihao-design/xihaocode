@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "looka",
+  "status": "ok",
+  "cat": "design",
+  "name": "Looka",
+  "nameZh": "Looka",
+  "vendor": "Looka",
+  "tagline": "AI Logo设计工具，可生成品牌标识与配套物料",
+  "desc": "Looka：AI Logo 设计工具，可生成品牌标识与配套物料。提供试用，正式使用需要购买。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页。",
+  "site": "https://looka.com",
+  "pricingUrl": "https://looka.com/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "trial",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "输入品牌名称与偏好即可生成Logo方案",
+    "提供品牌配色、字体与名片等物料",
+    "可下载多种格式的Logo源文件",
+    "在线预览免费，下载需购买套餐"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 looka.com",
+    "可先试用，正式使用需按官网方案购买"
+  ],
+  "sourceBatch": "video-audio-music-design"
+}

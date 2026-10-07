@@ -1,0 +1,29 @@
+/* ============================================================
+   西浩资源库 · 设计系统 04 · 工具类与全局收敛
+   ============================================================ */
+
+.nowrap{white-space:nowrap}
+.muted{color:var(--ink-3)}
+.center{text-align:center}
+.stack-sm > * + *{margin-top:10px}
+
+/* 长 URL、长仓库名不许撑破布局 */
+.break{word-break:break-word;overflow-wrap:anywhere}
+
+/* 打印：去掉顶栏、工具条、浮层，只留正文 */
+@media print{
+  .hdr,.tools,.tw,.totop,.toast,.hero::before{display:none!important}
+  body{background:#fff;color:#000}
+  .card,.dl,.promises,.meta{box-shadow:none;background:#fff;border-color:#ccc}
+  a[href^="http"]::after{content:" (" attr(href) ")";font-size:11px;color:#666}
+}
+
+/* 尊重系统的动效偏好：这是无障碍要求，任何动画都不该绕过 */
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    animation-duration:.001ms!important;
+    animation-iteration-count:1!important;
+    transition-duration:.001ms!important;
+    scroll-behavior:auto!important;
+  }
+}

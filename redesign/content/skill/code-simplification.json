@@ -1,0 +1,49 @@
+{
+  "type": "skill",
+  "slug": "code-simplification",
+  "name": "code-simplification",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/code-simplification",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/code-simplification",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 13545
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 14613,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1FjCJRH2y-RtmMV6FvKj1xA",
+  "pwd": "hp2g",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "代码简化",
+  "tagline": "行为不变，把代码改简单",
+  "desc": "在不改变行为的前提下把代码改清楚。代码能跑、但比应有的样子更难读、更难维护、更难扩展时用它；评审那些积累了多余复杂度的代码时同样适用。",
+  "features": [
+    "只改清晰度、不改行为",
+    "针对难读、难维护、难扩展的代码",
+    "识别并去掉累积的多余复杂度"
+  ],
+  "install": [
+    "把 code-simplification 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

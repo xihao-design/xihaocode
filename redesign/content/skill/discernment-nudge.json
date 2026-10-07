@@ -1,0 +1,50 @@
+{
+  "type": "skill",
+  "slug": "discernment-nudge",
+  "name": "discernment-nudge",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "skills/discernment-nudge",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/discernment-nudge",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "skills/discernment-nudge/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11345
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10592
+    }
+  ],
+  "pack": {
+    "dirBytes": 21937,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1STyxrSZkiWNaGvlkjRvmuQ",
+  "pwd": "wny6",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "结论自查提示",
+  "tagline": "回答定稿前，追加几个该核对的问题",
+  "desc": "在你给出可能被采纳的回答之后（建议、方案、估算、数据分析、事实性结论都算），这个技能会在定稿前追问 2-3 个针对具体内容的问题，帮你核对事实、检验推理前提、发现缺失的上下文。官方明确限定：一次对话最多用一次；纯查询、纯格式化、你自己会跑代码、闲聊等场景都跳过。",
+  "features": [
+    "针对刚产出的内容生成 2-3 个追问",
+    "覆盖建议、方案、估算、数据分析、事实性结论",
+    "一次对话最多触发一次",
+    "明确列出跳过场景，避免打扰"
+  ],
+  "install": [
+    "把 discernment-nudge 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "无需额外依赖（纯说明型技能）"
+  ],
+  "hostNote": "目录结构为 Anthropic 官方技能格式（仓库内 skills/ 约定）。本站按路径推断适用宿主、未逐条实测：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

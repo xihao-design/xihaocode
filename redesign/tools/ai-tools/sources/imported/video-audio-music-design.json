@@ -1,0 +1,992 @@
+[
+  {
+    "name": "Kling AI",
+    "nameZh": "可灵AI",
+    "slug": "kling-ai",
+    "vendor": "快手",
+    "site": "https://klingai.com",
+    "cat": "video",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "快手推出的AI视频生成平台，支持文生视频与图生视频",
+    "pricingUrl": "https://klingai.com/app/membership/membership-plan",
+    "facts": [
+      "支持文生视频、图生视频与首尾帧控制",
+      "单次生成时长通常为5秒或10秒",
+      "视频输出最高支持1080P分辨率",
+      "提供对口型与运动笔刷等编辑能力"
+    ]
+  },
+  {
+    "name": "Hailuo AI",
+    "nameZh": "海螺AI",
+    "slug": "hailuo-ai",
+    "vendor": "MiniMax",
+    "site": "https://hailuoai.video",
+    "cat": "video",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "MiniMax推出的AI视频生成工具，支持文生与图生视频",
+    "pricingUrl": "https://hailuoai.video/zh-Intl/subscribe",
+    "facts": [
+      "视频模型由MiniMax自研并持续迭代",
+      "单段视频可选6秒或10秒时长",
+      "支持1080P分辨率的画面输出",
+      "提供图生视频与主体参考等生成模式"
+    ]
+  },
+  {
+    "name": "Vidu",
+    "nameZh": "Vidu",
+    "slug": "vidu",
+    "vendor": "生数科技",
+    "site": "https://www.vidu.cn",
+    "cat": "video",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "生数科技推出的AI视频生成平台，支持参考生视频",
+    "pricingUrl": "https://www.vidu.cn/pricing",
+    "facts": [
+      "基于自研U-ViT扩散模型架构",
+      "提供文生视频、图生视频与参考生视频",
+      "单次生成数秒短视频，支持1080P输出",
+      "官网设有API开放平台供开发者接入"
+    ]
+  },
+  {
+    "name": "剪映",
+    "nameZh": "剪映",
+    "slug": "jianying",
+    "vendor": "深圳市脸萌科技有限公司（字节跳动）",
+    "site": "https://www.jianying.com",
+    "cat": "video",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "网页"
+    ],
+    "oneLine": "字节跳动旗下视频剪辑软件，内置多项AI智能功能",
+    "pricingUrl": null,
+    "facts": [
+      "支持智能剪口播、人声分离与音频降噪",
+      "提供数字人播报与文本朗读能力",
+      "支持多机位、关键帧与多时间线剪辑",
+      "可一键完成画质修复与智能抠像"
+    ]
+  },
+  {
+    "name": "PixVerse",
+    "nameZh": "PixVerse",
+    "slug": "pixverse",
+    "vendor": "爱诗科技",
+    "site": "https://pixverse.ai",
+    "cat": "video",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "爱诗科技推出的AI视频生成平台，提供多种特效模板",
+    "pricingUrl": "https://app.pixverse.ai/subscribe",
+    "facts": [
+      "支持文生视频与图生视频两种方式",
+      "提供多种风格化视频特效模板",
+      "网页端可继续编辑并延长视频时长",
+      "采用积分制，官网提供订阅方案"
+    ]
+  },
+  {
+    "name": "度加剪辑",
+    "nameZh": "度加剪辑",
+    "slug": "dujia",
+    "vendor": "百度",
+    "site": "https://aigc.baidu.com",
+    "cat": "video",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "百度推出的AIGC创作平台，支持AI成片与数字人",
+    "pricingUrl": null,
+    "facts": [
+      "输入文案即可一键生成完整视频",
+      "上传约10秒音频即可克隆音色",
+      "提供数字分身播报与高光剪辑功能",
+      "作品可一键发布到百家号等平台"
+    ]
+  },
+  {
+    "name": "Runway",
+    "nameZh": "Runway",
+    "slug": "runway",
+    "vendor": "Runway AI, Inc.",
+    "site": "https://runway.com",
+    "cat": "video",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页",
+      "iOS"
+    ],
+    "oneLine": "美国AI视频生成平台，提供Gen系列视频生成模型",
+    "pricingUrl": "https://runway.com/pricing",
+    "facts": [
+      "提供Gen-4等自研视频生成模型",
+      "支持文生视频、图生视频与视频转视频",
+      "内置运动笔刷与镜头控制等编辑工具",
+      "按积分计费，新用户可获得免费额度"
+    ]
+  },
+  {
+    "name": "HeyGen",
+    "nameZh": "HeyGen",
+    "slug": "heygen",
+    "vendor": "HeyGen",
+    "site": "https://www.heygen.com",
+    "cat": "video",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "AI数字人视频平台，可用虚拟形象生成口播视频",
+    "pricingUrl": "https://www.heygen.com/pricing",
+    "facts": [
+      "提供大量预制数字人形象与音色",
+      "支持上传素材定制专属数字分身",
+      "内置多语种语音合成与口型同步",
+      "提供API接口与团队协作功能"
+    ]
+  },
+  {
+    "name": "HunyuanVideo",
+    "nameZh": "腾讯混元视频",
+    "slug": "hunyuanvideo",
+    "vendor": "腾讯",
+    "site": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+    "cat": "video",
+    "opensource": true,
+    "repo": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+    "freeTier": "free",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "Linux"
+    ],
+    "oneLine": "腾讯开源的视频生成大模型，支持文生与图生视频",
+    "pricingUrl": null,
+    "facts": [
+      "模型参数规模达130亿",
+      "支持生成720P、约5秒的视频片段",
+      "提供文生视频与图生视频两种能力",
+      "代码与模型权重在GitHub开源"
+    ]
+  },
+  {
+    "name": "ElevenLabs",
+    "nameZh": "ElevenLabs",
+    "slug": "elevenlabs",
+    "vendor": "ElevenLabs",
+    "site": "https://elevenlabs.io",
+    "cat": "audio",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "美国AI语音平台，提供文本转语音与声音克隆",
+    "pricingUrl": "https://elevenlabs.io/pricing",
+    "facts": [
+      "支持数十种语言的语音合成",
+      "提供即时克隆与专业声音克隆两种方式",
+      "可导出MP3、WAV等常用音频格式",
+      "另提供配音、音效与音乐生成接口"
+    ]
+  },
+  {
+    "name": "讯飞智作",
+    "nameZh": "讯飞智作",
+    "slug": "xunfei-peiyin",
+    "vendor": "科大讯飞",
+    "site": "https://peiyin.xunfei.cn",
+    "cat": "audio",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "科大讯飞推出的AI配音平台，可将文字转为语音",
+    "pricingUrl": null,
+    "facts": [
+      "提供多种中文发音人与方言音色",
+      "支持多音字标注与停顿韵律调节",
+      "可在线生成配音并导出音频文件",
+      "提供声音复刻与数字人播报功能"
+    ]
+  },
+  {
+    "name": "通义听悟",
+    "nameZh": "通义听悟",
+    "slug": "tingwu",
+    "vendor": "阿里云",
+    "site": "https://tingwu.aliyun.com",
+    "cat": "audio",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "阿里云推出的音视频转写工具，可自动生成会议纪要",
+    "pricingUrl": null,
+    "facts": [
+      "1小时音视频约5分钟完成转写",
+      "支持实时转写与多语言同步翻译",
+      "可自动区分发言人并提取待办事项",
+      "支持导出字幕文件与纪要文档"
+    ]
+  },
+  {
+    "name": "Descript",
+    "nameZh": "Descript",
+    "slug": "descript",
+    "vendor": "Descript, Inc.",
+    "site": "https://www.descript.com",
+    "cat": "audio",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "网页"
+    ],
+    "oneLine": "美国音视频编辑工具，可通过修改文稿来剪辑音频",
+    "pricingUrl": null,
+    "facts": [
+      "支持基于文稿的音频与视频剪辑",
+      "自动转写并识别不同说话人",
+      "可一键去除填充词与长段静音",
+      "支持导出音频、视频与字幕文件"
+    ]
+  },
+  {
+    "name": "Otter.ai",
+    "nameZh": "Otter.ai",
+    "slug": "otter-ai",
+    "vendor": "Otter.ai",
+    "site": "https://otter.ai",
+    "cat": "audio",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "美国会议记录工具，可实时转写并自动生成摘要",
+    "pricingUrl": "https://otter.ai/pricing",
+    "facts": [
+      "可接入Zoom、Teams、Meet等会议",
+      "实时生成带时间戳的转写文本",
+      "自动提取会议摘要与待办事项",
+      "免费版每月转写时长有上限"
+    ]
+  },
+  {
+    "name": "Adobe Podcast",
+    "nameZh": "Adobe Podcast",
+    "slug": "adobe-podcast",
+    "vendor": "Adobe",
+    "site": "https://podcast.adobe.com",
+    "cat": "audio",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": false,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "Adobe推出的网页音频工具，可一键提升人声清晰度",
+    "pricingUrl": null,
+    "facts": [
+      "Enhance Speech可削弱环境噪声与混响",
+      "支持上传音频或视频文件进行处理",
+      "提供在线录音与基础剪辑功能",
+      "使用需登录Adobe账号"
+    ]
+  },
+  {
+    "name": "Whisper",
+    "nameZh": "Whisper",
+    "slug": "whisper",
+    "vendor": "OpenAI",
+    "site": "https://github.com/openai/whisper",
+    "cat": "audio",
+    "opensource": true,
+    "repo": "https://github.com/openai/whisper",
+    "freeTier": "free",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "oneLine": "OpenAI开源的语音识别模型，支持多语言转写",
+    "pricingUrl": null,
+    "facts": [
+      "提供tiny到large多种模型规格",
+      "支持约99种语言的语音识别",
+      "可输出带时间戳的字幕文件",
+      "支持本地部署与命令行调用"
+    ]
+  },
+  {
+    "name": "CosyVoice",
+    "nameZh": "CosyVoice",
+    "slug": "cosyvoice",
+    "vendor": "阿里巴巴通义实验室",
+    "site": "https://github.com/QwenAudio/CosyVoice",
+    "cat": "audio",
+    "opensource": true,
+    "repo": "https://github.com/QwenAudio/CosyVoice",
+    "freeTier": "free",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "Linux",
+      "Windows"
+    ],
+    "oneLine": "阿里开源的语音合成模型，支持零样本音色克隆",
+    "pricingUrl": null,
+    "facts": [
+      "支持中英日韩等多语言语音合成",
+      "可用数秒音频完成零样本音色克隆",
+      "提供推理、训练与部署全流程代码",
+      "支持流式合成，适合实时场景"
+    ]
+  },
+  {
+    "name": "GPT-SoVITS",
+    "nameZh": "GPT-SoVITS",
+    "slug": "gpt-sovits",
+    "vendor": "RVC-Boss 开源社区",
+    "site": "https://github.com/RVC-Boss/GPT-SoVITS",
+    "cat": "audio",
+    "opensource": true,
+    "repo": "https://github.com/RVC-Boss/GPT-SoVITS",
+    "freeTier": "free",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "oneLine": "开源语音克隆与合成项目，少量音频即可复刻音色",
+    "pricingUrl": null,
+    "facts": [
+      "约1分钟音频即可完成音色微调",
+      "支持中英日韩等多语言合成",
+      "提供网页推理界面与整合包",
+      "可自行训练专属语音模型"
+    ]
+  },
+  {
+    "name": "魔音工坊",
+    "nameZh": "魔音工坊",
+    "slug": "moyin",
+    "vendor": "出门问问",
+    "site": "https://www.moyin.com",
+    "cat": "audio",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "出门问问推出的AI配音平台，提供多种中文音色",
+    "pricingUrl": null,
+    "facts": [
+      "提供数百种中文发音人音色",
+      "支持多音字标注与语速停顿调节",
+      "可导出MP3等常用音频格式",
+      "支持多人对话配音与声音克隆"
+    ]
+  },
+  {
+    "name": "Suno",
+    "nameZh": "Suno",
+    "slug": "suno",
+    "vendor": "Suno, Inc.",
+    "site": "https://suno.com",
+    "cat": "music",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "美国AI音乐生成平台，输入歌词或描述即可生成歌曲",
+    "pricingUrl": "https://suno.com/pricing",
+    "facts": [
+      "支持中文歌词的演唱与生成",
+      "可先生成歌词再生成完整歌曲",
+      "单首歌曲时长可达数分钟",
+      "免费版每日生成次数有上限"
+    ]
+  },
+  {
+    "name": "Udio",
+    "nameZh": "Udio",
+    "slug": "udio",
+    "vendor": "Uncharted Labs",
+    "site": "https://www.udio.com",
+    "cat": "music",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "美国AI音乐生成工具，可按提示词生成完整歌曲",
+    "pricingUrl": null,
+    "facts": [
+      "支持生成带人声的完整歌曲",
+      "可对歌曲分段续写与局部重绘",
+      "提供音轨分离与音频下载功能",
+      "免费账号每月有一定生成额度"
+    ]
+  },
+  {
+    "name": "网易天音",
+    "nameZh": "网易天音",
+    "slug": "netease-tianyin",
+    "vendor": "网易云音乐",
+    "site": "https://tianyin.music.163.com",
+    "cat": "music",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "网易云音乐推出的AI音乐创作工具，可一站式写歌",
+    "pricingUrl": null,
+    "facts": [
+      "输入主题即可生成歌词与旋律",
+      "提供编曲与虚拟歌手演唱能力",
+      "支持用乐评内容作为写歌素材",
+      "作品可发布到网易云音乐平台"
+    ]
+  },
+  {
+    "name": "天工SkyMusic",
+    "nameZh": "天工SkyMusic",
+    "slug": "tiangong-skymusic",
+    "vendor": "昆仑万维",
+    "site": "https://music.tiangong.cn",
+    "cat": "music",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "昆仑万维推出的AI音乐生成工具，主打中文歌曲创作",
+    "pricingUrl": null,
+    "facts": [
+      "基于昆仑万维自研音乐大模型",
+      "支持中文人声演唱与歌词生成",
+      "可生成带伴奏的完整歌曲",
+      "依托天工大模型体系持续迭代"
+    ]
+  },
+  {
+    "name": "Stable Audio",
+    "nameZh": "Stable Audio",
+    "slug": "stable-audio",
+    "vendor": "Stability AI",
+    "site": "https://stableaudio.com",
+    "cat": "music",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "Stability AI的AI音频生成工具，可生成音乐与音效",
+    "pricingUrl": null,
+    "facts": [
+      "按提示词生成音乐与音效素材",
+      "生成音频时长可长达数分钟",
+      "支持下载高音质音频文件",
+      "另有开源的Stable Audio Open模型"
+    ]
+  },
+  {
+    "name": "Moises",
+    "nameZh": "Moises",
+    "slug": "moises",
+    "vendor": "Moises Systems",
+    "site": "https://moises.ai",
+    "cat": "music",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "AI音轨分离工具，可提取人声与各乐器声部",
+    "pricingUrl": null,
+    "facts": [
+      "可将歌曲分离为人声、鼓、贝斯等声部",
+      "提供和弦识别与节拍检测功能",
+      "支持调整速度与音高用于练习",
+      "免费版每月处理数量有限"
+    ]
+  },
+  {
+    "name": "LALAL.AI",
+    "nameZh": "LALAL.AI",
+    "slug": "lalal-ai",
+    "vendor": "OmniSale GmbH",
+    "site": "https://www.lalal.ai",
+    "cat": "music",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "Windows",
+      "macOS"
+    ],
+    "oneLine": "在线AI音轨分离工具，可提取人声与伴奏",
+    "pricingUrl": "https://www.lalal.ai/pricing",
+    "facts": [
+      "支持人声、伴奏与多种乐器分离",
+      "可处理音频文件与视频文件",
+      "同时提供网页版与桌面客户端",
+      "按处理分钟计费，有免费试用额度"
+    ]
+  },
+  {
+    "name": "MusicGen",
+    "nameZh": "MusicGen",
+    "slug": "musicgen",
+    "vendor": "Meta",
+    "site": "https://github.com/facebookresearch/audiocraft",
+    "cat": "music",
+    "opensource": true,
+    "repo": "https://github.com/facebookresearch/audiocraft",
+    "freeTier": "free",
+    "needsVpn": false,
+    "zhSupport": false,
+    "platforms": [
+      "Linux",
+      "macOS"
+    ],
+    "oneLine": "Meta开源的音频生成库，包含MusicGen音乐生成模型",
+    "pricingUrl": null,
+    "facts": [
+      "提供MusicGen音乐生成模型",
+      "支持文本与旋律条件控制生成",
+      "内置EnCodec音频编解码器",
+      "可本地部署并导出WAV音频"
+    ]
+  },
+  {
+    "name": "Demucs",
+    "nameZh": "Demucs",
+    "slug": "demucs",
+    "vendor": "Meta",
+    "site": "https://github.com/facebookresearch/demucs",
+    "cat": "music",
+    "opensource": true,
+    "repo": "https://github.com/facebookresearch/demucs",
+    "freeTier": "free",
+    "needsVpn": false,
+    "zhSupport": false,
+    "platforms": [
+      "Linux",
+      "macOS",
+      "Windows"
+    ],
+    "oneLine": "Meta开源的音乐音源分离模型，可拆分人声与伴奏",
+    "pricingUrl": null,
+    "facts": [
+      "采用混合频谱与波形分离架构",
+      "可将歌曲拆分为人声、鼓、贝斯等声部",
+      "提供命令行工具与Python接口",
+      "部分模型支持六轨分离"
+    ]
+  },
+  {
+    "name": "ACE Studio",
+    "nameZh": "ACE Studio",
+    "slug": "ace-studio",
+    "vendor": "时域科技",
+    "site": "https://acestudio.ai",
+    "cat": "music",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "oneLine": "AI歌声合成工具，可用虚拟歌手演唱中文歌曲",
+    "pricingUrl": null,
+    "facts": [
+      "提供多种语言的AI歌手音色",
+      "支持输入歌词与旋律生成歌声",
+      "可导出人声轨用于音乐制作",
+      "同时提供独立客户端与音频插件"
+    ]
+  },
+  {
+    "name": "Canva",
+    "nameZh": "Canva可画",
+    "slug": "canva",
+    "vendor": "Canva Pty Ltd",
+    "site": "https://www.canva.com",
+    "cat": "design",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "在线设计平台，提供海量模板与AI生成设计功能",
+    "pricingUrl": "https://www.canva.com/pricing",
+    "facts": [
+      "提供海报、演示文稿等大量设计模板",
+      "Magic Studio可生成图文与视频素材",
+      "支持团队协作与品牌工具包管理",
+      "可导出PNG、PDF、PPTX等格式"
+    ]
+  },
+  {
+    "name": "Figma",
+    "nameZh": "Figma",
+    "slug": "figma",
+    "vendor": "Figma, Inc.",
+    "site": "https://www.figma.com",
+    "cat": "design",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": false,
+    "platforms": [
+      "网页",
+      "Windows",
+      "macOS"
+    ],
+    "oneLine": "在线界面设计协作工具，提供AI设计辅助功能",
+    "pricingUrl": "https://www.figma.com/pricing",
+    "facts": [
+      "支持多人实时协作编辑设计稿",
+      "Figma AI可生成界面与自动整理图层",
+      "提供组件、变量与自动布局能力",
+      "可导出PNG、SVG、PDF等格式"
+    ]
+  },
+  {
+    "name": "Gamma",
+    "nameZh": "Gamma",
+    "slug": "gamma",
+    "vendor": "Gamma",
+    "site": "https://gamma.app",
+    "cat": "design",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "AI演示文稿生成工具，输入主题即可生成幻灯片",
+    "pricingUrl": "https://gamma.app/pricing",
+    "facts": [
+      "输入主题即可生成图文并茂的演示稿",
+      "支持导出PPTX与PDF文件",
+      "生成结果以网页形式在线分享",
+      "提供AI配图与排版一键调整"
+    ]
+  },
+  {
+    "name": "Adobe Firefly",
+    "nameZh": "Adobe Firefly",
+    "slug": "adobe-firefly",
+    "vendor": "Adobe",
+    "site": "https://firefly.adobe.com",
+    "cat": "design",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "Adobe推出的AI创作平台，可生成图像、视频与音频",
+    "pricingUrl": null,
+    "facts": [
+      "提供文生图与生成式填充能力",
+      "集成于Photoshop等Adobe软件",
+      "内置多个自研与合作AI模型",
+      "生成内容可用于商业用途"
+    ]
+  },
+  {
+    "name": "稿定设计",
+    "nameZh": "稿定设计",
+    "slug": "gaoding",
+    "vendor": "稿定科技",
+    "site": "https://www.gaoding.com",
+    "cat": "design",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "在线平面设计平台，提供海报与电商图等模板",
+    "pricingUrl": null,
+    "facts": [
+      "提供大量中文模板与版权素材",
+      "支持在线抠图、改图与批量处理",
+      "可导出PNG、JPG与PDF等格式",
+      "面向电商运营与新媒体场景"
+    ]
+  },
+  {
+    "name": "Meitu DesignKit",
+    "nameZh": "美图设计室",
+    "slug": "meitu-designkit",
+    "vendor": "美图公司",
+    "site": "https://www.designkit.cn",
+    "cat": "design",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "美图推出的在线设计工具，支持AI海报与商品图",
+    "pricingUrl": null,
+    "facts": [
+      "提供AI海报、AI Logo与Live PPT功能",
+      "支持智能抠图、AI消除与画质修复",
+      "可一键批量生成电商商品套图",
+      "提供网页版与移动端应用"
+    ]
+  },
+  {
+    "name": "创客贴",
+    "nameZh": "创客贴",
+    "slug": "chuangkit",
+    "vendor": "创客贴科技",
+    "site": "https://www.chuangkit.com",
+    "cat": "design",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "在线设计工具，提供海报、名片等中文模板素材",
+    "pricingUrl": null,
+    "facts": [
+      "提供海报、名片、公众号配图等模板",
+      "支持拖拽编辑与多人团队协作",
+      "可导出PNG、JPG与PDF等格式",
+      "提供企业品牌素材管理功能"
+    ]
+  },
+  {
+    "name": "讯飞智文",
+    "nameZh": "讯飞智文",
+    "slug": "xunfei-zhiwen",
+    "vendor": "科大讯飞",
+    "site": "https://zhiwen.xfyun.cn",
+    "cat": "design",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "科大讯飞推出的AI文档工具，可一键生成PPT",
+    "pricingUrl": null,
+    "facts": [
+      "输入主题即可生成PPT与Word文档",
+      "支持将已有文档一键转换为PPT",
+      "提供多种模板与配色方案",
+      "可导出PPTX等常见文件格式"
+    ]
+  },
+  {
+    "name": "Looka",
+    "nameZh": "Looka",
+    "slug": "looka",
+    "vendor": "Looka",
+    "site": "https://looka.com",
+    "cat": "design",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "trial",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "AI Logo设计工具，可生成品牌标识与配套物料",
+    "pricingUrl": "https://looka.com/pricing",
+    "facts": [
+      "输入品牌名称与偏好即可生成Logo方案",
+      "提供品牌配色、字体与名片等物料",
+      "可下载多种格式的Logo源文件",
+      "在线预览免费，下载需购买套餐"
+    ]
+  },
+  {
+    "name": "Penpot",
+    "nameZh": "Penpot",
+    "slug": "penpot",
+    "vendor": "Kaleidos",
+    "site": "https://penpot.app",
+    "cat": "design",
+    "opensource": true,
+    "repo": "https://github.com/penpot/penpot",
+    "freeTier": "free",
+    "needsVpn": false,
+    "zhSupport": false,
+    "platforms": [
+      "网页",
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "oneLine": "开源在线设计协作工具，支持界面设计与原型制作",
+    "pricingUrl": null,
+    "facts": [
+      "基于Web的开源设计与原型工具",
+      "支持多人实时协作编辑",
+      "可导出SVG、PDF与PNG等格式",
+      "提供社区版与自托管部署方案"
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "harvey",
+  "status": "ok",
+  "cat": "lawyer",
+  "name": "Harvey",
+  "nameZh": "Harvey",
+  "vendor": "Harvey AI, Inc.",
+  "tagline": "面向大型律所与企业法务的法律 AI 平台",
+  "desc": "Harvey 是 Harvey AI 的产品，面向大型律所与企业法务的法律 AI 平台。需要付费使用，官网可查具体方案。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页。",
+  "site": "https://www.harvey.ai",
+  "pricingUrl": "https://www.harvey.ai/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "paid",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "面向律所与企业法务的团队级工作平台",
+    "覆盖法律研究、文书起草与尽职调查",
+    "支持接入客户自有文档与知识库",
+    "以企业席位订阅方式销售，无免费版"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 www.harvey.ai",
+    "官网了解具体方案后开通使用"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

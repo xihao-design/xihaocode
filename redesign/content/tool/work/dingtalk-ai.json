@@ -1,0 +1,36 @@
+{
+  "type": "tool",
+  "slug": "dingtalk-ai",
+  "status": "ok",
+  "cat": "work",
+  "name": "DingTalk AI",
+  "nameZh": "钉钉 AI 助理",
+  "vendor": "阿里巴巴集团（Alibaba Group）",
+  "tagline": "钉钉推出的企业 AI 助理，可总结消息、生成文档并建智能体",
+  "desc": "钉钉 AI 助理是阿里巴巴集团（Alibaba Group）的产品，钉钉推出的企业 AI 助理，可总结消息、生成文档并建智能体。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：Windows、macOS、iOS、Android、网页。",
+  "site": "https://www.dingtalk.com/",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "Windows",
+    "macOS",
+    "iOS",
+    "Android",
+    "网页"
+  ],
+  "features": [
+    "AI 助理可在聊天中总结未读消息与会议纪要",
+    "支持用自然语言创建企业专属智能体并接入业务系统",
+    "个人版可免费使用基础 AI 能力",
+    "提供面向企业的 AI 开放平台与插件体系"
+  ],
+  "howto": [
+    "打开官网 www.dingtalk.com/",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchC-work-search-agents-study"
+}

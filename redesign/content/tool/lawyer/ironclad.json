@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "ironclad",
+  "status": "ok",
+  "cat": "lawyer",
+  "name": "Ironclad",
+  "nameZh": "Ironclad",
+  "vendor": "Ironclad, Inc.",
+  "tagline": "企业合同全生命周期管理平台，含 AI 审阅功能",
+  "desc": "Ironclad：企业合同全生命周期管理平台，含 AI 审阅功能。需要付费使用，官网可查具体方案。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页。",
+  "site": "https://ironcladapp.com",
+  "pricingUrl": "https://ironcladapp.com/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "paid",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "覆盖合同起草、审批、签署与归档流程",
+    "提供 AI 辅助的合同审阅与条款提取",
+    "可与 Salesforce、Slack 等系统集成",
+    "按企业规模订阅销售，官网可申请演示"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 ironcladapp.com",
+    "官网了解具体方案后开通使用"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

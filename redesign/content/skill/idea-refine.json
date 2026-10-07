@@ -1,0 +1,67 @@
+{
+  "type": "skill",
+  "slug": "idea-refine",
+  "name": "idea-refine",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/idea-refine",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/idea-refine",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 8111
+    },
+    {
+      "path": "examples.md",
+      "bytes": 20284
+    },
+    {
+      "path": "frameworks.md",
+      "bytes": 5404
+    },
+    {
+      "path": "refinement-criteria.md",
+      "bytes": 5738
+    },
+    {
+      "path": "scripts/idea-refine.sh",
+      "bytes": 342
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 40947,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1uCefE2TD668H7fOXYIFBQQ",
+  "pwd": "g3i2",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "想法打磨",
+  "tagline": "把模糊的想法收敛成能动手的方案",
+  "desc": "用结构化的「发散 → 收敛」思维把粗糙想法打磨成清晰、可执行的概念。想法还模糊、想在定方案前压力测试假设、或者想先展开选项再收敛时用它。触发词：ideate、refine this idea、stress-test my plan。",
+  "features": [
+    "结构化发散与收敛",
+    "定方案前压力测试假设",
+    "先展开选项再收敛",
+    "附 examples.md / frameworks.md / refinement-criteria.md",
+    "附 scripts/idea-refine.sh 可跑一遍流程"
+  ],
+  "install": [
+    "把 idea-refine 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "附 scripts/idea-refine.sh，可直接跑一遍打磨流程"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

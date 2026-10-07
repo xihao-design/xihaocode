@@ -1,0 +1,3101 @@
+{
+  "_note": "检查过的仓库/包名与结论。避免每天重复消耗 API 配额，也避免重复收录。",
+  "_updated": "2026-10-07",
+  "repos": {
+    "10miaomiao/bilimiao2": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "bilimiao",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "15dd/hikari_novel_flutter": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "hikari-novel",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "aistra0528/hail": {
+      "firstSeen": "2026-09-20",
+      "lastRun": "2026-09-20",
+      "stage": "accepted",
+      "slug": "hail"
+    },
+    "aistra0528/Hail": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "hail",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "AndBible/and-bible": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "and-bible",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "AntennaPod/AntennaPod": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "antennapod",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "celzero/rethink-app": {
+      "firstSeen": "2026-09-23",
+      "lastRun": "2026-09-23",
+      "stage": "accepted",
+      "slug": "rethink-app"
+    },
+    "codeworkscreativehub/mlauncher": {
+      "firstSeen": "2026-09-22",
+      "lastRun": "2026-09-22",
+      "stage": "accepted",
+      "slug": "mlauncher"
+    },
+    "CodeWorksCreativeHub/mLauncher": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "mlauncher",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "crackededed/Xtra": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "xtra",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "crazy-marvin/flashy": {
+      "firstSeen": "2026-09-23",
+      "lastRun": "2026-09-23",
+      "stage": "accepted",
+      "slug": "flashy"
+    },
+    "Crazy-Marvin/Flashy": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "flashy",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "curbox-app/curbox-android": {
+      "firstSeen": "2026-09-17",
+      "lastRun": "2026-09-17",
+      "stage": "accepted",
+      "slug": "curbox-android"
+    },
+    "cyb3rko/flashdim": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "flashdim",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "czy0729/Bangumi": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "bangumi",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "d4rken-org/sdmaid-se": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "sd-maid-se",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "darkmoonight/Rain": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "rain-weather",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "deltachat/deltachat-android": {
+      "firstSeen": "2026-09-18",
+      "lastRun": "2026-09-18",
+      "stage": "accepted",
+      "slug": "deltachat-android"
+    },
+    "demizo/daily_you": {
+      "firstSeen": "2026-09-18",
+      "lastRun": "2026-09-18",
+      "stage": "accepted",
+      "slug": "daily-you"
+    },
+    "Demizo/Daily_You": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "daily-you",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "eldavoo/ylih": {
+      "firstSeen": "2026-09-25",
+      "lastRun": "2026-09-25",
+      "stage": "accepted",
+      "slug": "ylih"
+    },
+    "EnjoyingFOSS/feeel": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "feeel",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "foedusprogramme/gramophone": {
+      "firstSeen": "2026-09-19",
+      "lastRun": "2026-09-19",
+      "stage": "accepted",
+      "slug": "gramophone"
+    },
+    "FoedusProgramme/Gramophone": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "gramophone",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "FriesI23/mhabit": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "table-habit",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "Futsch1/medTimer": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "medtimer",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "gkd-kit/gkd": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "gkd",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "guozhigq/pilipala": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "pilipala",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "hddq/restoid": {
+      "firstSeen": "2026-09-22",
+      "lastRun": "2026-09-22",
+      "stage": "accepted",
+      "slug": "restoid"
+    },
+    "he11pc/android-mirror": {
+      "firstSeen": "2026-09-21",
+      "lastRun": "2026-09-21",
+      "stage": "accepted",
+      "slug": "android-mirror"
+    },
+    "He11PC/android-mirror": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "android-mirror",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "jellyfin/jellyfin-androidtv": {
+      "firstSeen": "2026-09-20",
+      "lastRun": "2026-09-20",
+      "stage": "accepted",
+      "slug": "jellyfin-androidtv"
+    },
+    "jezil/carvita": {
+      "firstSeen": "2026-09-18",
+      "lastRun": "2026-09-18",
+      "stage": "accepted",
+      "slug": "carvita"
+    },
+    "JeziL/carvita": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "carvita",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "jocmp/capyreader": {
+      "firstSeen": "2026-09-17",
+      "lastRun": "2026-09-17",
+      "stage": "accepted",
+      "slug": "capyreader"
+    },
+    "juha-h/baresip-studio": {
+      "firstSeen": "2026-09-17",
+      "lastRun": "2026-09-17",
+      "stage": "accepted",
+      "slug": "baresip-studio"
+    },
+    "JunkFood02/Seal": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "seal",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "kylecorry31/Trail-Sense": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "trailsense",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "laqoome/LaQoo": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "laqoo",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "maksimowiczm/FoodYou": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "foodyou",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "maotoumao/MusicFree": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "musicfree",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "markusfisch/binaryeye": {
+      "firstSeen": "2026-09-17",
+      "lastRun": "2026-09-17",
+      "stage": "accepted",
+      "slug": "binaryeye"
+    },
+    "markusfisch/BinaryEye": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "binaryeye",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "mateusrodcosta/savelocally": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "savelocally"
+    },
+    "MateusRodCosta/SaveLocally": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "savelocally",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "meshtastic/meshtastic-android": {
+      "firstSeen": "2026-09-21",
+      "lastRun": "2026-09-21",
+      "stage": "accepted",
+      "slug": "meshtastic-android"
+    },
+    "meshtastic/Meshtastic-Android": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "meshtastic-android",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "miru-project/miru-app": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "miru",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "mohamedaminelouati/feedora": {
+      "firstSeen": "2026-09-23",
+      "lastRun": "2026-09-23",
+      "stage": "accepted",
+      "slug": "feedora"
+    },
+    "mohamedaminelouati/Feedora": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "feedora",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "open-ani/animeko": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "animeko",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "openfoodfacts/smooth-app": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "openfoodfacts",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "organicmaps/organicmaps": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "organicmaps",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "pachli/pachli-android": {
+      "firstSeen": "2026-09-22",
+      "lastRun": "2026-09-22",
+      "stage": "accepted",
+      "slug": "pachli-android"
+    },
+    "plateaukao/einkbro": {
+      "firstSeen": "2026-09-18",
+      "lastRun": "2026-09-18",
+      "stage": "accepted",
+      "slug": "einkbro"
+    },
+    "Predidit/Kazumi": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "kazumi",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "prof18/feed-flow": {
+      "firstSeen": "2026-09-19",
+      "lastRun": "2026-09-19",
+      "stage": "accepted",
+      "slug": "feed-flow"
+    },
+    "qwd/OpenWeatherPlus-Android": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "qweather",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "rh-id/a-news-provider": {
+      "firstSeen": "2026-09-22",
+      "lastRun": "2026-09-22",
+      "stage": "accepted",
+      "slug": "a-news-provider"
+    },
+    "riko2chen/wakeupscreen": {
+      "firstSeen": "2026-09-25",
+      "lastRun": "2026-09-25",
+      "stage": "accepted",
+      "slug": "wakeupscreen"
+    },
+    "rosuH/EasyWatermark": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "simple-watermark",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "scubajeff/lespas": {
+      "firstSeen": "2026-09-21",
+      "lastRun": "2026-09-21",
+      "stage": "accepted",
+      "slug": "lespas"
+    },
+    "seineeloquenz/fosswallet": {
+      "firstSeen": "2026-09-19",
+      "lastRun": "2026-09-19",
+      "stage": "accepted",
+      "slug": "fosswallet"
+    },
+    "SeineEloquenz/fosswallet": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "fosswallet",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "siyuan-note/siyuan": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "siyuan",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "sky-map-team/stardroid": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "sky-map",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "spacecowboy/feeder": {
+      "firstSeen": "2026-09-19",
+      "lastRun": "2026-09-19",
+      "stage": "accepted",
+      "slug": "feeder"
+    },
+    "spacecowboy/Feeder": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "feeder",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "stellarsand/iyps": {
+      "firstSeen": "2026-09-20",
+      "lastRun": "2026-09-20",
+      "stage": "accepted",
+      "slug": "iyps"
+    },
+    "StellarSand/IYPS": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "iyps",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "T8RIN/ImageToolbox": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "imagetoolbox",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "TeamAmaze/AmazeFileManager": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "amazefilemanager",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "TeamNewPipe/NewPipe": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "newpipe",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "thunderbird/thunderbird-android": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "thunderbird-android"
+    },
+    "tmo1/sms-ie": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "sms-ie"
+    },
+    "tokyoxpa3/5g-proxy-pro": {
+      "firstSeen": "2026-09-25",
+      "lastRun": "2026-09-25",
+      "stage": "accepted",
+      "slug": "5g-proxy-pro"
+    },
+    "trackercontrol/tracker-control-android": {
+      "firstSeen": "2026-09-25",
+      "lastRun": "2026-09-25",
+      "stage": "accepted",
+      "slug": "tracker-control-android"
+    },
+    "trynoice/android-app": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "noice",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "vicolo-dev/chrono": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "chrono",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "waboodoo/http-shortcuts": {
+      "firstSeen": "2026-09-20",
+      "lastRun": "2026-09-20",
+      "stage": "accepted",
+      "slug": "http-shortcuts"
+    },
+    "Waboodoo/HTTP-Shortcuts": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "http-shortcuts",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "xiaoyaocz/dart_simple_live": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "simplelive",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "xLexip/Adaptive-Theme": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "adaptive-theme",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "z-huang/InnerTune": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "innertune",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "zhanghai/materialfiles": {
+      "firstSeen": "2026-09-23",
+      "lastRun": "2026-09-23",
+      "stage": "accepted",
+      "slug": "materialfiles"
+    },
+    "zhanghai/MaterialFiles": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "slug": "materialfiles",
+      "seeded": "站上已有条目（xlsx 导入），补录以免采集器重复推荐"
+    },
+    "ukanth/afwall": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "accepted",
+      "slug": "afwall"
+    },
+    "jaimebg/ambio": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "accepted",
+      "slug": "ambio"
+    },
+    "dimowner/audiorecorder": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "accepted",
+      "slug": "audiorecorder"
+    },
+    "oxygencobalt/auxio": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "accepted",
+      "slug": "auxio"
+    },
+    "translucenttb/translucenttb": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "accepted",
+      "slug": "translucenttb",
+      "channel": "desktop"
+    },
+    "wavetermdev/waveterm": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 命令行工具，且没有任何 GUI 声明）"
+    },
+    "appium/appium": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "非应用（命中「framework」）"
+    },
+    "twpayne/chezmoi": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "非应用（命中「dotfiles」）"
+    },
+    "jart/cosmopolitan": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "peass-ng/peass-ng": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "xinggaoya/sing-box-windows": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "合规底线：命中代理/翻墙信号「sing-box」"
+    },
+    "openaec-foundation/open-pdf-studio": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "rohitawate/everest": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "risa-labs-inc/bossconsole": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（命中「命令行工具」）"
+    },
+    "microck/opencode-studio": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "guark/guark": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "blue-b/whispersubtranslate": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "httptoolkit/httptoolkit-desktop": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "非应用（命中「wrapper」）"
+    },
+    "juwan-hwang/zephyr": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "合规底线：命中代理/翻墙信号「Mihomo」"
+    },
+    "nativeshell/nativeshell": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "chrisryugj/docufinder": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "terhechte/ebou": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "spotx-official/spotx": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "rejected",
+      "why": "Release 里没有可用的 Windows 资产（只有 mac/linux 资产、只有源码包、体积超限或没有 Release）"
+    },
+    "abumalick/qrieux": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "accepted",
+      "slug": "qrieux"
+    },
+    "cvzi/screenshottile": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "accepted",
+      "slug": "screenshottile"
+    },
+    "gujjwal00/avnc": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "accepted",
+      "slug": "avnc"
+    },
+    "chenxiaolong/basicsync": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "accepted",
+      "slug": "basicsync"
+    },
+    "sonnylazuardi/chat-ai-desktop": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "memtensor/memmy-agent": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（命中「命令行工具」）"
+    },
+    "szczyglis-dev/py-gpt": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "skalesapp/skales": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "eynzof/hermes-cn-desktop": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "ai4s-research/open-science": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "paxa/postbird": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "atomicbot-ai/atomic-chat": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "jaywcjlove/awesome-swift-macos-apps": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "非应用（命中「collection of」）"
+    },
+    "limecloud/lime": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "pytauri/pytauri": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "非应用（命中「binding」）"
+    },
+    "oxygem/kanmail": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "flashpointproject/launcher": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "aethereans/aether-app": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "soundnode/soundnode-app": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "zhukunpenglinyutong/desktop-cc-gui": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "golutra/golutra": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "melvin-abraham/google-assistant-unofficial-desktop-client": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "ruben2776/picview": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "therealaleph/masterhttprelayvpn-rust": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "合规底线：命中代理/翻墙信号「VPN」"
+    },
+    "udarajay/pile": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "qingchencloud/clawpanel": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "bookerliu/geekdesk": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "1c7/translate-subtitle-file": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "ilysenko/codex-desktop-linux": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "rejected",
+      "why": "Release 里没有可用的 Windows 资产（只有 mac/linux 资产、只有源码包、体积超限或没有 Release）"
+    },
+    "montafra/beam": {
+      "firstSeen": "2026-09-28",
+      "lastRun": "2026-09-28",
+      "stage": "accepted",
+      "slug": "beam"
+    },
+    "flauschtrud/broccoli": {
+      "firstSeen": "2026-09-28",
+      "lastRun": "2026-09-28",
+      "stage": "accepted",
+      "slug": "broccoli"
+    },
+    "catimaloyalty/android": {
+      "firstSeen": "2026-09-28",
+      "lastRun": "2026-09-28",
+      "stage": "accepted",
+      "slug": "android"
+    },
+    "blackyhawky/clock": {
+      "firstSeen": "2026-09-28",
+      "lastRun": "2026-09-28",
+      "stage": "accepted",
+      "slug": "clock"
+    },
+    "stack-cairn/liveagent": {
+      "firstSeen": "2026-09-28",
+      "lastRun": "2026-09-28",
+      "stage": "accepted",
+      "slug": "liveagent",
+      "channel": "desktop"
+    },
+    "4xmen/anubias": {
+      "firstSeen": "2026-09-28",
+      "lastRun": "2026-09-28",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "rhysd/nyaovim": {
+      "firstSeen": "2026-09-28",
+      "lastRun": "2026-09-28",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "lukehaas/runjs": {
+      "firstSeen": "2026-09-28",
+      "lastRun": "2026-09-28",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "jaywcjlove/devhub": {
+      "firstSeen": "2026-09-28",
+      "lastRun": "2026-09-28",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "commons-app/apps-android-commons": {
+      "firstSeen": "2026-09-29",
+      "lastRun": "2026-09-29",
+      "stage": "accepted",
+      "slug": "apps-android-commons"
+    },
+    "takke/cpustats": {
+      "firstSeen": "2026-09-29",
+      "lastRun": "2026-09-29",
+      "stage": "accepted",
+      "slug": "cpustats"
+    },
+    "ncosgray/cuppa_mobile": {
+      "firstSeen": "2026-09-29",
+      "lastRun": "2026-09-29",
+      "stage": "accepted",
+      "slug": "cuppa-mobile"
+    },
+    "bitfireat/davx5-ose": {
+      "firstSeen": "2026-09-29",
+      "lastRun": "2026-09-29",
+      "stage": "accepted",
+      "slug": "davx5-ose"
+    },
+    "m66b/fairemail": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "accepted",
+      "slug": "fairemail"
+    },
+    "rh-id/a-flash-deck": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "accepted",
+      "slug": "a-flash-deck"
+    },
+    "brandonp2412/flexify": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "accepted",
+      "slug": "flexify"
+    },
+    "zengtao227/fortune-telling": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "accepted",
+      "slug": "fortune-telling"
+    },
+    "farion1231/cc-switch": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "accepted",
+      "slug": "cc-switch",
+      "channel": "desktop"
+    },
+    "jaywcjlove/awesome-mac": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "不像 Windows 桌面应用（特征分 -3）"
+    },
+    "lencx/chatgpt": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "ozmartian/vidcutter": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "hprose/hprose-php": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "patrikhuber/eos": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "macchina-cli/macchina": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "deadbeef-player/deadbeef": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "vimpunk/mio": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "cherrypy/cherrypy": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "非应用（命中「framework」）"
+    },
+    "mmatyas/pegasus-frontend": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "colleagueriley/rgfw": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "codenameone/codenameone": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "denislupookov/altersend": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "kkoomen/pointless": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "zee-editor/zee": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "iampawan/flutter-music-player": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "blake502/balatro-mobile-maker": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "ashampoosystems/boden": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "microsoft/rnx-kit": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 命令行工具，且没有任何 GUI 声明）"
+    },
+    "tauri-apps/tauri": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "Release 里没有可用的 Windows 资产（只有 mac/linux 资产、只有源码包、体积超限或没有 Release）"
+    },
+    "nexu-io/open-design": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "rejected",
+      "why": "Release 里没有可用的 Windows 资产（只有 mac/linux 资产、只有源码包、体积超限或没有 Release）"
+    },
+    "iakdis/librecamera": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "accepted",
+      "slug": "librecamera"
+    },
+    "drweb86/dotnet-ftps-server": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "accepted",
+      "slug": "dotnet-ftps-server"
+    },
+    "viscouspot/gitsync": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "accepted",
+      "slug": "gitsync"
+    },
+    "adrcotfas/goodtime": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "accepted",
+      "slug": "goodtime"
+    },
+    "kunkundi/crossdesk": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "accepted",
+      "slug": "crossdesk",
+      "channel": "desktop"
+    },
+    "nitroshare/nitroshare-desktop": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "momotech/mln": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "mlandauer/cuttlefish": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "friesi23/mhabit": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "站点已收录"
+    },
+    "praeclarum/ooui": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "shoes/shoes4": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "amwx/fluentavalonia": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "adamniederer/faster": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "shenwei356/seqkit": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "非应用（命中「toolkit」）"
+    },
+    "irihitech/ursa.avalonia": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "rgommezz/react-native-scroll-bottom-sheet": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "joggerplus/awesome-weex": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "aurelia/aurelia": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "非应用（命中「framework」）"
+    },
+    "mrkepzie/natron": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "radovskyb/watcher": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "dotpcap/sharppcap": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "aashu-dubey/react-native-ui-templates": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "fy-agent/fyagent": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "graphif/project-graph": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "meowtec/imgo": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "peterbrittain/asciimatics": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 命令行工具，且没有任何 GUI 声明）"
+    },
+    "crossterm-rs/crossterm": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 命令行工具，且没有任何 GUI 声明）"
+    },
+    "p-ranav/awesome-hpp": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "非应用（命中「curated list」）"
+    },
+    "dotnetcore/dotnetspider": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "cozodb/cozo": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "isar/isar": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "version-fox/vfox": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 命令行工具，且没有任何 GUI 声明）"
+    },
+    "ricochet-im/ricochet": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "ibireme/yyjson": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "redox-os/orbtk": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "yakyak/yakyak": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "alibaba/luaviewsdk": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "nathanlopez/stitch": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "roughike/inkino": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "revenantx/litenetlib": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "cpm-cmake/cpm.cmake": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "rejected",
+      "why": "Release 里没有可用的 Windows 资产（只有 mac/linux 资产、只有源码包、体积超限或没有 Release）"
+    },
+    "mendhak/gpslogger": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "accepted",
+      "slug": "gpslogger"
+    },
+    "resurrectdev1/grove": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "accepted",
+      "slug": "grove"
+    },
+    "h-mdm/hmdm-android": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "accepted",
+      "slug": "hmdm-android"
+    },
+    "xiaochangxu/heartratemonitor-composeui": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "accepted",
+      "slug": "heartratemonitor-composeui"
+    },
+    "sourcegit-scm/sourcegit": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "accepted",
+      "slug": "sourcegit",
+      "channel": "desktop"
+    },
+    "xushengfeng/esearch": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "accepted",
+      "slug": "esearch",
+      "channel": "desktop"
+    },
+    "trustwallet/wallet-core": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "tencent-tds/kuiklyui": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "thezoraiz/ascii-image-converter": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "bdwgc/bdwgc": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "nosqlclient/nosqlclient": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "notify-rs/notify": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "whiteguo233/openbiliclaw": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "非应用（命中「plugin」）"
+    },
+    "fleschutz/powershell": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 命令行工具，且没有任何 GUI 声明）"
+    },
+    "magiblot/tvision": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "athasdev/athas": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "anylisten/tools-ocr": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "odygrd/quill": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "imvexed/muon": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "gildor2/ueviewer": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "thehpxproject/hpx": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "协议不在白名单：BSL-1.0"
+    },
+    "geode-sdk/geode": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "协议不在白名单：BSL-1.0"
+    },
+    "coronalabs/corona": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "非应用（命中「sdk」）"
+    },
+    "onionshare/onionshare": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "sindresorhus/fkill-cli": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 -cli，且没有任何 GUI 声明）"
+    },
+    "haxefoundation/haxe": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "kando-menu/kando": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "mtkennerly/ludusavi": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（命中「命令行工具」）"
+    },
+    "ldcsaa/hp-socket": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "red/red": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "rejected",
+      "why": "协议不在白名单：BSL-1.0"
+    },
+    "open-mpi/hwloc": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "accepted",
+      "slug": "hwloc"
+    },
+    "jigsaw-code/intra": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "accepted",
+      "slug": "intra"
+    },
+    "lolilin/journal-android-multilingual": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "accepted",
+      "slug": "journal-android-multilingual"
+    },
+    "moneytoo/player": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "accepted",
+      "slug": "player"
+    },
+    "gopeedlab/gopeed": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "accepted",
+      "slug": "gopeed",
+      "channel": "desktop"
+    },
+    "audacity/audacity": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "microsoft/airsim": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "tencent/mars": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "snapchat/valdi": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "tracel-ai/burn": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "hoffstadt/dearpygui": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "非应用（命中「toolkit」）"
+    },
+    "txthinking/brook": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "合规底线：命中代理/翻墙信号「brook」"
+    },
+    "d2phap/imageglass": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "monogame/monogame": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "webview/webview": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "clementtsang/bottom": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 命令行工具，且没有任何 GUI 声明）"
+    },
+    "python-pillow/pillow": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "sfml/sfml": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "libevent/libevent": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "aurelia/framework": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "tui-cs/terminal.gui": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 terminal.，且没有任何 GUI 声明）"
+    },
+    "kusti8/proton-native": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "devhubapp/devhub": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "react/react-native": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "非应用（命中「framework」）"
+    },
+    "solido/awesome-flutter": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "sxyazi/yazi": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 命令行工具，且没有任何 GUI 声明）"
+    },
+    "vim/vim": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "协议不在白名单：Vim"
+    },
+    "spacedriveapp/spacedrive": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "predidit/kazumi": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "站点已收录"
+    },
+    "micro-editor/micro": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 命令行工具，且没有任何 GUI 声明）"
+    },
+    "keepassxreboot/keepassxc": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "beyonddimension/steamtools": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "非应用（命中「toolkit」）"
+    },
+    "google/flatbuffers": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "mozilla-ai/llamafile": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "react-native-elements/react-native-elements": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "非应用（命中「toolkit」）"
+    },
+    "fmtlib/fmt": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "libgdx/libgdx": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "非应用（命中「framework」）"
+    },
+    "sqlitebrowser/sqlitebrowser": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "flutter/flutter": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "rejected",
+      "why": "Release 里没有可用的 Windows 资产（只有 mac/linux 资产、只有源码包、体积超限或没有 Release）"
+    },
+    "swisslite/kryptos": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "accepted",
+      "slug": "kryptos"
+    },
+    "toolicious/labler": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "accepted",
+      "slug": "labler"
+    },
+    "snishaper/lumine-for-android": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "accepted",
+      "slug": "lumine-for-android"
+    },
+    "vide/matedroid": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "accepted",
+      "slug": "matedroid"
+    },
+    "notable/notable": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "mitesh77/best-flutter-ui-templates": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "iampawan/flutterexampleapps": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "superradcompany/microsandbox": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "tldr-pages/tldr": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "gmh5225/awesome-game-security": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "rejected",
+      "why": "非应用（命中「awesome」）"
+    },
+    "pmh1314520/mctier": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "kizzuwatnaa/dlss5-autopilot": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "macro-deck-app/macro-deck": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "rejected",
+      "why": "非应用（命中「plugin」）"
+    },
+    "microsoft/microsoft-ui-xaml": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "rejected",
+      "why": "非应用（命中「framework」）"
+    },
+    "caoccao/javet": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "rejected",
+      "why": "非应用（命中「awesome」）"
+    },
+    "snownico0722/papertodo": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "psmux/psmux": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 命令行工具，且没有任何 GUI 声明）"
+    },
+    "slion/fulguris": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "accepted",
+      "slug": "fulguris"
+    },
+    "galaxy-rio/gracelauncher": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "accepted",
+      "slug": "gracelauncher"
+    },
+    "qdsfdhvh/keystoreviewer": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "accepted",
+      "slug": "keystoreviewer"
+    },
+    "sak96/read_later": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "accepted",
+      "slug": "read-later"
+    },
+    "shadps4-emu/shadps4": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "accepted",
+      "slug": "shadps4",
+      "channel": "desktop"
+    },
+    "dalisoft/awesome-hosting": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "rejected",
+      "why": "非应用（命中「list of」）"
+    },
+    "watchexec/watchexec": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 命令行工具，且没有任何 GUI 声明）"
+    },
+    "lenovolegiontoolkit-team/lenovolegiontoolkit": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "rejected",
+      "why": "非应用（命中「toolkit」）"
+    },
+    "kivy/kivy": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "rejected",
+      "why": "非应用（命中「framework」）"
+    },
+    "microsoft/terminal": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 terminal，且没有任何 GUI 声明）"
+    },
+    "qcad/qcad": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "rust-windowing/winit": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "sylinko/everywhere": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "matinsenpai/aether-gui": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "rejected",
+      "why": "合规底线：命中代理/翻墙信号「censorship」"
+    },
+    "sztheory/exifcleaner": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "rejected",
+      "why": "站点已收录"
+    },
+    "zju-real/hugagentos": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "laofeng-mouse/flyingmouse-format": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "sdex/activitymanager": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "accepted",
+      "slug": "activitymanager"
+    },
+    "clementine-player/android-remote": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "accepted",
+      "slug": "android-remote"
+    },
+    "codedead/deadhash-android": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "accepted",
+      "slug": "deadhash-android"
+    },
+    "nico-alvz/kasette": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "accepted",
+      "slug": "kasette"
+    },
+    "jundizhou/easy-stock": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "waligoraamodio288-rgb/hongguo-desktop-releases": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "runkids/skillshare": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（命中「命令行工具」）"
+    },
+    "mlabbe/nativefiledialog": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "clawsoftware/clawpdf": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "tunnlto/desktop-app": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "abatchy17/windowsexploits": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "retep998/winapi-rs": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "justasmasiulis/lazy_importer": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "chaoses-ib/ibeverythingext": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 命令行工具，且没有任何 GUI 声明）"
+    },
+    "stuxnet999/memlabs": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "xanashi/icaros": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "teamspeak/teamspeak6-server": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "philipk/boilr": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "serge-rgb/milton": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "materialious/materialious": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "accepted",
+      "slug": "materialious"
+    },
+    "an1ndra/messages": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "accepted",
+      "slug": "messages"
+    },
+    "metiq-xyz/android-app": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "accepted",
+      "slug": "android-app"
+    },
+    "aradar46/mooneva-cycle-private-period-tracker": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "accepted",
+      "slug": "mooneva-cycle-private-period-tracker"
+    },
+    "bol-van/zapret-win-bundle": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "fleex255/policyplus": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "协议不在白名单：CC-BY-4.0"
+    },
+    "dockpanelsuite/dockpanelsuite": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "sxzxs/real-time-translation-typing": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "jakubgarfield/bonobo-git-server": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "yvesssn/detectdee": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "cyd01/kitty": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "fungos/cr": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "非应用（命中「library」）"
+    },
+    "dosbox-staging/dosbox-staging": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "kivy/plyer": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "非应用（命中「wrapper」）"
+    },
+    "paulsec/awesome-windows-domain-hardening": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "workspacer/workspacer": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "mentebinaria/retoolkit": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "非应用（命中「toolkit」）"
+    },
+    "donnemartin/saws": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "kiln-ai/kiln": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "domcyrus/rustnet": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "命令行工具而非桌面应用（名字/自身定位是 命令行工具，且没有任何 GUI 声明）"
+    },
+    "denverdino/k8s-for-docker-desktop": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "没有开源协议（不允许再分发）"
+    },
+    "ultralight-ux/ultralight": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "theos/theos": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    },
+    "anyrtcio-community/anyrtc-rtmp-opensource": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "超过 365 天没更新"
+    },
+    "boostorg/beast": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "协议不在白名单：BSL-1.0"
+    },
+    "x11libre/xserver": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "rejected",
+      "why": "协议不允许再分发：NOASSERTION"
+    }
+  },
+  "fdroid": {
+    "neth.iecal.curbox": {
+      "firstSeen": "2026-09-17",
+      "lastRun": "2026-09-17",
+      "stage": "accepted",
+      "repo": "curbox-app/curbox-android"
+    },
+    "com.tutpro.baresip": {
+      "firstSeen": "2026-09-17",
+      "lastRun": "2026-09-17",
+      "stage": "accepted",
+      "repo": "juha-h/baresip-studio"
+    },
+    "de.markusfisch.android.binaryeye": {
+      "firstSeen": "2026-09-17",
+      "lastRun": "2026-09-17",
+      "stage": "accepted",
+      "repo": "markusfisch/BinaryEye"
+    },
+    "com.capyreader.app": {
+      "firstSeen": "2026-09-17",
+      "lastRun": "2026-09-17",
+      "stage": "accepted",
+      "repo": "jocmp/capyreader"
+    },
+    "com.wangjinli.carvita": {
+      "firstSeen": "2026-09-18",
+      "lastRun": "2026-09-18",
+      "stage": "accepted",
+      "repo": "JeziL/carvita"
+    },
+    "com.demizo.daily_you": {
+      "firstSeen": "2026-09-18",
+      "lastRun": "2026-09-18",
+      "stage": "accepted",
+      "repo": "Demizo/Daily_You"
+    },
+    "com.b44t.messenger": {
+      "firstSeen": "2026-09-18",
+      "lastRun": "2026-09-18",
+      "stage": "accepted",
+      "repo": "deltachat/deltachat-android"
+    },
+    "info.plateaukao.einkbro": {
+      "firstSeen": "2026-09-18",
+      "lastRun": "2026-09-18",
+      "stage": "accepted",
+      "repo": "plateaukao/einkbro"
+    },
+    "com.nononsenseapps.feeder": {
+      "firstSeen": "2026-09-19",
+      "lastRun": "2026-09-19",
+      "stage": "accepted",
+      "repo": "spacecowboy/Feeder"
+    },
+    "com.prof18.feedflow": {
+      "firstSeen": "2026-09-19",
+      "lastRun": "2026-09-19",
+      "stage": "accepted",
+      "repo": "prof18/feed-flow"
+    },
+    "nz.eloque.foss_wallet": {
+      "firstSeen": "2026-09-19",
+      "lastRun": "2026-09-19",
+      "stage": "accepted",
+      "repo": "SeineEloquenz/fosswallet"
+    },
+    "org.akanework.gramophone": {
+      "firstSeen": "2026-09-19",
+      "lastRun": "2026-09-19",
+      "stage": "accepted",
+      "repo": "FoedusProgramme/Gramophone"
+    },
+    "com.aistra.hail": {
+      "firstSeen": "2026-09-20",
+      "lastRun": "2026-09-20",
+      "stage": "accepted",
+      "repo": "aistra0528/Hail"
+    },
+    "ch.rmy.android.http_shortcuts": {
+      "firstSeen": "2026-09-20",
+      "lastRun": "2026-09-20",
+      "stage": "accepted",
+      "repo": "Waboodoo/HTTP-Shortcuts"
+    },
+    "com.iyps": {
+      "firstSeen": "2026-09-20",
+      "lastRun": "2026-09-20",
+      "stage": "accepted",
+      "repo": "StellarSand/IYPS"
+    },
+    "org.jellyfin.androidtv": {
+      "firstSeen": "2026-09-20",
+      "lastRun": "2026-09-20",
+      "stage": "accepted",
+      "repo": "jellyfin/jellyfin-androidtv"
+    },
+    "com.fsck.k9": {
+      "firstSeen": "2026-09-21",
+      "lastRun": "2026-09-21",
+      "stage": "accepted",
+      "repo": "thunderbird/thunderbird-android"
+    },
+    "site.leos.apps.lespas": {
+      "firstSeen": "2026-09-21",
+      "lastRun": "2026-09-21",
+      "stage": "accepted",
+      "repo": "scubajeff/lespas"
+    },
+    "com.geeksville.mesh": {
+      "firstSeen": "2026-09-21",
+      "lastRun": "2026-09-21",
+      "stage": "accepted",
+      "repo": "meshtastic/Meshtastic-Android"
+    },
+    "fr.hellpc.mirror": {
+      "firstSeen": "2026-09-21",
+      "lastRun": "2026-09-21",
+      "stage": "accepted",
+      "repo": "He11PC/android-mirror"
+    },
+    "app.mlauncher": {
+      "firstSeen": "2026-09-22",
+      "lastRun": "2026-09-22",
+      "stage": "accepted",
+      "repo": "CodeWorksCreativeHub/mLauncher"
+    },
+    "m.co.rh.id.a_news_provider": {
+      "firstSeen": "2026-09-22",
+      "lastRun": "2026-09-22",
+      "stage": "accepted",
+      "repo": "rh-id/a-news-provider"
+    },
+    "app.pachli": {
+      "firstSeen": "2026-09-22",
+      "lastRun": "2026-09-22",
+      "stage": "accepted",
+      "repo": "pachli/pachli-android"
+    },
+    "io.github.hddq.restoid": {
+      "firstSeen": "2026-09-22",
+      "lastRun": "2026-09-22",
+      "stage": "accepted",
+      "repo": "hddq/restoid"
+    },
+    "com.mohamedaminelouati.feedora": {
+      "firstSeen": "2026-09-23",
+      "lastRun": "2026-09-23",
+      "stage": "accepted",
+      "repo": "mohamedaminelouati/Feedora"
+    },
+    "rocks.poopjournal.flashy": {
+      "firstSeen": "2026-09-23",
+      "lastRun": "2026-09-23",
+      "stage": "accepted",
+      "repo": "Crazy-Marvin/Flashy"
+    },
+    "me.zhanghai.android.files": {
+      "firstSeen": "2026-09-23",
+      "lastRun": "2026-09-23",
+      "stage": "accepted",
+      "repo": "zhanghai/MaterialFiles"
+    },
+    "com.celzero.bravedns": {
+      "firstSeen": "2026-09-23",
+      "lastRun": "2026-09-23",
+      "stage": "accepted",
+      "repo": "celzero/rethink-app"
+    },
+    "com.mateusrodcosta.apps.share2storage": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "MateusRodCosta/SaveLocally"
+    },
+    "com.github.tmo1.sms_ie": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "tmo1/sms-ie"
+    },
+    "net.thunderbird.android.beta": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "thunderbird/thunderbird-android"
+    },
+    "net.thunderbird.android": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "thunderbird/thunderbird-android"
+    },
+    "org.b3log.siyuan": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "siyuan-note/siyuan",
+      "seeded": true
+    },
+    "com.heweather.owp": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "qwd/OpenWeatherPlus-Android",
+      "seeded": true
+    },
+    "me.rosuh.easywatermark": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "rosuH/EasyWatermark",
+      "seeded": true
+    },
+    "dev.lexip.hecate": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "xLexip/Adaptive-Theme",
+      "seeded": true
+    },
+    "com.amaze.filemanager": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "TeamAmaze/AmazeFileManager",
+      "seeded": true
+    },
+    "net.bible.android.activity": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "AndBible/and-bible",
+      "seeded": true
+    },
+    "de.danoeh.antennapod": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "AntennaPod/AntennaPod",
+      "seeded": true
+    },
+    "eu.darken.sdmse": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "d4rken-org/sdmaid-se",
+      "seeded": true
+    },
+    "com.junkfood.seal": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "JunkFood02/Seal",
+      "seeded": true
+    },
+    "com.cyb3rko.flashdim": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "cyb3rko/flashdim",
+      "seeded": true
+    },
+    "miru.miaomint": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "miru-project/miru-app",
+      "seeded": true
+    },
+    "com.predidit.kazumi": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "Predidit/Kazumi",
+      "seeded": true
+    },
+    "me.him188.ani": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "open-ani/animeko",
+      "seeded": true
+    },
+    "com.czy0729.bangumi": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "czy0729/Bangumi",
+      "seeded": true
+    },
+    "com.laqoome.laqoo": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "laqoome/LaQoo",
+      "seeded": true
+    },
+    "ru.tech.imageresizershrinker": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "T8RIN/ImageToolbox",
+      "seeded": true
+    },
+    "pers.cyh128.hikari_novel": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "15dd/hikari_novel_flutter",
+      "seeded": true
+    },
+    "com.futsch1.medtimer": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "Futsch1/medTimer",
+      "seeded": true
+    },
+    "com.google.android.stardroid": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "sky-map-team/stardroid",
+      "seeded": true
+    },
+    "com.github.ashutoshgngwr.noice": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "trynoice/android-app",
+      "seeded": true
+    },
+    "li.songe.gkd": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "gkd-kit/gkd",
+      "seeded": true
+    },
+    "io.github.friesi23.mhabit": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "FriesI23/mhabit",
+      "seeded": true
+    },
+    "org.schabi.newpipe": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "TeamNewPipe/NewPipe",
+      "seeded": true
+    },
+    "com.zionhuang.music": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "z-huang/InnerTune",
+      "seeded": true
+    },
+    "com.vicolo.chrono": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "vicolo-dev/chrono",
+      "seeded": true
+    },
+    "com.enjoyingfoss.feeel": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "EnjoyingFOSS/feeel",
+      "seeded": true
+    },
+    "com.kylecorry.trail_sense": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "kylecorry31/Trail-Sense",
+      "seeded": true
+    },
+    "com.maksimowiczm.foodyou": {
+      "firstSeen": "2026-09-24",
+      "lastRun": "2026-09-24",
+      "stage": "accepted",
+      "repo": "maksimowiczm/FoodYou",
+      "seeded": true
+    },
+    "net.kollnig.missioncontrol.fdroid": {
+      "firstSeen": "2026-09-25",
+      "lastRun": "2026-09-25",
+      "stage": "accepted",
+      "repo": "TrackerControl/tracker-control-android"
+    },
+    "com.symeonchen.wakeupscreen": {
+      "firstSeen": "2026-09-25",
+      "lastRun": "2026-09-25",
+      "stage": "accepted",
+      "repo": "riko2chen/WakeUpScreen"
+    },
+    "it.eldavo.ylih": {
+      "firstSeen": "2026-09-25",
+      "lastRun": "2026-09-25",
+      "stage": "accepted",
+      "repo": "ElDavoo/ylih"
+    },
+    "com.tokyoxpa3.androidproxy": {
+      "firstSeen": "2026-09-25",
+      "lastRun": "2026-09-25",
+      "stage": "accepted",
+      "repo": "tokyoxpa3/5G-Proxy-Pro"
+    },
+    "dev.ukanth.ufirewall": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "accepted",
+      "repo": "ukanth/afwall"
+    },
+    "com.jbgsoft.ambio": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "accepted",
+      "repo": "jaimebg/Ambio"
+    },
+    "com.dimowner.audiorecorder": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "accepted",
+      "repo": "Dimowner/AudioRecorder"
+    },
+    "org.oxycblt.auxio": {
+      "firstSeen": "2026-09-26",
+      "lastRun": "2026-09-26",
+      "stage": "accepted",
+      "repo": "OxygenCobalt/Auxio"
+    },
+    "net.hilson.qrieux": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "accepted",
+      "repo": "abumalick/QRieux"
+    },
+    "com.github.cvzi.screenshottile": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "accepted",
+      "repo": "cvzi/ScreenshotTile"
+    },
+    "com.gaurav.avnc": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "accepted",
+      "repo": "gujjwal00/avnc"
+    },
+    "com.chiller3.basicsync": {
+      "firstSeen": "2026-09-27",
+      "lastRun": "2026-09-27",
+      "stage": "accepted",
+      "repo": "chenxiaolong/BasicSync"
+    },
+    "montafra.beam": {
+      "firstSeen": "2026-09-28",
+      "lastRun": "2026-09-28",
+      "stage": "accepted",
+      "repo": "montafra/beam"
+    },
+    "com.flauschcode.broccoli": {
+      "firstSeen": "2026-09-28",
+      "lastRun": "2026-09-28",
+      "stage": "accepted",
+      "repo": "flauschtrud/broccoli"
+    },
+    "me.hackerchick.catima": {
+      "firstSeen": "2026-09-28",
+      "lastRun": "2026-09-28",
+      "stage": "accepted",
+      "repo": "CatimaLoyalty/Android"
+    },
+    "com.best.deskclock": {
+      "firstSeen": "2026-09-28",
+      "lastRun": "2026-09-28",
+      "stage": "accepted",
+      "repo": "BlackyHawky/Clock"
+    },
+    "fr.free.nrw.commons": {
+      "firstSeen": "2026-09-29",
+      "lastRun": "2026-09-29",
+      "stage": "accepted",
+      "repo": "commons-app/apps-android-commons"
+    },
+    "jp.takke.cpustats": {
+      "firstSeen": "2026-09-29",
+      "lastRun": "2026-09-29",
+      "stage": "accepted",
+      "repo": "takke/cpustats"
+    },
+    "com.nathanatos.Cuppa": {
+      "firstSeen": "2026-09-29",
+      "lastRun": "2026-09-29",
+      "stage": "accepted",
+      "repo": "ncosgray/cuppa_mobile"
+    },
+    "at.bitfire.davdroid": {
+      "firstSeen": "2026-09-29",
+      "lastRun": "2026-09-29",
+      "stage": "accepted",
+      "repo": "bitfireAT/davx5-ose"
+    },
+    "eu.faircode.email": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "accepted",
+      "repo": "M66B/FairEmail"
+    },
+    "m.co.rh.id.a_flash_deck": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "accepted",
+      "repo": "rh-id/a-flash-deck"
+    },
+    "com.presley.flexify": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "accepted",
+      "repo": "brandonp2412/Flexify"
+    },
+    "com.zengtao.fortunetelling": {
+      "firstSeen": "2026-09-30",
+      "lastRun": "2026-09-30",
+      "stage": "accepted",
+      "repo": "zengtao227/Fortune-telling"
+    },
+    "com.iakmds.librecamera": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "accepted",
+      "repo": "iakdis/librecamera"
+    },
+    "com.siarheikuchuk.ftpsserver": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "accepted",
+      "repo": "drweb86/dotnet-ftps-server"
+    },
+    "com.viscouspot.gitsync": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "accepted",
+      "repo": "ViscousPot/GitSync"
+    },
+    "com.apps.adrcotfas.goodtime": {
+      "firstSeen": "2026-10-01",
+      "lastRun": "2026-10-01",
+      "stage": "accepted",
+      "repo": "adrcotfas/goodtime"
+    },
+    "com.mendhak.gpslogger": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "accepted",
+      "repo": "mendhak/gpslogger"
+    },
+    "com.resurrect.grove": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "accepted",
+      "repo": "resurrectdev1/Grove"
+    },
+    "com.hmdm.launcher": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "accepted",
+      "repo": "h-mdm/hmdm-android"
+    },
+    "com.github.heartratemonitor_compose": {
+      "firstSeen": "2026-10-02",
+      "lastRun": "2026-10-02",
+      "stage": "accepted",
+      "repo": "XiaochangXu/HeartRateMonitor-composeui"
+    },
+    "com.hwloc.lstopo": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "accepted",
+      "repo": "open-mpi/hwloc"
+    },
+    "app.intra": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "accepted",
+      "repo": "Jigsaw-Code/Intra"
+    },
+    "in.kawaiis.journal": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "accepted",
+      "repo": "LoliLin/journal-android-multilingual"
+    },
+    "com.brouken.player": {
+      "firstSeen": "2026-10-03",
+      "lastRun": "2026-10-03",
+      "stage": "accepted",
+      "repo": "moneytoo/Player"
+    },
+    "com.kryptos.android": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "accepted",
+      "repo": "swisslite/Kryptos"
+    },
+    "io.github.toolicious.labler": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "accepted",
+      "repo": "toolicious/labler"
+    },
+    "com.moi.lumine": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "accepted",
+      "repo": "SniShaper/lumine-for-android"
+    },
+    "com.matedroid": {
+      "firstSeen": "2026-10-04",
+      "lastRun": "2026-10-04",
+      "stage": "accepted",
+      "repo": "vide/matedroid"
+    },
+    "net.slions.fulguris.full.fdroid": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "accepted",
+      "repo": "Slion/Fulguris"
+    },
+    "com.galaxyrio.gracelauncher": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "accepted",
+      "repo": "Galaxy-rio/GraceLauncher"
+    },
+    "com.seiko.keystoreviewer": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "accepted",
+      "repo": "qdsfdhvh/KeyStoreViewer"
+    },
+    "io.github.sak.read.it.later": {
+      "firstSeen": "2026-10-05",
+      "lastRun": "2026-10-05",
+      "stage": "accepted",
+      "repo": "sak96/read_later"
+    },
+    "com.activitymanager": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "accepted",
+      "repo": "sdex/ActivityManager"
+    },
+    "de.qspool.clementineremote": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "accepted",
+      "repo": "clementine-player/Android-Remote"
+    },
+    "com.codedead.deadhash": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "accepted",
+      "repo": "CodeDead/DeadHash-android"
+    },
+    "com.kasette.app": {
+      "firstSeen": "2026-10-06",
+      "lastRun": "2026-10-06",
+      "stage": "accepted",
+      "repo": "nico-alvz/kasette"
+    },
+    "us.materialio.app": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "accepted",
+      "repo": "Materialious/Materialious"
+    },
+    "com.anindra.messages": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "accepted",
+      "repo": "an1ndra/Messages"
+    },
+    "xyz.metiq": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "accepted",
+      "repo": "metiq-xyz/android-app"
+    },
+    "com.mooneva.app": {
+      "firstSeen": "2026-10-07",
+      "lastRun": "2026-10-07",
+      "stage": "accepted",
+      "repo": "aradar46/Mooneva-Cycle-Private-Period-Tracker"
+    }
+  },
+  "names": {
+    "5gproxypro": "5G-Proxy-Pro",
+    "adaptivetheme": "adaptive-theme",
+    "amaze": "amazefilemanager",
+    "andbible": "and-bible",
+    "androidmirror": "android-mirror",
+    "anewsprovider": "a-news-provider",
+    "animeko": "animeko",
+    "antennapod": "antennapod",
+    "bangumi": "bangumi",
+    "baresip": "baresip-studio",
+    "baresipstudio": "baresip-studio",
+    "bilimiao": "bilimiao",
+    "binaryeye": "BinaryEye",
+    "capyreader": "capyreader",
+    "carvita": "carvita",
+    "chrono": "chrono",
+    "curbox": "curbox-android",
+    "curboxandroid": "curbox-android",
+    "dailyyou": "Daily_You",
+    "deltachat": "deltachat-android",
+    "deltachatandroid": "deltachat-android",
+    "einkbro": "einkbro",
+    "feeder": "Feeder",
+    "feedflow": "feed-flow",
+    "feedora": "Feedora",
+    "feeel": "feeel",
+    "flashdim": "flashdim",
+    "flashy": "Flashy",
+    "foodyou": "foodyou",
+    "fosswallet": "fosswallet",
+    "gkd": "gkd",
+    "gramophone": "Gramophone",
+    "hail": "Hail",
+    "hikarinovel": "hikari-novel",
+    "httprequestshortcuts": "http-shortcuts",
+    "httpshortcuts": "HTTP-Shortcuts",
+    "imagetoolbox": "imagetoolbox",
+    "innertune": "innertune",
+    "iyps": "IYPS",
+    "jellyfin": "jellyfin-androidtv",
+    "jellyfinandroidtv": "jellyfin-androidtv",
+    "k9mail": "thunderbird-android",
+    "kazumi": "kazumi",
+    "laqoo": "laqoo",
+    "lespas": "lespas",
+    "materialfiles": "MaterialFiles",
+    "medtimer": "medtimer",
+    "meshtastic": "meshtastic-android",
+    "meshtasticandroid": "Meshtastic-Android",
+    "mirror": "android-mirror",
+    "miru": "miru",
+    "mlauncher": "mLauncher",
+    "multilauncher": "mlauncher",
+    "musicfree": "musicfree",
+    "newpipe": "newpipe",
+    "noice": "noice",
+    "openfoodfacts": "openfoodfacts",
+    "organicmaps": "organicmaps",
+    "pachli": "pachli-android",
+    "pachliandroid": "pachli-android",
+    "pilipala": "pilipala",
+    "rain": "rain-weather",
+    "restoid": "restoid",
+    "rethinkapp": "rethink-app",
+    "rethinkdnsvpn": "rethink-app",
+    "savelocally": "SaveLocally",
+    "sdmaidse": "sd-maid-se",
+    "seal": "seal",
+    "simplelive": "simplelive",
+    "skymap": "sky-map",
+    "sms": "sms-ie",
+    "smsie": "sms-ie",
+    "tablehabit": "table-habit",
+    "thunderbirdandroid": "thunderbird-android",
+    "trackercontrolandroid": "tracker-control-android",
+    "trailsense": "trailsense",
+    "wakeupscreen": "WakeUpScreen",
+    "xtra": "xtra",
+    "ylih": "ylih",
+    "afwall": "afwall",
+    "ambio": "Ambio",
+    "audiorecorder": "AudioRecorder",
+    "auxio": "Auxio",
+    "translucenttb": "TranslucentTB",
+    "qrieux": "QRieux",
+    "screenshottile": "ScreenshotTile",
+    "avnc": "avnc",
+    "basicsync": "BasicSync",
+    "beam": "beam",
+    "broccoli": "broccoli",
+    "android": "Android",
+    "clock": "Clock",
+    "liveagent": "LiveAgent",
+    "appsandroidcommons": "apps-android-commons",
+    "cpustats": "cpustats",
+    "cuppamobile": "cuppa_mobile",
+    "davx5ose": "davx5-ose",
+    "fairemail": "FairEmail",
+    "aflashdeck": "a-flash-deck",
+    "flexify": "Flexify",
+    "fortunetelling": "Fortune-telling",
+    "ccswitch": "cc-switch",
+    "librecamera": "librecamera",
+    "dotnetftpsserver": "dotnet-ftps-server",
+    "gitsync": "GitSync",
+    "goodtime": "goodtime",
+    "crossdesk": "crossdesk",
+    "gpslogger": "gpslogger",
+    "grove": "Grove",
+    "hmdmandroid": "hmdm-android",
+    "heartratemonitorcomposeui": "HeartRateMonitor-composeui",
+    "sourcegit": "sourcegit",
+    "esearch": "eSearch",
+    "hwloc": "hwloc",
+    "intra": "Intra",
+    "journalandroidmultilingual": "journal-android-multilingual",
+    "player": "Player",
+    "gopeed": "gopeed",
+    "kryptos": "Kryptos",
+    "labler": "labler",
+    "lumineforandroid": "lumine-for-android",
+    "matedroid": "matedroid",
+    "fulguris": "Fulguris",
+    "gracelauncher": "GraceLauncher",
+    "keystoreviewer": "KeyStoreViewer",
+    "readlater": "read_later",
+    "shadps4": "shadPS4",
+    "activitymanager": "ActivityManager",
+    "androidremote": "Android-Remote",
+    "deadhashandroid": "DeadHash-android",
+    "kasette": "kasette",
+    "materialious": "Materialious",
+    "messages": "Messages",
+    "androidapp": "android-app",
+    "moonevacycleprivateperiodtracker": "Mooneva-Cycle-Private-Period-Tracker"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "tool",
+  "slug": "quark-ai",
+  "status": "ok",
+  "cat": "search",
+  "name": "Quark AI",
+  "nameZh": "夸克 AI",
+  "vendor": "阿里巴巴集团（Alibaba Group）",
+  "tagline": "夸克浏览器内置的 AI 助手，提供搜索、学习与文档处理",
+  "desc": "夸克 AI 是阿里巴巴集团（Alibaba Group）的产品，夸克浏览器内置的 AI 助手，提供搜索、学习与文档处理。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页、Windows、macOS、iOS、Android。",
+  "site": "https://www.quark.cn/",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "Windows",
+    "macOS",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    "首页可直接发起 AI 搜索并获取整合答案",
+    "集成 AI 学习助手、扫描与文档总结等工具",
+    "覆盖浏览器、手机应用与电脑客户端",
+    "基础 AI 功能免费，部分能力需开通会员"
+  ],
+  "howto": [
+    "打开官网 www.quark.cn/",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchC-work-search-agents-study"
+}

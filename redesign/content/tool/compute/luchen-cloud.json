@@ -1,0 +1,33 @@
+{
+  "type": "tool",
+  "slug": "luchen-cloud",
+  "status": "ok",
+  "cat": "compute",
+  "name": "潞晨云",
+  "nameZh": "潞晨云 Colossal-AI",
+  "vendor": "北京潞晨科技有限公司",
+  "tagline": "潞晨科技推出的 GPU 算力云，提供训练与推理 API",
+  "desc": "潞晨云 Colossal-AI，由北京潞晨科技有限公司推出，潞晨科技推出的 GPU 算力云，提供训练与推理 API。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页。",
+  "site": "https://cloud.luchentech.com",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "团队开源 Colossal-AI 训练框架（云服务本身闭源）",
+    "云端提供按小时租用的 GPU 实例",
+    "提供免代码微调与模型 API 服务",
+    "面向中文用户，站点与文档为中文"
+  ],
+  "howto": [
+    "打开官网 cloud.luchentech.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer",
+  "openNote": "潞晨云是商业云服务；其团队开源了 Colossal-AI 训练框架（github.com/hpcaitech/ColossalAI）。本站不把「云服务」归为开源。"
+}

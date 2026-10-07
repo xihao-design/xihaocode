@@ -1,0 +1,49 @@
+{
+  "type": "skill",
+  "slug": "brand-guidelines",
+  "name": "brand-guidelines",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "skills/brand-guidelines",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/brand-guidelines",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "skills/brand-guidelines/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11345
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 2235
+    }
+  ],
+  "pack": {
+    "dirBytes": 13580,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1W0IIxBgaRPVzZzCj3gvtNQ",
+  "pwd": "nnas",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "Anthropic 品牌规范",
+  "tagline": "把官方配色与字体套到你的产物上",
+  "desc": "把 Anthropic 官方品牌色与字体应用到任何需要统一视觉的产物上——幻灯片、文档、落地页都行。当产出需要符合公司设计规范或指定品牌色时用它。",
+  "features": [
+    "官方品牌色与字体规范",
+    "适用幻灯片、文档、报告、网页等产物",
+    "用于需要统一视觉规范的场景"
+  ],
+  "install": [
+    "把 brand-guidelines 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "无需额外依赖（纯说明型技能）"
+  ],
+  "hostNote": "目录结构为 Anthropic 官方技能格式（仓库内 skills/ 约定）。本站按路径推断适用宿主、未逐条实测：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

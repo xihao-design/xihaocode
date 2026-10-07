@@ -1,0 +1,33 @@
+{
+  "type": "tool",
+  "slug": "musicgen",
+  "status": "ok",
+  "cat": "music",
+  "name": "MusicGen",
+  "nameZh": "MusicGen",
+  "vendor": "Meta",
+  "tagline": "Meta开源的音频生成库，包含MusicGen音乐生成模型",
+  "desc": "MusicGen 是 Meta 的产品，音频生成库，包含 MusicGen 音乐生成模型。完全免费。从中国大陆可以直连访问。以英文界面与英文输入为主。支持平台：Linux、macOS。项目源码在 github.com/facebookresearch/audiocraft 公开，可自行查看实现。",
+  "site": "https://github.com/facebookresearch/audiocraft",
+  "pricingUrl": "",
+  "repo": "https://github.com/facebookresearch/audiocraft",
+  "opensource": true,
+  "freeTier": "free",
+  "needsVpn": false,
+  "zhSupport": false,
+  "platforms": [
+    "Linux",
+    "macOS"
+  ],
+  "features": [
+    "提供MusicGen音乐生成模型",
+    "支持文本与旋律条件控制生成",
+    "内置EnCodec音频编解码器",
+    "可本地部署并导出WAV音频"
+  ],
+  "howto": [
+    "打开官网 github.com/facebookresearch/audiocraft",
+    "按官方文档说明部署或调用，可完全离线运行"
+  ],
+  "sourceBatch": "video-audio-music-design"
+}

@@ -1,0 +1,33 @@
+{
+  "type": "tool",
+  "slug": "runpod",
+  "status": "ok",
+  "cat": "compute",
+  "name": "RunPod",
+  "nameZh": "RunPod",
+  "vendor": "RunPod, Inc.",
+  "tagline": "按秒计费的 GPU 云平台，提供实例与无服务器推理",
+  "desc": "RunPod：按秒计费的 GPU 云平台，提供实例与无服务器推理。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页、命令行。",
+  "site": "https://www.runpod.io",
+  "pricingUrl": "https://www.runpod.io/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页",
+    "命令行"
+  ],
+  "features": [
+    "GPU 实例按秒计费，可随时启停",
+    "Serverless 端点按请求与冷启动计费",
+    "提供社区云与安全云两类资源池",
+    "支持自定义容器镜像与持久化存储"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 www.runpod.io",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

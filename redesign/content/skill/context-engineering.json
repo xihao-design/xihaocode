@@ -1,0 +1,50 @@
+{
+  "type": "skill",
+  "slug": "context-engineering",
+  "name": "context-engineering",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/context-engineering",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/context-engineering",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 15486
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 16554,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/12nxIA0h203Uc4mzk5zcUKQ",
+  "pwd": "yjjm",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "上下文工程",
+  "tagline": "开新会话前，先把上下文配好",
+  "desc": "优化 agent 的上下文配置：开新会话、发现输出质量下降、任务之间切换，或者需要为项目配置规则文件时用它。",
+  "features": [
+    "会话启动时的上下文配置",
+    "输出质量下降时的排查与重置",
+    "任务切换时的上下文处理",
+    "项目规则文件（rules）配置"
+  ],
+  "install": [
+    "把 context-engineering 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

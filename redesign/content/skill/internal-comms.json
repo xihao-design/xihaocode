@@ -1,0 +1,65 @@
+{
+  "type": "skill",
+  "slug": "internal-comms",
+  "name": "internal-comms",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "skills/internal-comms",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/internal-comms",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "skills/internal-comms/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11345
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 1511
+    },
+    {
+      "path": "examples/3p-updates.md",
+      "bytes": 3274
+    },
+    {
+      "path": "examples/company-newsletter.md",
+      "bytes": 3295
+    },
+    {
+      "path": "examples/faq-answers.md",
+      "bytes": 2366
+    },
+    {
+      "path": "examples/general-comms.md",
+      "bytes": 602
+    }
+  ],
+  "pack": {
+    "dirBytes": 22393,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1uF0SqnsverT4jXD3mACmvw",
+  "pwd": "htfj",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "内部沟通文书",
+  "tagline": "状态汇报、公司通讯、FAQ 按格式产出",
+  "desc": "写各类内部沟通材料的资源集，按公司习惯的格式来：状态报告、管理层更新、3P 更新、公司通讯、FAQ、事故报告、项目进展等。需要写内部通报时用它。",
+  "features": [
+    "覆盖状态报告、管理层更新、3P 更新、公司通讯、FAQ、事故报告",
+    "examples/ 下附 4 个可参考的成稿示例",
+    "按公司既有格式产出"
+  ],
+  "install": [
+    "把 internal-comms 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "连同 examples/ 一起复制，示例是最好的提示"
+  ],
+  "hostNote": "目录结构为 Anthropic 官方技能格式（仓库内 skills/ 约定）。本站按路径推断适用宿主、未逐条实测：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

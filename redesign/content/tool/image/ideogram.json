@@ -1,0 +1,34 @@
+{
+  "type": "tool",
+  "slug": "ideogram",
+  "status": "ok",
+  "cat": "image",
+  "name": "Ideogram",
+  "nameZh": "Ideogram",
+  "vendor": "Ideogram, Inc.",
+  "tagline": "擅长图中文字排版的 AI 绘图工具，可生成海报与标志",
+  "desc": "Ideogram：擅长图中文字排版的 AI 绘图工具，可生成海报与标志。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页、iOS、Android。",
+  "site": "https://ideogram.ai",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    "图像内英文文字渲染能力较强",
+    "提供多种风格预设与模板",
+    "免费版每日生成次数有限，付费版额度更高",
+    "支持图生图与局部重绘"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 ideogram.ai",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchA-writing-chatbot-coding-image"
+}

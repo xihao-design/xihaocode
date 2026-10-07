@@ -1,0 +1,36 @@
+{
+  "type": "tool",
+  "slug": "claude",
+  "status": "ok",
+  "cat": "chatbot",
+  "name": "Claude",
+  "nameZh": "Claude",
+  "vendor": "Anthropic",
+  "tagline": "Anthropic 的对话助手，擅长长文档分析与写作",
+  "desc": "Claude 是 Anthropic 的产品，对话助手，擅长长文档分析与写作。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。原生支持中文输入输出。支持平台：网页、macOS、Windows、iOS、Android。",
+  "site": "https://claude.ai",
+  "pricingUrl": "https://www.anthropic.com/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "macOS",
+    "Windows",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    "可上传 PDF、图片与代码文件并进行分析",
+    "支持较长上下文，适合处理长文档与代码库",
+    "免费版每日消息额度有限，付费版额度更高",
+    "另有面向编程的命令行工具 Claude Code"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 claude.ai",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchA-writing-chatbot-coding-image"
+}

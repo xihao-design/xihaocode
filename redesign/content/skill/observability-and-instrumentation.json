@@ -1,0 +1,49 @@
+{
+  "type": "skill",
+  "slug": "observability-and-instrumentation",
+  "name": "observability-and-instrumentation",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/observability-and-instrumentation",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/observability-and-instrumentation",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 13948
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 15016,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1s8ImrHl4uyKG60nDzHLOmQ",
+  "pwd": "4yjw",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "可观测性与埋点",
+  "tagline": "上线后出问题，得看得出发生了什么",
+  "desc": "给代码加埋点，让生产环境的行为可见、可诊断：加日志、指标、链路追踪、告警。上线任何在生产运行的功能、需要「它确实在工作」的证据、或者线上报了问题但从现有数据看不出发生了什么时用它。",
+  "features": [
+    "日志、指标、链路追踪、告警",
+    "为「上线后能自证工作正常」而埋点",
+    "补齐线上问题排查所需的证据链"
+  ],
+  "install": [
+    "把 observability-and-instrumentation 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

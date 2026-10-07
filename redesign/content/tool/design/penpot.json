@@ -1,0 +1,35 @@
+{
+  "type": "tool",
+  "slug": "penpot",
+  "status": "ok",
+  "cat": "design",
+  "name": "Penpot",
+  "nameZh": "Penpot",
+  "vendor": "Kaleidos",
+  "tagline": "开源在线设计协作工具，支持界面设计与原型制作",
+  "desc": "Penpot 是 Kaleidos 的产品，开源在线设计协作工具，支持界面设计与原型制作。完全免费。从中国大陆可以直连访问。以英文界面与英文输入为主。支持平台：网页、Windows、macOS、Linux。项目源码在 github.com/penpot/penpot 公开，可自行查看实现。",
+  "site": "https://penpot.app",
+  "pricingUrl": "",
+  "repo": "https://github.com/penpot/penpot",
+  "opensource": true,
+  "freeTier": "free",
+  "needsVpn": false,
+  "zhSupport": false,
+  "platforms": [
+    "网页",
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "features": [
+    "基于Web的开源设计与原型工具",
+    "支持多人实时协作编辑",
+    "可导出SVG、PDF与PNG等格式",
+    "提供社区版与自托管部署方案"
+  ],
+  "howto": [
+    "打开官网 penpot.app",
+    "按官方文档说明部署或调用，可完全离线运行"
+  ],
+  "sourceBatch": "video-audio-music-design"
+}

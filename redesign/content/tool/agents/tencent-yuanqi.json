@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "tencent-yuanqi",
+  "status": "ok",
+  "cat": "agents",
+  "name": "Tencent Yuanqi",
+  "nameZh": "腾讯元器",
+  "vendor": "腾讯（Tencent）",
+  "tagline": "腾讯的智能体开发平台，可将智能体发布到微信生态",
+  "desc": "腾讯元器是腾讯（Tencent）的产品，腾讯的智能体开发平台，可将智能体发布到微信生态。完全免费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页。",
+  "site": "https://yuanqi.tencent.com/",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "free",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "基于混元模型零代码创建智能体",
+    "支持工作流编排与知识库插件配置",
+    "智能体可发布到微信客服等腾讯场景",
+    "平台提供免费创建与调试额度"
+  ],
+  "howto": [
+    "打开官网 yuanqi.tencent.com/",
+    "按官方说明免费使用，通常需要注册账号"
+  ],
+  "sourceBatch": "batchC-work-search-agents-study"
+}

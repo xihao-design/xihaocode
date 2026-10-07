@@ -1,0 +1,50 @@
+{
+  "type": "skill",
+  "slug": "spec-driven-development",
+  "name": "spec-driven-development",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/spec-driven-development",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/spec-driven-development",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 12595
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 13663,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1GBx1AHLYXhlwvyK0tnOazA",
+  "pwd": "1h2b",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "规格驱动开发",
+  "tagline": "先写规格，再写代码",
+  "desc": "编码前先写规格：新项目、新功能或重大改动还没有规格时用它；起草含目标与范围的 PRD 或需求文档；需求不清、有歧义、还只是个模糊想法；以及单个需求横跨多个可独立测试的能力、需要先拆成模块能力地图时。",
+  "features": [
+    "编码前产出规格",
+    "PRD / 需求文档（含目标与范围）",
+    "把模糊需求澄清成可实施描述",
+    "单个需求拆成模块能力地图"
+  ],
+  "install": [
+    "把 spec-driven-development 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

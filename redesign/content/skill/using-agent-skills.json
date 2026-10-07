@@ -1,0 +1,49 @@
+{
+  "type": "skill",
+  "slug": "using-agent-skills",
+  "name": "using-agent-skills",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/using-agent-skills",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/using-agent-skills",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 10446
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 11514,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1xiXVrqosomAIjiAPYr48qw",
+  "pwd": "ezci",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "技能发现与调用",
+  "tagline": "该用哪个技能，先问它",
+  "desc": "发现并调用技能：开新会话时、或者需要判断眼前这件工作该用哪个技能与工作流时用它。这是元技能 —— 所有其它技能的发现与调用方式都由它统管。",
+  "features": [
+    "判断当前工作适用哪个技能",
+    "技能发现与会话启动",
+    "元技能：统管其它技能的调用方式"
+  ],
+  "install": [
+    "把 using-agent-skills 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

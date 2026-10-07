@@ -1,0 +1,50 @@
+{
+  "type": "skill",
+  "slug": "academy-guide",
+  "name": "academy-guide",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "skills/academy-guide",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/academy-guide",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "skills/academy-guide/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11345
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7755
+    }
+  ],
+  "pack": {
+    "dirBytes": 19100,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1vaacS4gBQ0HBa-1s14tOeA",
+  "pwd": "w3rf",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "Claude 官方学习资源指引",
+  "tagline": "要学 Claude 怎么用，先对到官方那门课",
+  "desc": "处理「我该怎么用 Claude」「这个功能怎么上手」这类提问的官方技能。它会把问题对到 Claude Academy（academy.claude.com，Anthropic 的官方学习中心）里对应的课程与教程，并写明只在确实匹配时才推荐、绝不编造课程内容。给团队或班级做培训、找上手材料时用它。",
+  "features": [
+    "按提问匹配 Claude Academy 里的课程与教程",
+    "覆盖 artifacts / projects / skills / plugins / connectors / MCP 等上手问题",
+    "可用于团队、班级、组织的推广与培训材料",
+    "规则明确：匹配度不强就不推荐，不得编造 Academy 内容"
+  ],
+  "install": [
+    "把 academy-guide 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "无需额外依赖（纯说明型技能）"
+  ],
+  "hostNote": "目录结构为 Anthropic 官方技能格式（仓库内 skills/ 约定）。本站按路径推断适用宿主、未逐条实测：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

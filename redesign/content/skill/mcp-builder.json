@@ -1,0 +1,85 @@
+{
+  "type": "skill",
+  "slug": "mcp-builder",
+  "name": "mcp-builder",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "skills/mcp-builder",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/mcp-builder",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "skills/mcp-builder/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11345
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 9092
+    },
+    {
+      "path": "reference/evaluation.md",
+      "bytes": 21663
+    },
+    {
+      "path": "reference/mcp_best_practices.md",
+      "bytes": 7330
+    },
+    {
+      "path": "reference/node_mcp_server.md",
+      "bytes": 28550
+    },
+    {
+      "path": "reference/python_mcp_server.md",
+      "bytes": 25099
+    },
+    {
+      "path": "scripts/connections.py",
+      "bytes": 4875
+    },
+    {
+      "path": "scripts/evaluation.py",
+      "bytes": 12579
+    },
+    {
+      "path": "scripts/example_evaluation.xml",
+      "bytes": 1194
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "bytes": 29
+    }
+  ],
+  "pack": {
+    "dirBytes": 121756,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1LQ0XDZTIPPwNlWIc5gylqQ",
+  "pwd": "ikw8",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "MCP 服务构建器",
+  "tagline": "把外部 API 做成模型能稳定调用的工具",
+  "desc": "MCP（Model Context Protocol）服务端的开发指南型技能。它不急着让你写代码，而是先逼你想清楚一件事：模型要替你完成什么任务？想清楚之后，再把外部服务设计成一组工具，让模型能可靠地调用。覆盖 Python（FastMCP）与 Node/TypeScript（MCP SDK）两条实现路线，并附带服务端设计最佳实践与一套评测方法 —— 用来检验你的工具设计是否真的被模型用对了。",
+  "features": [
+    "覆盖 Python（FastMCP）与 Node/TypeScript（MCP SDK）两条实现路线",
+    "MCP 服务端设计最佳实践（reference/mcp_best_practices.md）",
+    "两套语言的完整实现参考（reference/node_mcp_server.md、python_mcp_server.md）",
+    "评测脚本与示例评测集，可验证工具是否被模型正确调用",
+    "工具连接与环境检查脚本（scripts/connections.py）"
+  ],
+  "install": [
+    "把 mcp-builder 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "保持目录内 SKILL.md 与 scripts/、reference/ 的相对位置不变",
+    "在会话里描述你要接的外部服务，技能会按需加载对应语言的参考文档",
+    "需要跑评测脚本时，先安装 Python 依赖：pip install -r scripts/requirements.txt"
+  ],
+  "hostNote": "目录结构为 Anthropic 官方技能格式（仓库内 skills/ 约定）。本站按路径推断适用宿主、未逐条实测：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

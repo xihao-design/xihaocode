@@ -21,9 +21,10 @@
 .tools--plain{position:static;box-shadow:none}
 
 /* ---------- .sec-sub：区块内的小标题行 ----------
-   用在「官方出品」模块里分隔出自营产品与运营指南两层。
-   线上没有这个类，因为线上这两块是两个独立 section（各自有 .sec-hd）；
-   合并成一个 section 后，第二层需要一个比 .sec-hd 小一号的标题行。 */
+   用在产品详情页的「运营指南」模块里，作为自营产品正文后面的内容层标题。
+   线上没有这个类，因为线上没有运营指南这块内容。
+   （它原先在首页「官方出品」里分隔「自营产品 / 运营指南」两层；
+   用户要求把指南层挪进产品页后，首页那一层不存在了，这里就只剩产品页一个用处。） */
 .sec-sub{
   display:flex;align-items:baseline;justify-content:space-between;
   gap:18px;flex-wrap:wrap;
@@ -40,6 +41,13 @@
   background:var(--accent);flex:none;
 }
 .sec-sub p{font-size:13px;color:var(--ink-3);flex:1;min-width:12em}
+
+/* ---------- .blk--guides：产品详情页的「运营指南」模块 ----------
+   它复用首页那套 .sec-sub + .guide-card（形态不做二次设计），但落点是 .blk ——
+   .blk 自带上下内边距与下边框，而 .sec-sub 的分隔线是给「同一区块内的第二层」
+   准备的：它在这里是 .blk 的第一个元素，上方已经有上一个 .blk 的下边框，
+   两条线会在同一屏里挨着出现，所以把这一份分隔线去掉。 */
+.blk--guides .sec-sub{margin-top:0;padding-top:0;border-top:0}
 
 /* ---------- .warnish：元信息里的「需要注意」的值 ----------
    AI 工具详情页的「国内访问」一栏用（需自备网络条件）。

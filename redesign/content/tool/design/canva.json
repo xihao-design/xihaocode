@@ -1,0 +1,36 @@
+{
+  "type": "tool",
+  "slug": "canva",
+  "status": "ok",
+  "cat": "design",
+  "name": "Canva",
+  "nameZh": "Canva可画",
+  "vendor": "Canva Pty Ltd",
+  "tagline": "在线设计平台，提供海量模板与AI生成设计功能",
+  "desc": "Canva 可画是 Canva Pty 的产品，在线设计平台，提供海量模板与 AI 生成设计功能。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页、Windows、macOS、iOS、Android。",
+  "site": "https://www.canva.com",
+  "pricingUrl": "https://www.canva.com/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "Windows",
+    "macOS",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    "提供海报、演示文稿等大量设计模板",
+    "Magic Studio可生成图文与视频素材",
+    "支持团队协作与品牌工具包管理",
+    "可导出PNG、PDF、PPTX等格式"
+  ],
+  "howto": [
+    "打开官网 www.canva.com",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "video-audio-music-design"
+}

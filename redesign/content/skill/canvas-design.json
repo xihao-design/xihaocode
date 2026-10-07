@@ -1,0 +1,374 @@
+{
+  "type": "skill",
+  "slug": "canvas-design",
+  "name": "canvas-design",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "skills/canvas-design",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/canvas-design",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "skills/canvas-design/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11345
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11939
+    },
+    {
+      "path": "canvas-fonts/ArsenalSC-OFL.txt",
+      "bytes": 4373
+    },
+    {
+      "path": "canvas-fonts/ArsenalSC-Regular.ttf",
+      "bytes": 165848
+    },
+    {
+      "path": "canvas-fonts/BigShoulders-Bold.ttf",
+      "bytes": 94528
+    },
+    {
+      "path": "canvas-fonts/BigShoulders-OFL.txt",
+      "bytes": 4397
+    },
+    {
+      "path": "canvas-fonts/BigShoulders-Regular.ttf",
+      "bytes": 94396
+    },
+    {
+      "path": "canvas-fonts/Boldonse-OFL.txt",
+      "bytes": 4390
+    },
+    {
+      "path": "canvas-fonts/Boldonse-Regular.ttf",
+      "bytes": 77168
+    },
+    {
+      "path": "canvas-fonts/BricolageGrotesque-Bold.ttf",
+      "bytes": 90952
+    },
+    {
+      "path": "canvas-fonts/BricolageGrotesque-OFL.txt",
+      "bytes": 4403
+    },
+    {
+      "path": "canvas-fonts/BricolageGrotesque-Regular.ttf",
+      "bytes": 90920
+    },
+    {
+      "path": "canvas-fonts/CrimsonPro-Bold.ttf",
+      "bytes": 107352
+    },
+    {
+      "path": "canvas-fonts/CrimsonPro-Italic.ttf",
+      "bytes": 108828
+    },
+    {
+      "path": "canvas-fonts/CrimsonPro-OFL.txt",
+      "bytes": 4394
+    },
+    {
+      "path": "canvas-fonts/CrimsonPro-Regular.ttf",
+      "bytes": 106696
+    },
+    {
+      "path": "canvas-fonts/DMMono-OFL.txt",
+      "bytes": 4392
+    },
+    {
+      "path": "canvas-fonts/DMMono-Regular.ttf",
+      "bytes": 48852
+    },
+    {
+      "path": "canvas-fonts/EricaOne-OFL.txt",
+      "bytes": 4410
+    },
+    {
+      "path": "canvas-fonts/EricaOne-Regular.ttf",
+      "bytes": 24872
+    },
+    {
+      "path": "canvas-fonts/GeistMono-Bold.ttf",
+      "bytes": 78304
+    },
+    {
+      "path": "canvas-fonts/GeistMono-OFL.txt",
+      "bytes": 4388
+    },
+    {
+      "path": "canvas-fonts/GeistMono-Regular.ttf",
+      "bytes": 78232
+    },
+    {
+      "path": "canvas-fonts/Gloock-OFL.txt",
+      "bytes": 4381
+    },
+    {
+      "path": "canvas-fonts/Gloock-Regular.ttf",
+      "bytes": 95156
+    },
+    {
+      "path": "canvas-fonts/IBMPlexMono-Bold.ttf",
+      "bytes": 136008
+    },
+    {
+      "path": "canvas-fonts/IBMPlexMono-OFL.txt",
+      "bytes": 4363
+    },
+    {
+      "path": "canvas-fonts/IBMPlexMono-Regular.ttf",
+      "bytes": 133796
+    },
+    {
+      "path": "canvas-fonts/IBMPlexSerif-Bold.ttf",
+      "bytes": 161000
+    },
+    {
+      "path": "canvas-fonts/IBMPlexSerif-BoldItalic.ttf",
+      "bytes": 169840
+    },
+    {
+      "path": "canvas-fonts/IBMPlexSerif-Italic.ttf",
+      "bytes": 170004
+    },
+    {
+      "path": "canvas-fonts/IBMPlexSerif-Regular.ttf",
+      "bytes": 160380
+    },
+    {
+      "path": "canvas-fonts/InstrumentSans-Bold.ttf",
+      "bytes": 68084
+    },
+    {
+      "path": "canvas-fonts/InstrumentSans-BoldItalic.ttf",
+      "bytes": 70004
+    },
+    {
+      "path": "canvas-fonts/InstrumentSans-Italic.ttf",
+      "bytes": 69900
+    },
+    {
+      "path": "canvas-fonts/InstrumentSans-OFL.txt",
+      "bytes": 4403
+    },
+    {
+      "path": "canvas-fonts/InstrumentSans-Regular.ttf",
+      "bytes": 68028
+    },
+    {
+      "path": "canvas-fonts/InstrumentSerif-Italic.ttf",
+      "bytes": 70868
+    },
+    {
+      "path": "canvas-fonts/InstrumentSerif-Regular.ttf",
+      "bytes": 69312
+    },
+    {
+      "path": "canvas-fonts/Italiana-OFL.txt",
+      "bytes": 4394
+    },
+    {
+      "path": "canvas-fonts/Italiana-Regular.ttf",
+      "bytes": 27184
+    },
+    {
+      "path": "canvas-fonts/JetBrainsMono-Bold.ttf",
+      "bytes": 114828
+    },
+    {
+      "path": "canvas-fonts/JetBrainsMono-OFL.txt",
+      "bytes": 4399
+    },
+    {
+      "path": "canvas-fonts/JetBrainsMono-Regular.ttf",
+      "bytes": 114904
+    },
+    {
+      "path": "canvas-fonts/Jura-Light.ttf",
+      "bytes": 154308
+    },
+    {
+      "path": "canvas-fonts/Jura-Medium.ttf",
+      "bytes": 154488
+    },
+    {
+      "path": "canvas-fonts/Jura-OFL.txt",
+      "bytes": 4380
+    },
+    {
+      "path": "canvas-fonts/LibreBaskerville-OFL.txt",
+      "bytes": 4449
+    },
+    {
+      "path": "canvas-fonts/LibreBaskerville-Regular.ttf",
+      "bytes": 147584
+    },
+    {
+      "path": "canvas-fonts/Lora-Bold.ttf",
+      "bytes": 133828
+    },
+    {
+      "path": "canvas-fonts/Lora-BoldItalic.ttf",
+      "bytes": 140332
+    },
+    {
+      "path": "canvas-fonts/Lora-Italic.ttf",
+      "bytes": 139328
+    },
+    {
+      "path": "canvas-fonts/Lora-OFL.txt",
+      "bytes": 4423
+    },
+    {
+      "path": "canvas-fonts/Lora-Regular.ttf",
+      "bytes": 133888
+    },
+    {
+      "path": "canvas-fonts/NationalPark-Bold.ttf",
+      "bytes": 79208
+    },
+    {
+      "path": "canvas-fonts/NationalPark-OFL.txt",
+      "bytes": 4399
+    },
+    {
+      "path": "canvas-fonts/NationalPark-Regular.ttf",
+      "bytes": 76424
+    },
+    {
+      "path": "canvas-fonts/NothingYouCouldDo-OFL.txt",
+      "bytes": 4363
+    },
+    {
+      "path": "canvas-fonts/NothingYouCouldDo-Regular.ttf",
+      "bytes": 32020
+    },
+    {
+      "path": "canvas-fonts/Outfit-Bold.ttf",
+      "bytes": 55392
+    },
+    {
+      "path": "canvas-fonts/Outfit-OFL.txt",
+      "bytes": 4389
+    },
+    {
+      "path": "canvas-fonts/Outfit-Regular.ttf",
+      "bytes": 54912
+    },
+    {
+      "path": "canvas-fonts/PixelifySans-Medium.ttf",
+      "bytes": 51072
+    },
+    {
+      "path": "canvas-fonts/PixelifySans-OFL.txt",
+      "bytes": 4395
+    },
+    {
+      "path": "canvas-fonts/PoiretOne-OFL.txt",
+      "bytes": 4366
+    },
+    {
+      "path": "canvas-fonts/PoiretOne-Regular.ttf",
+      "bytes": 45244
+    },
+    {
+      "path": "canvas-fonts/RedHatMono-Bold.ttf",
+      "bytes": 34420
+    },
+    {
+      "path": "canvas-fonts/RedHatMono-OFL.txt",
+      "bytes": 4394
+    },
+    {
+      "path": "canvas-fonts/RedHatMono-Regular.ttf",
+      "bytes": 34488
+    },
+    {
+      "path": "canvas-fonts/Silkscreen-OFL.txt",
+      "bytes": 4394
+    },
+    {
+      "path": "canvas-fonts/Silkscreen-Regular.ttf",
+      "bytes": 31960
+    },
+    {
+      "path": "canvas-fonts/SmoochSans-Medium.ttf",
+      "bytes": 59704
+    },
+    {
+      "path": "canvas-fonts/SmoochSans-OFL.txt",
+      "bytes": 4396
+    },
+    {
+      "path": "canvas-fonts/Tektur-Medium.ttf",
+      "bytes": 76248
+    },
+    {
+      "path": "canvas-fonts/Tektur-OFL.txt",
+      "bytes": 4385
+    },
+    {
+      "path": "canvas-fonts/Tektur-Regular.ttf",
+      "bytes": 75604
+    },
+    {
+      "path": "canvas-fonts/WorkSans-Bold.ttf",
+      "bytes": 191304
+    },
+    {
+      "path": "canvas-fonts/WorkSans-BoldItalic.ttf",
+      "bytes": 175772
+    },
+    {
+      "path": "canvas-fonts/WorkSans-Italic.ttf",
+      "bytes": 174280
+    },
+    {
+      "path": "canvas-fonts/WorkSans-OFL.txt",
+      "bytes": 4397
+    },
+    {
+      "path": "canvas-fonts/WorkSans-Regular.ttf",
+      "bytes": 188916
+    },
+    {
+      "path": "canvas-fonts/YoungSerif-OFL.txt",
+      "bytes": 4398
+    },
+    {
+      "path": "canvas-fonts/YoungSerif-Regular.ttf",
+      "bytes": 105136
+    }
+  ],
+  "pack": {
+    "dirBytes": 5554003,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1N5FpvcPaVuTE8JtNMDCR4A",
+  "pwd": "xhhy",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "画布设计（海报与静态稿）",
+  "tagline": "出 png / pdf 静态设计稿，自带字体",
+  "desc": "用设计原则生成 png 与 pdf 静态视觉作品，做海报、插画或其它静态设计时用；官方同样要求原创、不得照抄他人作品。内含 81 个文件，其中 canvas-fonts/ 是随包分发的字体，字体授权文本（OFL）也一并带上。",
+  "features": [
+    "输出 png 与 pdf 静态设计稿",
+    "自带 canvas-fonts 字体资源，随包附 OFL 授权文本",
+    "覆盖海报、插画等静态视觉",
+    "官方要求原创、不得复制他人作品"
+  ],
+  "install": [
+    "把 canvas-design 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "注意连同 canvas-fonts/ 一起复制——字体是设计稿的一部分"
+  ],
+  "hostNote": "目录结构为 Anthropic 官方技能格式（仓库内 skills/ 约定）。本站按路径推断适用宿主、未逐条实测：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

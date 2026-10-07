@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "braintrust",
+  "status": "ok",
+  "cat": "prompts",
+  "name": "Braintrust",
+  "nameZh": "Braintrust",
+  "vendor": "Braintrust Data, Inc.",
+  "tagline": "AI 产品评测与可观测性平台，提供测试集、评分器与线上监控",
+  "desc": "Braintrust 是 Braintrust Data 的产品，AI 产品评测与可观测性平台，提供测试集、评分器与线上监控。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页。",
+  "site": "https://www.braintrust.dev",
+  "pricingUrl": "https://www.braintrust.dev/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "可构建评测数据集并在多模型间跑对比",
+    "支持自定义评分器与人工标注流程",
+    "提供线上日志、监控与提示词版本管理",
+    "免费层级面向个人开发者，按用量升级"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 www.braintrust.dev",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

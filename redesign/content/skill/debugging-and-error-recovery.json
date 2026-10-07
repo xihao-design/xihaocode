@@ -1,0 +1,49 @@
+{
+  "type": "skill",
+  "slug": "debugging-and-error-recovery",
+  "name": "debugging-and-error-recovery",
+  "category": "ai-skill",
+  "source": {
+    "repo": "addyosmani/agent-skills",
+    "repoUrl": "https://github.com/addyosmani/agent-skills",
+    "path": "skills/debugging-and-error-recovery",
+    "commit": "dc27a9c2e13721158157632de61b4106c6c2a2a1",
+    "commitDate": "2026-09-20",
+    "license": "MIT",
+    "stars": 98390,
+    "treeUrl": "https://github.com/addyosmani/agent-skills/tree/dc27a9c2e13721158157632de61b4106c6c2a2a1/skills/debugging-and-error-recovery",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "LICENSE"
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 10913
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068
+    }
+  ],
+  "pack": {
+    "dirBytes": 11981,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1AiXmwl5B1AMOJz583AynAg",
+  "pwd": "tm2z",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "系统化排查根因",
+  "tagline": "测试挂了先找根因，别靠猜",
+  "desc": "系统化的根因调试：测试失败、构建中断、昨天还好好的东西今天坏了、行为和预期不符 —— 先把真正的根因定位出来再修，而不是「试一下能不能好」。",
+  "features": [
+    "系统化定位根因",
+    "覆盖测试失败、构建中断、行为不符预期",
+    "拒绝猜测式修复"
+  ],
+  "install": [
+    "把 debugging-and-error-recovery 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "均为说明型技能，无需额外依赖"
+  ],
+  "hostNote": "仓库为 addyosmani/agent-skills 的技能合集（Anthropic 技能格式）。本站按仓库结构推断、未逐条实测宿主：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

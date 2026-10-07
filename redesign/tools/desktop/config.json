@@ -1,0 +1,44 @@
+{
+  "$note": "电脑软件频道的采集源与底线。改这里，不用改代码。底线是人定的，代码只负责执行 —— 每条拒绝规则后面都写清理由，免得以后有人（包括我自己）以为可以放宽。",
+
+  "topics": ["windows", "desktop-app", "cross-platform"],
+  "$topics_note": "实测 ★≥300 可用数：windows 2149 / macos 2264 / desktop-app 292 / cross-platform 520。先做 Windows，macos 供给量同级但可后置。",
+
+  "minStars": 500,
+  "pushedWithinDays": 365,
+  "maxMB": 300,
+  "$maxMB_note": "桌面软件比 APK 大一个量级，而百度网盘上传慢、占空间。实测 60 个仓库样本里，这条挡掉了 2 个超大资产。",
+  "minPortableMB": 1,
+  "$minPortableMB_note": "真应用的 zip 极少小于 1MB。设 0.05MB 时漏进来过 tldr-pages 的保加利亚语语言包（0.1MB）——它不是应用，是词典分片。",
+  "minInstallerMB": 0.05,
+
+  "deny": {
+    "$reason": "站方明确决定：代理/翻墙工具一个都不收。理由：本站有备案，分发这类内容的风险高于站内其它类目，而且这类工具常带「机场」推广，容易把站拖进更麻烦的地方。",
+    "repoPatterns": [
+      "clash", "v2ray", "xray", "shadowsocks", "trojan", "sing-box", "singbox",
+      "hysteria", "mihomo", "naive", "brook", "shadowtls", "vmess", "vless",
+      "tun2socks", "proxychains", "fanqiang", "翻墙", "机场", "科学上网"
+    ],
+    "descPatterns": [
+      "proxy", "vpn", "circumvent", "censorship", "shadowsocks", "clash", "v2ray",
+      "科学上网", "翻墙", "机场", "网络代理", "代理服务器"
+    ]
+  },
+
+  "serverSignals": [
+    "self-hosted", "self hosted", "self-host", "server-side", "server side",
+    "docker image", "backend", "kubernetes", "headless server",
+    "node.js", "nodejs", "database", "postgres", "mysql", "sqlite",
+    "deploy", "runs on your own", "install on your server"
+  ],
+  "$serverSignals_note": "服务端应用：要跑成服务，不是桌面应用。实测 wiki.js 的 wiki-js-windows.tar.gz（Node 服务端包，94MB）混进来过 —— 资产名完全正常，只能从仓库描述拦。第一版信号太窄（只写了 web app），它自称 wiki app 就漏过去了，所以这里补上 node.js / database / self-host 这类更具体的信号。注意**故意不写 web-based / web app**：Electron 桌面应用（如 NextChat）也自称 web UI，但它是真桌面应用，写了会误杀。",
+
+  "nonAppSignals": [
+    "cheat sheet", "cheatsheet", "collection of", "curated list", "awesome",
+    "plugin", "extension", "theme", "icon set", "icon pack", "font",
+    "library", "framework", "sdk", "toolkit", "boilerplate", "starter",
+    "dotfiles", "documentation", "docs for", "specification", "wrapper",
+    "binding", "list of"
+  ],
+  "$nonAppSignals_note": "库/框架/主题/文档/清单类：即便有 Release 也不是「能装的应用」。实测 tldr-pages（命令行速查表）和 react/react-native 的 DevTools 都混进来过，资产名看不出问题。宁可错杀（少收几个），不可放过（掺进不像应用的页面）—— 剩余噪声由人工审核兜。"
+}

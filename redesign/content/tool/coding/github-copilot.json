@@ -1,0 +1,35 @@
+{
+  "type": "tool",
+  "slug": "github-copilot",
+  "status": "ok",
+  "cat": "coding",
+  "name": "GitHub Copilot",
+  "nameZh": "GitHub Copilot",
+  "vendor": "GitHub / Microsoft",
+  "tagline": "GitHub 的 AI 编程助手，提供补全、对话与代码审查",
+  "desc": "GitHub Copilot 是 GitHub / Microsoft 的产品，GitHub 的 AI 编程助手，提供补全、对话与代码审查。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。原生支持中文输入输出。支持平台：网页、Windows、macOS、Linux。",
+  "site": "https://github.com/features/copilot",
+  "pricingUrl": "https://github.com/features/copilot/plans",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "features": [
+    "支持多语言代码补全、对话问答与代码审查",
+    "可集成 VS Code 与 JetBrains 等主流编辑器",
+    "个人版提供免费额度，付费版额度更高",
+    "企业版支持组织策略管理与私有代码索引"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 github.com/features/copilot",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchA-writing-chatbot-coding-image"
+}

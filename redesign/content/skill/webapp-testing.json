@@ -1,0 +1,68 @@
+{
+  "type": "skill",
+  "slug": "webapp-testing",
+  "name": "webapp-testing",
+  "category": "ai-skill",
+  "source": {
+    "repo": "anthropics/skills",
+    "repoUrl": "https://github.com/anthropics/skills",
+    "path": "skills/webapp-testing",
+    "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+    "commitDate": "2026-09-10",
+    "license": "Apache-2.0",
+    "stars": 177627,
+    "treeUrl": "https://github.com/anthropics/skills/tree/34040c9c568585f6929bedeaad110ad08f079624/skills/webapp-testing",
+    "hostGuess": "Claude 技能格式（Anthropic 官方约定）",
+    "licenseFile": "skills/webapp-testing/LICENSE.txt"
+  },
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11345
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3913
+    },
+    {
+      "path": "examples/console_logging.py",
+      "bytes": 1027
+    },
+    {
+      "path": "examples/element_discovery.py",
+      "bytes": 1463
+    },
+    {
+      "path": "examples/static_html_automation.py",
+      "bytes": 953
+    },
+    {
+      "path": "scripts/with_server.py",
+      "bytes": 3693
+    }
+  ],
+  "pack": {
+    "dirBytes": 22394,
+    "packedAt": "2026-09-22T17:44:19.491Z"
+  },
+  "link": "https://pan.baidu.com/s/1MCUtMl42M3OZytbUEYVZEw",
+  "pwd": "8qnn",
+  "linkMode": "package",
+  "status": "ok",
+  "nameZh": "本地网页应用测试",
+  "tagline": "用 Playwright 测本地前端，截图与日志一并留下",
+  "desc": "用 Playwright 操作和测试本地 web 应用的技能：验证前端功能、排查 UI 行为、截取浏览器截图、读取控制台日志。它主张直接写原生 Playwright 脚本而不是套一层抽象 —— 出问题时，抽象层往往正是排查障碍。附带一个服务器生命周期管理脚本，省掉「先起服务、测完再关」的手工步骤。",
+  "features": [
+    "验证前端功能是否按预期工作",
+    "调试 UI 行为、截取浏览器截图留证",
+    "读取浏览器控制台日志定位报错",
+    "scripts/with_server.py 托管服务器生命周期（支持同时管理多个服务）",
+    "examples/ 提供元素发现、静态页面自动化、控制台日志三个可直接改的示例"
+  ],
+  "install": [
+    "把 webapp-testing 目录复制到宿主的技能目录（Claude Code 为 .claude/skills/）",
+    "安装 Python 依赖：pip install playwright && playwright install",
+    "从 examples/ 里挑一个最接近你项目的示例脚本改起"
+  ],
+  "hostNote": "目录结构为 Anthropic 官方技能格式（仓库内 skills/ 约定）。本站按路径推断适用宿主、未逐条实测：Claude Code 的技能目录是 .claude/skills/（或项目内 .claude/skills/）。用前请对照你所用宿主的文档确认。"
+}

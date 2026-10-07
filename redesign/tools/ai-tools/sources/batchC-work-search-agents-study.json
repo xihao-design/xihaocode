@@ -1,0 +1,958 @@
+[
+  {
+    "name": "WPS AI",
+    "nameZh": "WPS AI",
+    "slug": "wps-ai",
+    "vendor": "金山办公（Kingsoft Office）",
+    "site": "https://ai.wps.cn/",
+    "cat": "work",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "网页"
+    ],
+    "oneLine": "金山办公的文档智能助手，可写作、生成公式并总结全文",
+    "pricingUrl": "https://vip.wps.cn/home",
+    "facts": [
+      "官网 ai.wps.cn 提供 AI 写作、设计、阅读与数据四类助手",
+      "支持根据主题一键生成 PPT 大纲与完整演示文稿",
+      "表格中可用自然语言描述生成公式与条件格式",
+      "网页版仅开放基础功能，完整体验需安装 WPS 客户端"
+    ]
+  },
+  {
+    "name": "Feishu AI",
+    "nameZh": "飞书智能伙伴",
+    "slug": "feishu-ai",
+    "vendor": "字节跳动（ByteDance）",
+    "site": "https://www.feishu.cn/product/feishuai",
+    "cat": "work",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "网页"
+    ],
+    "oneLine": "飞书内置的企业智能伙伴，可在消息与文档场景调用大模型",
+    "pricingUrl": null,
+    "facts": [
+      "智能伙伴由使用者自行创建，可绑定企业知识并配置人设",
+      "支持在飞书群聊、文档、会议等场景内直接调用",
+      "配套的 aily 平台用于搭建企业级 AI 应用与工作流",
+      "基础版可免费使用，高级能力随付费版本开放"
+    ]
+  },
+  {
+    "name": "DingTalk AI",
+    "nameZh": "钉钉 AI 助理",
+    "slug": "dingtalk-ai",
+    "vendor": "阿里巴巴集团（Alibaba Group）",
+    "site": "https://www.dingtalk.com/",
+    "cat": "work",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "网页"
+    ],
+    "oneLine": "钉钉推出的企业 AI 助理，可总结消息、生成文档并建智能体",
+    "pricingUrl": null,
+    "facts": [
+      "AI 助理可在聊天中总结未读消息与会议纪要",
+      "支持用自然语言创建企业专属智能体并接入业务系统",
+      "个人版可免费使用基础 AI 能力",
+      "提供面向企业的 AI 开放平台与插件体系"
+    ]
+  },
+  {
+    "name": "Tencent Docs AI",
+    "nameZh": "腾讯文档 AI",
+    "slug": "tencent-docs-ai",
+    "vendor": "腾讯（Tencent）",
+    "site": "https://docs.qq.com/ai/",
+    "cat": "work",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android",
+      "微信小程序"
+    ],
+    "oneLine": "腾讯文档的 AI 能力入口，支持写作、表格分析与演示生成",
+    "pricingUrl": "https://docs.qq.com/vip",
+    "facts": [
+      "官网独立入口为 docs.qq.com/ai",
+      "可在文档与表格中生成内容、润色文字并解释数据",
+      "支持将内容一键整理为演示文稿",
+      "基础功能随免费账号开放，高级额度需开通会员"
+    ]
+  },
+  {
+    "name": "Gamma",
+    "nameZh": "Gamma",
+    "slug": "gamma",
+    "vendor": "Gamma Tech, Inc.",
+    "site": "https://gamma.app/",
+    "cat": "work",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "输入主题即可生成演示文稿、文档与网页的在线工具",
+    "pricingUrl": "https://gamma.app/pricing",
+    "facts": [
+      "基于提示词生成整套幻灯片版式与配图",
+      "同一份内容可导出为演示文稿、文档或网页形式",
+      "提供多语言界面，包含简体中文版本",
+      "免费方案带积分额度，付费方案提升额度与导出选项"
+    ]
+  },
+  {
+    "name": "Otter.ai",
+    "nameZh": "Otter.ai",
+    "slug": "otter-ai",
+    "vendor": "Otter.ai, Inc.",
+    "site": "https://otter.ai/",
+    "cat": "work",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "英文会议记录助手，可实时转写并自动生成摘要与待办",
+    "pricingUrl": "https://otter.ai/pricing",
+    "facts": [
+      "可加入 Zoom、Google Meet、Teams 会议并实时转写",
+      "自动识别发言人并生成会议摘要与行动项",
+      "转写与摘要主要面向英语内容",
+      "免费方案对每月转写分钟数设有上限"
+    ]
+  },
+  {
+    "name": "Notion AI",
+    "nameZh": "Notion AI",
+    "slug": "notion-ai",
+    "vendor": "Notion Labs, Inc.",
+    "site": "https://www.notion.com/product/ai",
+    "cat": "work",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "集成在 Notion 工作区的 AI 助手，可写作、检索与生成表格",
+    "pricingUrl": "https://www.notion.com/pricing",
+    "facts": [
+      "可在页面内直接续写、改写、翻译与总结内容",
+      "支持跨工作区与已连接应用进行检索问答",
+      "可依据提示自动生成数据库结构与属性",
+      "以加购形式提供，随订阅方案附带一定额度"
+    ]
+  },
+  {
+    "name": "Baidu Wenku AI",
+    "nameZh": "百度文库 AI",
+    "slug": "baidu-wenku-ai",
+    "vendor": "百度（Baidu）",
+    "site": "https://wenku.baidu.com/",
+    "cat": "work",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "百度文库的 AI 文档助手，可生成 PPT、总结文档并智能问答",
+    "pricingUrl": "https://wenku.baidu.com/vip",
+    "facts": [
+      "支持上传文档后进行全文问答与要点总结",
+      "可依据主题生成 PPT、报告与工作总结等文稿",
+      "整合网盘与文库内容提供一站式办公入口",
+      "免费用户有每日额度，更多生成次数需开通会员"
+    ]
+  },
+  {
+    "name": "Metaso",
+    "nameZh": "秘塔 AI 搜索",
+    "slug": "metaso",
+    "vendor": "上海秘塔网络科技有限公司",
+    "site": "https://metaso.cn/",
+    "cat": "search",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "无广告的 AI 搜索产品，直接给出答案并标注来源链接",
+    "pricingUrl": null,
+    "facts": [
+      "搜索结果为结构化答案，附带可点击的来源引用",
+      "可切换学术、文库等垂直搜索范围",
+      "支持上传文件与生成思维导图、大纲",
+      "基础搜索免费，文库等高级能力需要会员"
+    ]
+  },
+  {
+    "name": "Tiangong AI",
+    "nameZh": "天工 AI",
+    "slug": "tiangong-ai",
+    "vendor": "昆仑万维（Kunlun Tech）",
+    "site": "https://www.tiangong.cn/",
+    "cat": "search",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "昆仑万维推出的 AI 助手，提供搜索、研究与文档解析能力",
+    "pricingUrl": null,
+    "facts": [
+      "提供 AI 搜索并生成带引用来源的研究型答案",
+      "支持上传 PDF 等文件进行解析与问答",
+      "内置多种智能体与创作工具",
+      "部分高级功能需开通会员使用"
+    ]
+  },
+  {
+    "name": "Nano AI Search",
+    "nameZh": "纳米 AI",
+    "slug": "nano-ai",
+    "vendor": "三六零（360）",
+    "site": "https://www.n.cn/",
+    "cat": "search",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "Windows",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "360 推出的 AI 搜索与智能体入口，可调用多种大模型",
+    "pricingUrl": null,
+    "facts": [
+      "主站为 n.cn，同时提供 bot.n.cn 智能体入口",
+      "搜索答案可展示引用来源并追问细化",
+      "接入 DeepSeek 等多种模型供切换使用",
+      "基础功能免费，会员提供更高调用额度"
+    ]
+  },
+  {
+    "name": "Quark AI",
+    "nameZh": "夸克 AI",
+    "slug": "quark-ai",
+    "vendor": "阿里巴巴集团（Alibaba Group）",
+    "site": "https://www.quark.cn/",
+    "cat": "search",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "Windows",
+      "macOS",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "夸克浏览器内置的 AI 助手，提供搜索、学习与文档处理",
+    "pricingUrl": null,
+    "facts": [
+      "首页可直接发起 AI 搜索并获取整合答案",
+      "集成 AI 学习助手、扫描与文档总结等工具",
+      "覆盖浏览器、手机应用与电脑客户端",
+      "基础 AI 功能免费，部分能力需开通会员"
+    ]
+  },
+  {
+    "name": "Zhihu Zhida",
+    "nameZh": "知乎直答",
+    "slug": "zhihu-zhida",
+    "vendor": "知乎（Zhihu Inc.）",
+    "site": "https://zhida.zhihu.com/",
+    "cat": "search",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "知乎推出的问答式 AI 搜索，可溯源到答主与具体回答",
+    "pricingUrl": null,
+    "facts": [
+      "答案基于知乎站内问答内容并标注来源",
+      "可对指定答主或话题范围进行定向提问",
+      "支持上传文件并围绕文件内容提问",
+      "基础使用免费，登录后可用完整功能"
+    ]
+  },
+  {
+    "name": "Perplexity",
+    "nameZh": "Perplexity",
+    "slug": "perplexity",
+    "vendor": "Perplexity AI, Inc.",
+    "site": "https://www.perplexity.ai/",
+    "cat": "search",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "联网回答型搜索引擎，每个结论都附有引用来源",
+    "pricingUrl": "https://www.perplexity.ai/hub/pricing",
+    "facts": [
+      "回答以摘要加编号引用的形式呈现，便于核查",
+      "支持聚焦学术、新闻、社区等不同信息源",
+      "可上传文件并就文件内容继续提问",
+      "免费用户每日有高级检索次数限制，Pro 解锁更多模型"
+    ]
+  },
+  {
+    "name": "NotebookLM",
+    "nameZh": "NotebookLM",
+    "slug": "notebooklm",
+    "vendor": "Google",
+    "site": "https://notebooklm.google.com/",
+    "cat": "search",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "谷歌的文档知识库助手，可基于资料问答并生成音频概览",
+    "pricingUrl": "https://workspace.google.com/products/notebooklm/",
+    "facts": [
+      "将上传的 PDF、网页等资料作为回答依据并给出引用",
+      "可自动生成学习指南、时间线与思维导图",
+      "能把资料转化为双人对谈形式的音频概览",
+      "个人版免费提供一定数量的笔记本与对话额度"
+    ]
+  },
+  {
+    "name": "Elicit",
+    "nameZh": "Elicit",
+    "slug": "elicit",
+    "vendor": "Ought Inc.",
+    "site": "https://elicit.com/",
+    "cat": "search",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "面向科研的文献助手，可从论文中批量提取数据并综述",
+    "pricingUrl": "https://elicit.com/pricing",
+    "facts": [
+      "基于研究问题检索论文并生成结构化数据表",
+      "支持批量抽取样本量、研究方法等字段信息",
+      "可对选定文献自动生成文献综述草稿",
+      "免费账号每月提供一定积分，付费方案提升额度"
+    ]
+  },
+  {
+    "name": "Consensus",
+    "nameZh": "Consensus",
+    "slug": "consensus",
+    "vendor": "Consensus NLP, Inc.",
+    "site": "https://consensus.app/",
+    "cat": "search",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "学术问答式搜索工具，用论文结论回答研究问题",
+    "pricingUrl": "https://consensus.app/pricing",
+    "facts": [
+      "以问题形式检索同行评议论文并汇总结论倾向",
+      "每条结论均链接到原文摘要页面",
+      "提供共识度指示，展示支持与反对的研究数量",
+      "免费版每月可进行有限次数的搜索与分析"
+    ]
+  },
+  {
+    "name": "Coze",
+    "nameZh": "扣子 Coze",
+    "slug": "coze",
+    "vendor": "字节跳动（ByteDance）",
+    "site": "https://www.coze.cn/",
+    "cat": "agents",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "字节跳动的智能体开发平台，可零代码搭建并发布机器人",
+    "pricingUrl": "https://www.coze.cn/pricing",
+    "facts": [
+      "通过提示词、插件与工作流可视化编排智能体",
+      "可将智能体发布到飞书、抖音等渠道使用",
+      "提供知识库上传与多轮对话调试能力",
+      "个人版有免费额度，专业版按调用量计费"
+    ]
+  },
+  {
+    "name": "Zhipu Qingyan",
+    "nameZh": "智谱清言智能体",
+    "slug": "zhipu-qingyan",
+    "vendor": "智谱 AI（Zhipu AI）",
+    "site": "https://chatglm.cn/",
+    "cat": "agents",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "智谱 AI 的对话助手，可创建并使用各类定制智能体",
+    "pricingUrl": null,
+    "facts": [
+      "智能体广场提供大量可即用的公开智能体",
+      "用户可自建智能体并配置提示词与知识文件",
+      "支持文件解析、联网检索与代码执行等工具调用",
+      "基础对话免费，开发者通过开放平台按量计费"
+    ]
+  },
+  {
+    "name": "Wenxin AgentBuilder",
+    "nameZh": "文心智能体平台",
+    "slug": "wenxin-agentbuilder",
+    "vendor": "百度（Baidu）",
+    "site": "https://agents.baidu.com/",
+    "cat": "agents",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "free",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "百度的零代码智能体平台，可在搜索等场景分发智能体",
+    "pricingUrl": null,
+    "facts": [
+      "通过提示词与知识库零代码创建智能体",
+      "智能体可接入百度搜索等入口被用户调用",
+      "提供工作流与插件组件用于扩展能力",
+      "面向开发者提供免费创建与调试额度"
+    ]
+  },
+  {
+    "name": "Dify",
+    "nameZh": "Dify",
+    "slug": "dify",
+    "vendor": "苏州语灵人工智能科技有限公司",
+    "site": "https://dify.ai/",
+    "cat": "agents",
+    "opensource": true,
+    "repo": "https://github.com/langgenius/dify",
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "Docker 自部署"
+    ],
+    "oneLine": "开源的 LLM 应用开发平台，可视化编排智能体与知识库",
+    "pricingUrl": "https://dify.ai/pricing",
+    "facts": [
+      "GitHub 项目 langgenius/dify 以开源许可发布",
+      "支持 Agent、工作流、RAG 流水线等应用类型",
+      "可接入多家模型服务商并统一管理密钥",
+      "提供云端版免费额度，也可自行部署"
+    ]
+  },
+  {
+    "name": "Tencent Yuanqi",
+    "nameZh": "腾讯元器",
+    "slug": "tencent-yuanqi",
+    "vendor": "腾讯（Tencent）",
+    "site": "https://yuanqi.tencent.com/",
+    "cat": "agents",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "free",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "腾讯的智能体开发平台，可将智能体发布到微信生态",
+    "pricingUrl": null,
+    "facts": [
+      "基于混元模型零代码创建智能体",
+      "支持工作流编排与知识库插件配置",
+      "智能体可发布到微信客服等腾讯场景",
+      "平台提供免费创建与调试额度"
+    ]
+  },
+  {
+    "name": "Zapier",
+    "nameZh": "Zapier",
+    "slug": "zapier",
+    "vendor": "Zapier Inc.",
+    "site": "https://zapier.com/",
+    "cat": "agents",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "连接数千款应用的自动化平台，用触发器与动作搭建流程",
+    "pricingUrl": "https://zapier.com/pricing",
+    "facts": [
+      "以 Zap 为单位连接应用并设置触发条件与动作",
+      "支持多步骤流程、条件分支与数据格式化",
+      "提供 AI 节点与智能体用于流程内自动化",
+      "免费方案每月提供有限的任务次数"
+    ]
+  },
+  {
+    "name": "n8n",
+    "nameZh": "n8n",
+    "slug": "n8n",
+    "vendor": "n8n GmbH",
+    "site": "https://n8n.io/",
+    "cat": "agents",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "Docker 自部署",
+      "npm"
+    ],
+    "oneLine": "面向技术团队的开源工作流自动化工具，支持自托管",
+    "pricingUrl": "https://n8n.io/pricing/",
+    "facts": [
+      "GitHub 项目 n8n-io/n8n 以可持续使用许可开放源码",
+      "支持数百种服务集成与自定义代码节点",
+      "可接入大模型搭建 AI 智能体工作流",
+      "自托管版免费，云版提供付费方案"
+    ],
+    "openNote": "源码公开可查，但采用 Sustainable Use License（fair-code），对商业用途有限制 —— 因此本站不把它归入「开源」，商用前请自行阅读官方许可条款。"
+  },
+  {
+    "name": "Make",
+    "nameZh": "Make",
+    "slug": "make",
+    "vendor": "Make (Celonis)",
+    "site": "https://www.make.com/",
+    "cat": "agents",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "可视化自动化平台，用拖拽节点方式编排多应用流程",
+    "pricingUrl": "https://www.make.com/en/pricing",
+    "facts": [
+      "在画布上以节点和连线的方式设计自动化场景",
+      "支持分支、迭代、错误处理等流程控制模块",
+      "内置大量应用连接器与 AI 相关模块",
+      "免费方案每月提供固定的操作次数额度"
+    ]
+  },
+  {
+    "name": "Manus",
+    "nameZh": "Manus",
+    "slug": "manus",
+    "vendor": "蝴蝶效应（Butterfly Effect）",
+    "site": "https://manus.im/",
+    "cat": "agents",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "通用型 AI 智能体，可自主分解并执行多步骤任务",
+    "pricingUrl": "https://manus.im/pricing",
+    "facts": [
+      "在云端沙盒中自主浏览网页、运行代码并生成文件",
+      "任务执行过程以步骤形式实时展示，可中途接管",
+      "适合制作研究报告、网页与数据表格等交付物",
+      "采用积分制计费，账号提供可续期的额度"
+    ]
+  },
+  {
+    "name": "Gumloop",
+    "nameZh": "Gumloop",
+    "slug": "gumloop",
+    "vendor": "Gumloop Inc.",
+    "site": "https://www.gumloop.com/",
+    "cat": "agents",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "可视化拖拽式 AI 工作流平台，用于搭建可复用的自动化流程",
+    "pricingUrl": "https://www.gumloop.com/pricing",
+    "facts": [
+      "以节点拖拽方式组合模型调用、抓取与数据库操作",
+      "支持将流程发布为可分享的自动化应用",
+      "提供团队协作与运行历史记录",
+      "采用积分计费，按月方案包含一定积分额度"
+    ]
+  },
+  {
+    "name": "Xiaoyuan AI",
+    "nameZh": "小猿AI",
+    "slug": "xiaoyuan-ai",
+    "vendor": "猿辅导（Yuanfudao）",
+    "site": "https://www.xiaoyuankousuan.com/",
+    "cat": "study",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "猿辅导旗下的学习应用，可拍照批改口算题与作业",
+    "pricingUrl": null,
+    "facts": [
+      "支持拍照识别整页口算题并自动判对错",
+      "覆盖中小学主要学科的练习与讲解",
+      "提供错题整理与学习报告",
+      "基础功能免费，部分题库与课程需付费"
+    ]
+  },
+  {
+    "name": "Zuoyebang",
+    "nameZh": "作业帮",
+    "slug": "zuoyebang",
+    "vendor": "作业帮教育科技（北京）有限公司",
+    "site": "https://www.zuoyebang.com/",
+    "cat": "study",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "iOS",
+      "Android",
+      "网页"
+    ],
+    "oneLine": "国内中小学在线学习平台，提供拍照搜题与作业批改",
+    "pricingUrl": null,
+    "facts": [
+      "拍照上传题目后可返回解析与讲解步骤",
+      "支持整页作业检查并标出错误题目",
+      "提供同步练习与知识点视频讲解",
+      "基础搜题免费，直播课程与增值服务收费"
+    ]
+  },
+  {
+    "name": "Khanmigo",
+    "nameZh": "Khanmigo",
+    "slug": "khanmigo",
+    "vendor": "Khan Academy",
+    "site": "https://www.khanmigo.ai/",
+    "cat": "study",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "paid",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页"
+    ],
+    "oneLine": "可汗学院推出的 AI 辅导工具，用提问引导而非直接给答案",
+    "pricingUrl": "https://www.khanmigo.ai/parents",
+    "facts": [
+      "以苏格拉底式提问引导学生自行推导答案",
+      "覆盖数学、科学、人文等可汗学院课程内容",
+      "为教师提供备课与批改辅助功能",
+      "面向个人与家长按月订阅收费，部分地区教师免费"
+    ]
+  },
+  {
+    "name": "Duolingo",
+    "nameZh": "多邻国",
+    "slug": "duolingo",
+    "vendor": "Duolingo, Inc.",
+    "site": "https://www.duolingo.com/",
+    "cat": "study",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": false,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "游戏化语言学习应用，提供多语种课程与 AI 对话练习",
+    "pricingUrl": "https://www.duolingo.com/super",
+    "facts": [
+      "以关卡与积分机制组织日常语言练习",
+      "提供英语、日语、法语等数十种语言课程",
+      "内置 AI 角色对话用于口语与造句练习",
+      "免费版含广告，Super 会员去除广告并解锁更多功能"
+    ]
+  },
+  {
+    "name": "Photomath",
+    "nameZh": "Photomath",
+    "slug": "photomath",
+    "vendor": "Google",
+    "site": "https://www.photomath.net/",
+    "cat": "study",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "用摄像头扫描数学题并按步骤给出解法的解题应用",
+    "pricingUrl": "https://support.google.com/photomath/answer/14330572",
+    "facts": [
+      "拍照识别印刷体与手写数学题并给出答案",
+      "展示分步解法并解释所用公式",
+      "支持代数、几何、微积分等题型",
+      "基础解法免费，Plus 订阅提供动画讲解与多解"
+    ]
+  },
+  {
+    "name": "StudyFetch",
+    "nameZh": "StudyFetch",
+    "slug": "studyfetch",
+    "vendor": "StudyFetch Inc.",
+    "site": "https://www.studyfetch.com/",
+    "cat": "study",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "上传课程资料自动生成闪卡、测验与 AI 辅导的学习平台",
+    "pricingUrl": null,
+    "facts": [
+      "上传讲义或课件后生成摘要与练习题",
+      "内置 AI 导师可围绕资料进行问答",
+      "支持生成闪卡并按复习计划安排记忆",
+      "免费账号有额度限制，付费方案提升生成次数"
+    ]
+  },
+  {
+    "name": "Turbo AI",
+    "nameZh": "Turbo AI",
+    "slug": "turbo-ai",
+    "vendor": "Turbo AI",
+    "site": "https://www.turbo.ai/",
+    "cat": "study",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "面向课堂学习的录音笔记工具，可转录讲座并生成测验",
+    "pricingUrl": null,
+    "facts": [
+      "录制课堂或讲座音频后自动转录为文字笔记",
+      "可基于笔记生成闪卡与练习题",
+      "支持围绕资料提问以快速定位内容",
+      "免费使用有额度限制，更多时长需订阅"
+    ]
+  },
+  {
+    "name": "Solvely",
+    "nameZh": "Solvely",
+    "slug": "solvely",
+    "vendor": "Solvely.ai",
+    "site": "https://solvely.ai/",
+    "cat": "study",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "拍照或输入题目即可获得分步解答的 AI 学习工具",
+    "pricingUrl": "https://solvely.ai/pricing",
+    "facts": [
+      "支持拍照上传数学与理科题目并识别文字",
+      "解答按步骤展开并附带知识点说明",
+      "可围绕同一题目继续追问以获得更细讲解",
+      "免费账号每日提问次数有限，订阅后不限次"
+    ]
+  },
+  {
+    "name": "Coursera Coach",
+    "nameZh": "Coursera Coach",
+    "slug": "coursera-coach",
+    "vendor": "Coursera, Inc.",
+    "site": "https://www.coursera.org/",
+    "cat": "study",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": true,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "Coursera 课程内的 AI 学习教练，可答疑并生成学习指南",
+    "pricingUrl": "https://www.coursera.org/courseraplus",
+    "facts": [
+      "在课程页面内就讲不清的内容向 AI 提问",
+      "可依据课程视频与阅读材料生成学习指南",
+      "支持生成练习题并给出即时反馈",
+      "随 Coursera Plus 订阅开放，部分课程可免费体验"
+    ]
+  },
+  {
+    "name": "Gizmo",
+    "nameZh": "Gizmo",
+    "slug": "gizmo",
+    "vendor": "Gizmo Technologies",
+    "site": "https://gizmo.ai/",
+    "cat": "study",
+    "opensource": false,
+    "repo": null,
+    "freeTier": "freemium",
+    "needsVpn": true,
+    "zhSupport": false,
+    "platforms": [
+      "网页",
+      "iOS",
+      "Android"
+    ],
+    "oneLine": "把笔记与资料转成闪卡并安排复习的 AI 记忆应用",
+    "pricingUrl": null,
+    "facts": [
+      "可导入笔记或上传文件自动生成闪卡",
+      "按间隔重复算法安排每日复习内容",
+      "提供选择题与填空等多种自测形式",
+      "基础功能免费，Unlimited 订阅解锁更多闪卡与功能"
+    ]
+  }
+]

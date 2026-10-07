@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "legalon",
+  "status": "ok",
+  "cat": "lawyer",
+  "name": "LegalOn",
+  "nameZh": "LegalOn",
+  "vendor": "LegalOn Technologies, Inc.",
+  "tagline": "面向企业法务的合同审查 AI，按风险条款给出建议",
+  "desc": "LegalOn 是 LegalOn Technologies 的产品，面向企业法务的合同审查 AI，按风险条款给出建议。需要付费使用，官网可查具体方案。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页。",
+  "site": "https://www.legalontech.com",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "paid",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "由执业律师团队维护合同条款审查规则库",
+    "支持在 Word 中直接审阅并提出修改建议",
+    "提供合同版本比对与风险摘要功能",
+    "按订阅销售，官网提供服务方案咨询"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 www.legalontech.com",
+    "官网了解具体方案后开通使用"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

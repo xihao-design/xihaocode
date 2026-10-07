@@ -1,0 +1,35 @@
+{
+  "type": "tool",
+  "slug": "nano-ai",
+  "status": "ok",
+  "cat": "search",
+  "name": "Nano AI Search",
+  "nameZh": "纳米 AI",
+  "vendor": "三六零（360）",
+  "tagline": "360 推出的 AI 搜索与智能体入口，可调用多种大模型",
+  "desc": "纳米 AI 是三六零（360）的产品，360 推出的 AI 搜索与智能体入口，可调用多种大模型。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。原生支持中文输入输出。支持平台：网页、Windows、iOS、Android。",
+  "site": "https://www.n.cn/",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": true,
+  "platforms": [
+    "网页",
+    "Windows",
+    "iOS",
+    "Android"
+  ],
+  "features": [
+    "主站为 n.cn，同时提供 bot.n.cn 智能体入口",
+    "搜索答案可展示引用来源并追问细化",
+    "接入 DeepSeek 等多种模型供切换使用",
+    "基础功能免费，会员提供更高调用额度"
+  ],
+  "howto": [
+    "打开官网 www.n.cn/",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchC-work-search-agents-study"
+}

@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "spellbook",
+  "status": "ok",
+  "cat": "lawyer",
+  "name": "Spellbook",
+  "nameZh": "Spellbook",
+  "vendor": "Spellbook (Rally Legal Inc.)",
+  "tagline": "基于大模型的合同起草与审查助手，以 Word 插件使用",
+  "desc": "Spellbook 是 Spellbook (Rally Legal Inc.)的产品，基于大模型的合同起草与审查助手，以 Word 插件使用。提供试用，正式使用需要购买。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页。",
+  "site": "https://spellbook.com",
+  "pricingUrl": "",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "trial",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "以 Microsoft Word 插件形式协助起草合同",
+    "可对既有合同条款提出修改与风险提示",
+    "面向合同法务场景，官网提供在线试用",
+    "按席位订阅收费，需联系销售获取报价"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 spellbook.com",
+    "可先试用，正式使用需按官网方案购买"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer"
+}

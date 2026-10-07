@@ -2,4 +2,29 @@ node_modules
 cache 
 dist 
 .dist-backup-*.zip
+dist-xihaouc-*.zip
 redesign/_preview/
+
+# 每日采集产物：APK 体积大，不进版本库
+_daily/
+# F-Droid 索引缓存（几 MB，可随时重新拉取）
+redesign/tools/daily/state/fdroid-index.json
+# 镜像速度实测记录（随时重新学习）
+redesign/tools/daily/state/mirror-stats.json
+# GitHub Token：绝对不要提交
+redesign/tools/daily/state/github-token.txt
+# 解析器自检产物
+redesign/tools/daily/_selftest/
+
+# ---------- 开发草稿与临时产物（不入库，保持 git status 干净）----------
+# .probe/ 是排查问题时的临时脚本与对照产物；发版/ 是按日期留存的构建快照，
+# 两者都能由源码重新生成，放进公开仓库只会让人误以为是要维护的输入。
+.probe/
+发版/
+tmp-*.mjs
+*.bak
+_icon-*.png
+
+# 每日采集用的第三方二进制：14 MB 的百度网盘 CLI，不是本工程的代码。
+# 需要自动上传网盘时按 tools/daily/README.md 的说明自行下载到该目录。
+redesign/tools/daily/bin/

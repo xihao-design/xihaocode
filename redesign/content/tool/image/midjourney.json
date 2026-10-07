@@ -1,0 +1,33 @@
+{
+  "type": "tool",
+  "slug": "midjourney",
+  "status": "ok",
+  "cat": "image",
+  "name": "Midjourney",
+  "nameZh": "Midjourney",
+  "vendor": "Midjourney, Inc.",
+  "tagline": "订阅制 AI 绘图服务，通过提示词生成艺术风格图像",
+  "desc": "Midjourney：订阅制 AI 绘图服务，通过提示词生成艺术风格图像。需要付费使用，官网可查具体方案。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页、Discord。",
+  "site": "https://www.midjourney.com",
+  "pricingUrl": "https://www.midjourney.com/plans",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "paid",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页",
+    "Discord"
+  ],
+  "features": [
+    "按订阅等级提供不同 GPU 快速生成时长",
+    "支持文生图、图生图、放大与局部重绘",
+    "早期通过 Discord 使用，现已提供网页版",
+    "无免费额度，需订阅后使用"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 www.midjourney.com",
+    "官网了解具体方案后开通使用"
+  ],
+  "sourceBatch": "batchA-writing-chatbot-coding-image"
+}

@@ -1,0 +1,34 @@
+{
+  "type": "tool",
+  "slug": "vast-ai",
+  "status": "ok",
+  "cat": "compute",
+  "name": "Vast.ai",
+  "nameZh": "Vast.ai",
+  "vendor": "Vast.ai Inc.",
+  "tagline": "GPU 算力租赁市场，用户可按价格与信誉筛选全球闲置显卡",
+  "desc": "Vast.ai：GPU 算力租赁市场，用户可按价格与信誉筛选全球闲置显卡。需要付费使用，官网可查具体方案。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页、命令行。",
+  "site": "https://vast.ai",
+  "pricingUrl": "https://docs.vast.ai/guides/instances/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "paid",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页",
+    "命令行"
+  ],
+  "features": [
+    "以竞价与按需两种方式租用 GPU",
+    "可按显卡型号、带宽和信誉过滤主机",
+    "提供开源命令行客户端 vast-cli 用于管理实例（平台本身闭源）",
+    "价格随市场供需浮动，无免费额度"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 vast.ai",
+    "官网了解具体方案后开通使用"
+  ],
+  "sourceBatch": "prompts-model-compute-lawyer",
+  "openNote": "Vast.ai 平台本身是闭源的商业服务；官方开源了命令行客户端 vast-cli（github.com/vast-ai/vast-cli）。本站不把「平台」归为开源。"
+}

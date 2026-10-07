@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "deepl-write",
+  "status": "ok",
+  "cat": "writing",
+  "name": "DeepL Write",
+  "nameZh": "DeepL Write",
+  "vendor": "DeepL SE",
+  "tagline": "英文写作润色工具，提供措辞替换与语气调整建议",
+  "desc": "DeepL Write 是 DeepL SE 的产品，英文写作润色工具，提供措辞替换与语气调整建议。有免费额度，超出后按官网定价付费。从中国大陆可以直连访问。以英文界面与英文输入为主。支持平台：网页。",
+  "site": "https://www.deepl.com/write",
+  "pricingUrl": "https://www.deepl.com/pro",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": false,
+  "zhSupport": false,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "针对英文与德文文本给出替代措辞与语气建议",
+    "可对句子和段落整体改写，而非生成全新文章",
+    "由 DeepL 提供，与 DeepL 翻译共用账号体系",
+    "基础润色免费，更高额度需订阅 DeepL Pro"
+  ],
+  "howto": [
+    "打开官网 www.deepl.com/write",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchA-writing-chatbot-coding-image"
+}

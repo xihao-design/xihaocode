@@ -1,0 +1,208 @@
+/* ============================================================
+   西浩资源库 · 设计系统 00 · 设计令牌
+   ------------------------------------------------------------
+   视觉参考：skillhub.cn 的「冷灰画布 + 白卡 + 紫↔珊瑚双色」风格
+     —— 只借视觉，不借内容。两套主题仍是两套独立设计：
+      浅色 = 冷灰冰感：冷调浅灰底 / 近黑文字 / 紫↔珊瑚双色强调
+      深色 = 深空玻璃感：分层深底 / 抬亮文字 / 高光描边玻璃 / 双色柔光
+   切换由 <html data-theme="light|dark"> 驱动，
+   由 <head> 里的内联脚本在首屏绘制前写入，避免闪白。
+   ============================================================ */
+
+:root{
+  color-scheme: light;
+
+  /* ---- 表面与文字：冷灰冰感（参考 skillhub 的 #F0F2F3 画布） ---- */
+  --bg:#F2F3F5;
+  --bg-alt:#EAECEF;
+  --bg-sunken:#EDEFF2;
+  --surface:#FFFFFF;
+  --surface-2:#FAFBFC;
+  --ink:#16171A;
+  --ink-2:#5A5D66;
+  --ink-3:#9498A2;
+  --ink-contrast:#FFFFFF;   /* 放在 --ink 底色上的文字色 */
+  --line:#E5E7EB;
+  --line-strong:#D3D6DC;
+
+  /* ---- 强调色：紫 ↔ 珊瑚 双色（skillhub 的品牌双色） ---- */
+  --accent:#6840F6;          /* 主色：紫（品牌、按钮、链接、logo） */
+  --accent-deep:#4F2FD9;     /* 悬停态：比 accent 更深 */
+  --accent-tint:#EFEAFE;     /* 紫的淡底 */
+  --accent-ink:#FFFFFF;      /* 放在 accent 底色上的文字色 */
+  --accent-2:#F17136;        /* 次色：珊瑚（hero 强调字、装饰、图表点缀） */
+  --accent-2-deep:#D85A22;
+  --accent-2-tint:#FDEAE2;
+  /* 紫 → 珊瑚 渐变：用得克制，只做「品牌签名」的点缀，不做大面积底 */
+  --accent-grad:linear-gradient(120deg,var(--accent),var(--accent-2));
+
+  /* ---- 阴影：浅色靠冷调阴影分层 ---- */
+  --shadow-1:0 1px 2px rgba(20,23,28,.05);
+  --shadow-2:0 8px 24px -14px rgba(20,23,28,.16);
+  --shadow-3:0 18px 48px -22px rgba(20,23,28,.22);
+
+  /* ---- 毛玻璃：半透明白 + 细描边 + 顶部高光 ---- */
+  --glass-bg:rgba(255,255,255,.72);
+  --glass-bg-strong:rgba(255,255,255,.88);
+  --glass-line:rgba(20,23,28,.07);
+  --glass-hi:inset 0 1px 0 rgba(255,255,255,.9);
+  --glass-blur:saturate(1.6) blur(16px);
+
+  /* ---- hero 柔光：浅色用紫↔珊瑚双色，很淡 ---- */
+  --hero-glow:
+    radial-gradient(46% 56% at 16% 22%, rgba(104,64,246,.08), transparent 72%),
+    radial-gradient(40% 48% at 82% 12%, rgba(241,113,54,.07), transparent 72%);
+
+  /* ---- 分类色调（图标底衬、分类标记）：冷调、与双色协调 ---- */
+  --tone-clay:#D85A22;  --tint-clay:#FCEBE2;
+  --tone-plum:#6840F6;  --tint-plum:#EFEAFE;
+  --tone-slate:#3F6FB0; --tint-slate:#E9F0FA;
+  --tone-sage:#2F9E74;  --tint-sage:#E6F5EE;
+  --tone-amber:#C07A1C; --tint-amber:#FBF1E1;
+  --tone-olive:#7A8A2C; --tint-olive:#F1F4E4;
+
+  /* ---- 自营产品品牌色：号狐紫 #722ED1（rgb 114,46,209）----
+     之前为了避免与「主强调色」撞色改过一次，现已改回原值：
+     自营产品的品牌色是产品既定视觉，不该跟着站点的强调色走。
+     与主色的区分靠「角标文案 + 独立区块」承担，不靠换色。 */
+  --product:#722ED1;  --product-deep:#5A22A8; --product-tint:#F2EAFB;
+
+  --icon-filter:none;
+}
+
+/* ============================================================
+   深色：深空玻璃感（保留原有结构，仅把强调色换成紫↔珊瑚双色）
+   底不是黑色而是分层的深空灰；不用描边分块，靠层级与高光分开。
+   ============================================================ */
+[data-theme="dark"]{
+  color-scheme: dark;
+
+  --bg:#0B0C10;
+  --bg-alt:#14161C;
+  --bg-sunken:#0F1115;
+  --surface:rgba(255,255,255,.045);
+  --surface-2:rgba(255,255,255,.07);
+  --ink:#ECEEF2;
+  --ink-2:#A6ABB6;
+  --ink-3:#71767F;
+  --ink-contrast:#0B0C10;
+  --line:rgba(255,255,255,.09);
+  --line-strong:rgba(255,255,255,.17);
+
+  --accent:#9D7BFF;
+  --accent-deep:#B79AFF;    /* 深色下悬停要更亮，而不是更深 */
+  --accent-tint:rgba(104,64,246,.24);
+  --accent-ink:#14102A;
+  --accent-2:#FF8E6A;
+  --accent-2-deep:#FFAE93;
+  --accent-2-tint:rgba(255,142,106,.16);
+  --accent-grad:linear-gradient(120deg,#9D7BFF,#FF8E6A);
+
+  --shadow-1:0 1px 2px rgba(0,0,0,.5);
+  --shadow-2:0 10px 30px -18px rgba(0,0,0,.75);
+  --shadow-3:0 22px 56px -24px rgba(0,0,0,.85);
+
+  --glass-bg:rgba(18,20,26,.62);
+  --glass-bg-strong:rgba(14,16,21,.84);
+  --glass-line:rgba(255,255,255,.1);
+  --glass-hi:inset 0 1px 0 rgba(255,255,255,.08);
+  --glass-blur:saturate(1.4) blur(18px);
+
+  --hero-glow:
+    radial-gradient(42% 54% at 16% 24%, rgba(157,123,255,.20), transparent 70%),
+    radial-gradient(38% 46% at 80% 16%, rgba(255,142,106,.16), transparent 72%),
+    radial-gradient(32% 40% at 58% 84%, rgba(86,196,178,.10), transparent 70%);
+
+  --tone-clay:#FF9A6E;  --tint-clay:rgba(255,138,106,.15);
+  --tone-plum:#B79AFF;  --tint-plum:rgba(157,123,255,.15);
+  --tone-slate:#8FB3E8; --tint-slate:rgba(143,179,232,.15);
+  --tone-sage:#7BD8B0;  --tint-sage:rgba(123,216,176,.15);
+  --tone-amber:#E5BC6E; --tint-amber:rgba(229,188,110,.15);
+  --tone-olive:#C9D27A; --tint-olive:rgba(201,210,122,.15);
+
+  --product:#A97BEC;  --product-deep:#C2A0F4; --product-tint:rgba(114,46,209,.24);
+
+  /* 深色底上的图标多数是白底方形，压一点亮度更融得进去 */
+  --icon-filter:brightness(.94) saturate(1.02);
+}
+
+/* ============================================================
+   形状、动效、网格 —— 两套主题共用
+   ============================================================ */
+:root{
+  --font-sans:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","Source Han Sans SC","Noto Sans CJK SC","Segoe UI",system-ui,sans-serif;
+  --font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+
+  /* 圆角整体收一点、更利落（skillhub 是无描边白卡的干净几何感） */
+  --radius-xs:6px;
+  --radius-sm:8px;
+  --radius:10px;
+  --radius-lg:14px;
+  --radius-xl:20px;
+
+  --ease:cubic-bezier(.2,.6,.3,1);
+  --dur:.2s;
+
+  /* 版心宽度。上一轮是 1080px —— 那是为「左导航 + 右内容」两列布局算的
+     （1080 与「1120 减去 256 侧栏」同量级）。导航改回顶栏后变成单列，
+     1080 在大屏上显得很窄、内容被挤在中间，所以放宽到 1320px，
+     小屏仍由 --pad-x 保证两侧留白。 */
+  --maxw:1320px;
+  /* 侧栏首项与内容区标题对齐：内容列有页头/hero 的上留白，
+     侧栏第一项要从同一高度起，否则两边看起来是错位的。 */
+  --side-pad-y:32px;
+  --pad-x:clamp(18px,5vw,40px);
+  --hdr-h:62px;
+
+  /* ---- 左侧导航栏（app shell） ----
+     侧栏是独立的一列，不参与 .wrap 的居中：内容区自己居中，
+     所以窄屏下内容不会因为侧栏存在而反复挪动。 */
+  --side-w:256px;
+  --side-gap:clamp(16px,2.2vw,34px);
+
+  --z-hdr:40;
+  --z-sticky:30;
+  --z-drawer:60;
+  --z-scrim:55;
+  --z-panel:70;
+  --z-toast:90;
+}
+
+/* ============================================================
+   毛玻璃降级：三条必须守住的路
+   1) 浏览器不支持 backdrop-filter → 换成不透明底
+   2) 系统开了「减弱透明度」 → 同上（这是无障碍要求，不是可选项）
+   3) 移动端 → 关掉模糊保帧率，改用更不透明的底，观感更稳
+   ============================================================ */
+@supports not ((backdrop-filter: blur(2px)) or (-webkit-backdrop-filter: blur(2px))){
+  :root{
+    --glass-bg:var(--bg);
+    --glass-bg-strong:var(--bg);
+  }
+  [data-theme="dark"]{
+    --glass-bg:var(--bg-alt);
+    --glass-bg-strong:var(--bg-alt);
+  }
+}
+@media (prefers-reduced-transparency: reduce){
+  :root{
+    --glass-bg:var(--bg);
+    --glass-bg-strong:var(--bg);
+    --glass-blur:none;
+  }
+  [data-theme="dark"]{
+    --glass-bg:var(--bg-alt);
+    --glass-bg-strong:var(--bg-alt);
+  }
+}
+@media (max-width:720px){
+  :root{
+    --glass-blur:none;
+    --glass-bg:rgba(255,255,255,.94);
+    --glass-bg-strong:rgba(255,255,255,.97);
+  }
+  [data-theme="dark"]{
+    --glass-bg:rgba(14,16,21,.9);
+    --glass-bg-strong:rgba(12,14,18,.95);
+  }
+}

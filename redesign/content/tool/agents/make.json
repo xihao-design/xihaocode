@@ -1,0 +1,32 @@
+{
+  "type": "tool",
+  "slug": "make",
+  "status": "ok",
+  "cat": "agents",
+  "name": "Make",
+  "nameZh": "Make",
+  "vendor": "Make (Celonis)",
+  "tagline": "可视化自动化平台，用拖拽节点方式编排多应用流程",
+  "desc": "Make 是 Make (Celonis)的产品，可视化自动化平台，用拖拽节点方式编排多应用流程。有免费额度，超出后按官网定价付费。从中国大陆访问该站点通常需要自备网络条件。以英文界面与英文输入为主。支持平台：网页。",
+  "site": "https://www.make.com/",
+  "pricingUrl": "https://www.make.com/en/pricing",
+  "repo": "",
+  "opensource": false,
+  "freeTier": "freemium",
+  "needsVpn": true,
+  "zhSupport": false,
+  "platforms": [
+    "网页"
+  ],
+  "features": [
+    "在画布上以节点和连线的方式设计自动化场景",
+    "支持分支、迭代、错误处理等流程控制模块",
+    "内置大量应用连接器与 AI 相关模块",
+    "免费方案每月提供固定的操作次数额度"
+  ],
+  "howto": [
+    "在具备对应网络条件的环境下打开官网 www.make.com/",
+    "注册账号后可使用免费额度，用量与限制以官网为准"
+  ],
+  "sourceBatch": "batchC-work-search-agents-study"
+}
